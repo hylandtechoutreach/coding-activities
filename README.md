@@ -1,2 +1,2 @@
-# coding-activities
+# Coding Activities
 Content for coding activities
