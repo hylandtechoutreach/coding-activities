@@ -300,3 +300,6 @@ koopa.end_fill()
 ```
 
 This will fill in the circle the turtle draws! It can be used with any shape by running the `begin_fill` command before drawing and the `end_fill` command after.
+
+### Additional examples
+Check out these [examples](https://github.com/hylandtechoutreach/python-camp/blob/master/TurtleExamples.md) to see what else is possible with Python Turtle Graphics!
