@@ -1,4 +1,4 @@
-# Python Coding Activity - Turtle Graphics
+# Python Lesson - Turtle Graphics
 ![](https://i.imgur.com/zVWdA5m.png) <- (not this kind of turtle)
 
 In this activity, write a **Python** application and play around with some two-dimensional graphics. It will provide a glimpse into the power of programming and show how fun it can be to write code!
@@ -12,7 +12,7 @@ trinket is a website that allows a developer to write and run code in a web brow
 ### First Python Program - Hello World
 The first program a developer normally writes when learning a new programming language is a "Hello World" program. The goal of these programs is to display a message of "Hello World" to the user. In Python, that program is fairly simple. Follow the steps below to create a Python "Hello World" program:
 
-1. Navigate to https://trinket.io/python/93409853b0 to start building the program
+1. Navigate to [bit.ly/PyTrinket](https://bit.ly/PyTrinket) to start building the program
 1. Open the hamburger menu in the upper left, and select "Fullscreen" so it is easier to use
 1. In the `main.py` file, type the Python command to print a message to the screen:   
     ```python
@@ -45,7 +45,7 @@ These lines create a turtle and set its shape. In this case, the turtle is `koop
 #### Challenge: Change the shape to "turtle"
 Update the code so that instead of setting the shape to `"arrow"`, it sets the shape to `"turtle"`. Run the program again to see the shape shift!
 
-### Adding color
+### Adding Color
 Black and white is boring, so we can add some color to the program! On the next line of the `main.py` file, add the following command:  
 ```python
 koopa.color("green")
@@ -59,7 +59,7 @@ paper.bgcolor("black")
 
 These commands get the screen and set its background color to black. Run the program again to see the new colors on the page!
 
-#### Challenge: Change the colors
+#### Challenge: Change the Colors
 Update the code so that instead of green and black, the turtle and the background have different colors. For example, the turtle could be blue, and the background could be pink!
 
 ## Turtle Graphics - Moving the Turtle
@@ -79,33 +79,33 @@ This command turns the turtle `90` degrees to the **right**. Previously the dire
 
 Run the program to see the turtle move to the right, then turn to face down!
 
-### Drawing a square
+### Drawing a Square
 Add the following commands to the file, under the existing commands:
 ```python
 koopa.forward(50)
 koopa.right(90)
 koopa.forward(50)
 koopa.right(90)
-koopa.forward(50)
-koopa.right(90)
 ```
 
-Run the program to see what this code does. It should draw a square! How does that work? On a piece of paper, or on a whiteboard, try to draw the same square as the turtle:
+Run the program to see what this code does. It should draw part of a square! How does that work? On a piece of paper, or on a whiteboard, try to draw the same square as the turtle:
 
 1. Draw the top side from left to right
 1. Turn the writing utensil and draw the right side from top to bottom
 1. Turn the writing utensil and draw the bottom side from left to right
-1. Turn the writing utensil and draw the left side from bottom to top
 
-So, the turtle moves `50` pixels to the right, turns `90` degrees to face down, moves `50` pixels down, turns `90` degrees to face left, moves `50` pixels to the left, turns `90` degrees to face up, moves `50` pixels up, and finally, turns `90` pixels to face right once again!
+So, the turtle moves `50` pixels to the right, turns `90` degrees to face down, moves `50` pixels down, turns `90` degrees to face left, moves `50` pixels to the left, and then turns `90` degrees to face up!
+
+#### Challenge: Finish the Square
+Add code to tell the turtle to complete the square! Use the same commands, `forward` and `right`, to accomplish this.
 
 #### Challenge: Make the square bigger
 Currently, the square will be `50` pixels tall and `50` pixels wide. Try to change some of the numbers so that instead, the square is `100` pixels tall and `100` pixels wide!
 
 ## Turtle Graphics - Multiple Turtles
-So far, the program has used one sole turtle to carry out all of the commands. However, it is also possible to create more than one turtle, and each turtle can do different things! We can create a new turtle, and have it draw a **triangle**!
+So far, the program has used one sole turtle to carry out all of the commands. However, it is also possible to create more than one turtle, and each turtle can do different things! Create a new turtle, and have it draw a **triangle**!
 
-### Creating the turtle
+### Creating the Turtle
 Creating the _new_ turtle will be very similar to creating the original turtle. The only difference will be the name of the turtle (turtles are not allowed to have the same name in Python). Copy the commands used to create the `koopa` turtle, and update them to create a turtle named `shelly`. Add the following commands at the bottom of the `main.py` file:
 ```python
 shelly = Turtle()
@@ -115,7 +115,7 @@ shelly.color("white")
 
 Run the program to see the new white turtle appear at the end!
 
-### Drawing the triangle
+### Drawing the Triangle
 Shelly should draw three lines of equal length `100`, turning `120` degrees between each line. Add the following commands at the bottom of the `main.py` file:
 ```python
 shelly.forward(100)
@@ -128,12 +128,15 @@ shelly.right(120)
 
 Run the program to see Shelly draw the triangle!
 
-#### Challenge: Tilted triangle
-Currently, the triangle is tilted so that instead of being flat on the bottom, it is flat on the top. Add an additional command _before_ Shelly starts drawing so that the triangle is rotated and becomes flat on the bottom.
+#### Challenge: Make the Triangle Bigger
+Currently, the triangle will have sides of length `100`. Try to change some of the numbers so that instead, the triangle has sides that are `150` pixels in length!
+
+#### Challenge: Tilted Triangle
+The triangle is tilted so that instead of being flat on the bottom, it is flat on the top. Add an additional command _before_ Shelly starts drawing so that the triangle is rotated and becomes flat on the bottom.
 
 >HINT: Use `shelly.right` and an appropriate number for the angle!
 
-### Changing the starting point
+### Changing the Starting Point
 In the current program, Shelly draws all over the existing shape. Instead, the program should move Shelly to another position _before_ drawing anything.
 
 _Before_ the commands that make Shelly draw, add the following command:
@@ -143,8 +146,8 @@ shelly.setpos(-100, 100)
 
 Run the program to see what happens. Shelly moves, but there is another issue now!
 
-### Removing the extra pen marks
-When shelly moves to the starting point, the pen draws an extra line! Instead of doing this, the program should lift up the pen before this movement.
+### Removing the Extra Pen Marks
+When Shelly moves to the starting point, the pen draws an extra line! Instead of doing this, the program should lift up the pen before this movement.
 
 When working with turtles, it is possible to control whether the pen is "up" or "down" (like real life drawing). _Before_ the `shelly.setpos` command, add the following command:
 ```python
@@ -153,7 +156,7 @@ shelly.penup()
 
 This will allow Shelly to move without drawing anything! Run the program to see what happens.
 
-### Putting the pen back down
+### Putting the Pen Back Down
 Oh no! After lifting up the pen, Shelly no longer draws the triangle! Fix this by adding the following command _after_ the `shelly.setpos` command:
 ```python
 shelly.pendown()
@@ -161,15 +164,15 @@ shelly.pendown()
 
 This way, Shelly will pick up the pen when moving to the starting point, and then put it back down before moving in the triangular fashion. Run the program again to see it work properly!
 
-#### Challenge: New starting point
-Instead of starting Shelly at a position of `(-100, 100)`, move the starting point to be right above the square!
+#### Challenge: New Starting Point
+Instead of starting Shelly at a position of `(-100, 100)`, move the starting point to be directly above the square!
 
 ## Loops
 Loops are a very powerful programming tool. They allow developers to repeat blocks of code automatically, without having to write the commands over and over again. One of the major benefits is that if the developer needs to change something, they only have to change it in one place!
 
 In the turtle code, there are a couple of blocks of code that could be improved with loops. Where do those repetitive commands occur?
 
-### Drawing the square
+### Drawing the Square
 ```python
 koopa.forward(100)
 koopa.right(90)
@@ -183,7 +186,7 @@ koopa.right(90)
 
 The two lines, `koopa.forward` and `koopa.right`, are repeated four times here. It takes up extra space in the file, and in order to update the program, each individual line would require update. For example, to make the square bigger, each `100` would have to change. Imagine if, instead of four times, the developer had to change four _hundred_ lines! Or, if the program needed to dynamically update the number of times to repeat the code, that would be impossible without loops.
 
-### Looping the square
+### Looping the Square
 Use a `for` loop to automatically repeat the `forward` and `right` lines. Replace the square-drawing code with the following set of commands:
 ```python
 for x in range(4):
@@ -195,53 +198,39 @@ This will make the two lines repeat `4` times!
 
 Note that the two lines are _indented_; this is how the loop knows which commands should repeat. The `for x in range()` part is the same for any number of repetitions; the `4` specifies that the loop should repeat four times.
 
-### Looping the triangle
-Apply the same looping technique for Shelly and the triangle. Replace the repeated lines of code with a new loop:
-```python
-for x in range(3):
-    shelly.forward(100)
-    shelly.right(120)
-```
+#### Challenge: Looping the Triangle
+Apply the same looping technique for Shelly and the triangle. Replace the repeated lines of code with a new loop! It should look a lot like the `for` loop for the square, but it should repeat a different number of times, and the angle should be different as well.
 
 With the use of loops, the file is much shorter, and easier to maintain. Loops are one of the most important parts of programming!
 
-## Additional Challenges
-Play around with the turtles to create something cool! Feel free to start from the challenges below, or do something completely different. Also, check out the other turtle abilities!
-
-### Diamond
-At the bottom of the `main.py` file, write commands to complete the steps below:
-
-1. Create a new turtle
-1. Move them to a good starting point on the screen
-    - Remember to make them pick up the pen first!
-1. Make them draw a diamond
-    - Note: A diamond is simply a tilted square!
-
-### Many-pointed star
-At the bottom of the `main.py` file, write commands for a new turtle to draw a star with many points! It should look something like this:
-
-![many-pointed star](https://i.imgur.com/uJR2FZO.png)
-
-#### Help
-Use the square as a template:
+## Final Code
 ```python
-for x in range(4)
-    koopa.forward(100)
-    koopa.right(90)
+from turtle import *
+
+koopa = Turtle()
+koopa.shape("turtle")
+
+koopa.color("green")
+paper = koopa.getscreen()
+paper.bgcolor("black")
+
+for x in range(4):
+  koopa.forward(100)
+  koopa.right(90)
+
+shelly = Turtle()
+shelly.shape("turtle")
+shelly.color("white")
+
+shelly.penup()
+shelly.setpos(50, 100)
+shelly.pendown()
+
+shelly.right(60)
+for x in range(3):
+  shelly.forward(100)
+  shelly.right(120)
 ```
 
-Change the `4`, `100`, and `90` values so that the turtle moves in the correct way. Try out different numbers until it looks right!
-
-### Other Shapes
-Create new turtles that draw each of the following shapes:
-- Pentagon
-- Hexagon
-- Septagon
-- Parallelogram
-- Trapezoid
-
-### Complete drawing
-Use a turtle to draw a whole picture, like a house or a flower or anything else that comes to mind!
-
-## Other turtle abilities
-Turtles have many additional abilities! Try to incorporate some new commands into the existing turtle code. There are some additional examples as well. Check them out [here](https://github.com/hylandtechoutreach/python-camp/blob/master/TurtleExamples.md) to see what else is possible with Python Turtle Graphics!
+## Additional Challenges
+Go to [bit.ly/PyChallenges](https://bit.ly/PyChallenges) (case-sensitive) to see the additional challenges, along with some examples!
