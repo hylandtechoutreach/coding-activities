@@ -7,7 +7,7 @@ TEALS lesson: https://tealsk12.gitbook.io/intro-cs/unit_0/lesson_02
 This video gives an idea of some potential misinterpretations: https://www.youtube.com/watch?v=BsUiEejG5sY
 
 ## Introduction
-Present the [ComputersIntroduction](ComputersIntroduction.pptx) PowerPoint to give the students some background about computers and algorithms. In the middle of the presentation, there is a slide containing the outline for the sandwich activity.
+Present the [Algorithm Computers Introduction](AlgorithmComputersIntroduction.pptx) PowerPoint to give the students some background about computers and algorithms. In the middle of the presentation, there is a slide containing the outline for the sandwich activity.
 
 ## Sandwich Activity
 Give the students a chunk of time to come up with instructions to make a PB&J sandwich. Emphasize that the instructions they write should be precise, unambiguous, and complete. They should write the instructions on paper.
