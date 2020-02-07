@@ -4,5 +4,5 @@
 - [Sandwich Algorithm Lesson](SandwichAlgorithmLesson/AlgorithmLessonOutline.md)
 - [Snap! Animation Lesson](SnapAnimationLesson/StudentDesc.md)
     - [Snap!](SnapAnimationLesson/Part1Snap.md)
-    - [Piskel]SnapAnimationLesson/(Part2Piskel.md)
+    - [Piskel](SnapAnimationLesson/Part2Piskel.md)
     - [Importing](SnapAnimationLesson/Part3Importing.md)

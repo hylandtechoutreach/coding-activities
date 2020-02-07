@@ -4,7 +4,7 @@
 In this activity, write a **Python** application and play around with some two-dimensional graphics. It will provide a glimpse into the power of programming and show how fun it can be to write code!
 
 ## Python
-[Python](https://en.wikipedia.org/wiki/Python_(programming_language)) is a popular programming language used by developers all over the world. It is a _general-purpose_ language, which means that developers can use it to write **scripts** that do almost anything: create websites, analyze large data sets, control robots, design video games... the list goes on and on!
+Python is a popular programming language used by developers all over the world. It is a _general-purpose_ language, which means that developers can use it to write **scripts** that do almost anything: create websites, analyze large data sets, control robots, design video games... the list goes on and on!
 
 ### trinket
 trinket is a website that allows a developer to write and run code in a web browser. It works in any browser, on any device! This makes it easy to practice coding and show off any programs that are created. During this activity, trinket will be used to build some cool Python programs.
