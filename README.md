@@ -1,2 +1,3 @@
 # Coding Activities
-Content for coding activities
+
+- [Animation Lesson Activity](SnapAnimationLesson/Part3Importing.md)
