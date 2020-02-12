@@ -1,93 +1,153 @@
 # <span>C#</span> Lesson
+An activity to introduce C# in 45-60m. **C#** is an object-oriented programming language, often used to make desktop applications. This lesson covers input/output from the console, variables, and conditional statements. The goal of the lesson is to build a simple [Choose Your Own Adventure](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure) game using the C# console.
+
+## Setup
+1. Go to [repl.it](https://repl.it)
+1. In the upper right corner, click the "+ new repl" button
+1. Scroll down and select "C#" from the Language list
+1. Click the "Create Repl" button
+1. In the new Repl, click the "run" button to see the code _execute_!
+
+### A New Message
+Update the message so that instead of saying "Hello World" it says something else!
+
+## Repl Overview
+**`repl.it`** is a website that allows developers to _write_ and _run_ code right from a web browser!
+
+![](https://i.imgur.com/7jhKrt9.png)
+
+- **Code Editor** - This is where developers write code
+- **Run Button** - Developers click this button to _execute_ the code
+- **Run Area** - This is where the developer sees the results of the code
+
+### TIP - C# Script Structure
+In the code, there is a lot of boiler-plate code that sets up the program. These parts of the code are outside of the scope of this lesson. All that matters for the gane script is the code between the `{` and `}` where the `Console.WriteLine` is now. All the rest can be ignored:
+
+```cs
+using System;
+
+class MainClass {
+	public static void Main (string[] args) {
+		// IMPORTANT STUFF GOES HERE
+	}
+}
+```
+
+### TIP - Specific Syntax
+Make sure every piece of code is **exactly** correct. C# is very particular, and if one letter is wrong, the whole program could crash.
+
+Here are some basic rules that can help deal with these errors:
+- Statements should end with semi-colons (`;`)
+- Any text to show the user should have an opening AND a closing quotation mark (`""`)
+- Make sure capitalization is consistent
+- Make sure parentheses open AND close (`()`)
+
+## User Input
+The Choose Your Own Adventure game should allow the user to decide how the story plays out. To do that, the program must ask a question, and remember the user's answer. 
+
+1. Add another `Console.WriteLine` statement under the first one, and make it say "You wake up. What do you do?"
+	- Make sure everything is capitalized correctly
+	- Make sure there are parentheses (`()`) and quotes (`""`)
+	- Make sure there is a semi-colon (`;`) at the end of the statement
+1. Under the `Console.WriteLine` statement, add another statement to _read_ the user's answer:  
+	```cs
+	string answer = Console.ReadLine();
+	```
+
+Now `answer` is a variable that holds the answer from the user. A **variable** is a name that points to a value in the code. A variable can hold anything, and the program can even change what it holds. For now, the `answer` variable allows the program to remember the user's _answer_ to the question.
+
+1. Make another new line under the `string answer` statement, and add a `Console.WriteLine`
+1. Make the statement say "You said "
+1. After the "You said " ending quote, add `+ answer` so that the answer is added to the end of the message:  
+	```cs
+	Console.WriteLine("You said " + answer);
+	```
+1. Run the program, and test that the user's answer to the question is said back!
+
+## Branching
+Now, the program should change the story based on the user's answer. This is possible with `if` statements. These work just like in English; for example, "**if** it is raining, I will stay indoors." For the story, the program can create different outcomes in this way.
+
+1. Create a new line under the last `Console.WriteLine` statement
+1. Add an `if` statement to check whether the `answer` is equal to the text "Go back to sleep":  
+	```cs
+	if (answer == "Go back to sleep")
+	```
+1. Add curly brackets (`{` and `}`) to open up the **body** of the `if` statement
+	- All of the code in between those brackets will only run _if_ the check is true!
+1. Create a new line after the opening bracket (`{`)
+1. On the new line, add a `Console.WriteLine` saying "You sleep happily."
+1. Run the code, and check that the next line appears when entering "Go back to sleep"
+
+### Code
+```cs
+if (answer == "Go back to sleep")
+{
+	Console.WriteLine("You sleep happily.");
+}
+```
+
+## Else...
+Now the program can respond to one answer, but what about another one? Use an `else if` to check if the user entered a different answer.
+
+1. Under the closing curly bracket (`}`) for the `if`, add an `else if` statement
+1. In the parentheses, check if `answer` is equal to the text "Get up"
+1. Add opening and closing curly brackets after the parentheses
+1. Within the curly brackets, add a `Console.WriteLine` to say "You get out of bed."
+1. Run the code, and check that the proper line appears when entering "Get up"
+
+### Code
+```cs
+else if (answer == "Get up")
+{
+	Console.WriteLine("You get out of bed.");
+}
+```
+
+## Continuing the Story
+After the user gets out of bed, the program can again ask how to proceed. Everything within the curly brackets of the `else if` will run only _if_ the user said to get up. So, it is possible to ask another question within that branch!
+
+1. Under the "You get out of bed" line, add another `Console.WriteLine` asking the user what they would like to do next
+1. Use `Console.ReadLine` again to take in the user's answer, and store it in a variable named `answer2`
+1. If the user says to go to school, write a message saying "You learn a lot at school!"
+1. Otherwise, if the user says to go to the movies, write a message saying "You get in trouble :("
+1. Run the code, and test that the different branches work as expected!
 
 ## Final Code
 ```cs
 using System;
-					
-public class Program
-{	
-	public static int health = 3;
-	
-	public static void Main()
+
+class MainClass
+{
+	public static void Main (string[] args)
 	{
-		Console.WriteLine("You awake in a daze in the middle of the woods. A dilapidated shed stands to your right. What do you do?");
-		Console.WriteLine();
-		Console.WriteLine("A: Go into the shed");
-		Console.WriteLine("B: Go into the woods");
-		String answer = Console.ReadLine();
-		
-		if (answer == "A")
+		Console.WriteLine("Welcome...");
+		Console.WriteLine("You wake up. What do you do?");
+		string answer = Console.ReadLine();
+
+		Console.WriteLine("You said " + answer);
+
+		if (answer == "Go back to sleep")
 		{
-			Console.WriteLine("There is a big monster in the shed and it kills you immediately.");
-			GameOver();
+			Console.WriteLine("You sleep happily.");
 		}
-		else if (answer == "B")
+		else if (answer == "Get up")
 		{
-			Woods();
-		}
-	}
-	
-	public static void GameOver()
-	{
-		Console.WriteLine("GAME OVER");
-	}
-	
-	public static void Woods()
-	{
-		Console.WriteLine("You venture out into the woods and find a tree with strange markings. What do you do?");
-		Console.WriteLine();
-		Console.WriteLine("A: Touch the tree");
-		Console.WriteLine("B: Chop down the tree");
-		String answer = Console.ReadLine();
-		
-		if (answer == "A")
-		{
-			Console.WriteLine("The markings begin to glow... you feel stronger.");
-			health = health + 1;
-		}
-		else if (answer == "B")
-		{
-			Console.WriteLine("An angry tree spirit erupts from the stump and stuns you... you feel weaker.");
-			health = health - 1;
-		}
-		
-		Woods2();
-	}
-	
-	public static void Woods2()
-	{
-		Console.WriteLine("You continue through the trees, and come upon a river. What do you do?");
-		Console.WriteLine();
-		Console.WriteLine("A: Try to cross it");
-		Console.WriteLine("B: Walk along the shore");
-		String answer = Console.ReadLine();
-		
-		if (answer == "A")
-		{
-			Console.WriteLine("While crossing the river, a large tree branch hits you in the face... you feel weaker.");
-			health = health - 2;
-			if (health < 1)
+			Console.WriteLine("You get out of bed.");
+			Console.WriteLine("What do you do next?");
+			string answer2 = Console.ReadLine();
+
+			if (answer2 == "Go to school")
 			{
-				Console.WriteLine("You die.");
-				GameOver();
+				Console.WriteLine("You learn a lot at school!");
 			}
-			else
+			else if (answer2 == "Go to the movies")
 			{
-				Console.WriteLine("You successfully make it across the river!");
-				Woods3();
+				Console.WriteLine("You get in trouble :(");
 			}
 		}
-		else if (answer == "B")
-		{
-			Console.WriteLine("While walking, you trip and fall to your death.");
-			GameOver();
-		}
-			
-	}
-	
-	public static void Woods3()
-	{
-		Console.WriteLine("You found the treasure!");	
 	}
 }
 ```
+
+## Next Steps
+Try to continue the story with some new branches! Write it out on paper or in Notepad first to get an idea of where the story should go. Then, try to update the code to make it into a playable game! Feel free to elaborate on the existing story, or change it completely. Have fun!
