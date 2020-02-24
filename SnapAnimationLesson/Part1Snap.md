@@ -1,4 +1,4 @@
-## Animation Lesson Part 1 - Snap!
+# Animation Lesson Part 1 - Snap!
 Snap is a programming environment where developers can drag and drop blocks of code to create applications. Go to https://snap.berkeley.edu/snapsource/dev/snap.html to begin!
 
 ## Page Sections
