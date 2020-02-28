@@ -1,7 +1,7 @@
 # JavaScript Lesson
 An activity to introduce JavaScript in 45-60m
 
->NOTE: This lesson is designed for students who have an introductory knowledge of HTML and CSS
+>NOTE: This lesson is designed for students who have an introductory knowledge of HTML and CSS, but no experience is required
 
 ## Starting Point
 Start by opening a web browser and navigating to the starter code: [bit.ly/js-starter](https://codepen.io/jmaxwell/pen/pooWxmv?editors=1100). Students should follow along and do the same thing in their browsers.
