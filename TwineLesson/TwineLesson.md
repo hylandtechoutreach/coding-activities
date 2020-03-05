@@ -1,7 +1,10 @@
 # Twine
 An activity to introduce [Twine](http://twinery.org/2/#!/welcome) in 45-60m. Twine is an open-source tool for telling interactive, nonlinear stories. The goal of this lesson is to build a simple interactive fiction story using Twine. It uses CSS for styling, and introduces variables as a way to keep track of information throughout a story.
 
->**Instructor Note**: It may be beneficial to allow the students drive the story writing process. Take suggestions from them for the content of the story, the branches, the characters, etc. Make sure their suggestions are conducive to a story with at least one variable, and multiple branches reaching the same node. 
+>**Instructor Note**: It may be beneficial to allow the students drive the story writing process. Take suggestions from them for the content of the story, the branches, the characters, etc. Make sure their suggestions are conducive to a story with at least one variable, and multiple branches reaching the same node.
+
+### Example
+<a href="CompleteStory.html" target="_blank">Complete Story</a>
 
 ## Getting Started
 ### Setup
@@ -162,8 +165,6 @@ Eventually, the day in the story will come to an end. When this happens, it woul
 1. Add code to display the main character's final `GPA`
 	- `GPA: $GPA`
 1. Finally, click the "Play" button and play through the story in a few different ways! Try to make the final variable value change on different play-throughs.
-
-[Complete Story](CompleteStory.html)
 
 ## Next Steps
 Try to continue the story with some new branches! Write it out on paper or in Notepad first to get an idea of where the story should go. Then, try to update the code to make it into a playable game! Feel free to elaborate on the existing story, or change it completely. Have fun!
