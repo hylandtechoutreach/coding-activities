@@ -1,6 +1,5 @@
 - [HTML & CSS Lesson](HtmlCssLesson.md)
 - [JavaScript Lesson](JavaScriptLesson.md)
-- [Python Lesson](PythonLesson.md)
 - [Sandwich Algorithm Lesson](SandwichAlgorithmLesson/AlgorithmLessonOutline.md)
 - [Snap! Animation Lesson](SnapAnimationLesson/StudentDesc.md)
     - [Snap!](SnapAnimationLesson/Part1Snap.md)
