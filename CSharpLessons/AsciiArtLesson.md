@@ -128,7 +128,7 @@ class MainClass {
 		DrawBunny();
 	}
 
-	public static void DrawBunny(string eye) {
+	public static void DrawBunny() {
 		Console.WriteLine(" () () ");
 		Console.WriteLine(">(^ ^)<");
 		Console.WriteLine(" (___) ");
