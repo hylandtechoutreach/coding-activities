@@ -17,18 +17,21 @@ Check out some examples of ASCII Art here: [imgur.com/a/u9Rjhov](https://imgur.c
 ![](https://i.imgur.com/LY7fELk.png)
 
 ## Drawing a Bunny in <span>C#</span>
-Using the C# console, it is possible to create interesting text-based art using `Console.WriteLine`. A developer simply needs to write out each line of ASCII text in the proper order! Try to recreate this bunny:
+Start by placing this bunny in a text file:
 
 ```
  () ()
- (. .)
+ (^ ^)
  (___)
 ```
+
+Using the C# console, it is possible to create interesting text-based art (like bunnies) using `Console.WriteLine`. Right now, it should show some text containing a message, but it can show any text at all! A developer simply needs to write out each line of ASCII text in the proper order. Try to recreate the bunny in the C# console!
 
 1. Remove the existing code from **body** of the `Main` method
 1. Add a `Console.WriteLine` statement to draw the bunny's ears
 1. Add another `Console.WriteLine` statement to draw the bunny's face
 1. Add a third `Console.WriteLine` statement to draw the bunny's body
+1. Add an empty `Console.WriteLine` statement to add some space under the bunny
 1. Make sure each piece of text starts with a space
 1. Click the "run" button to see the bunny appear in the console!
 
@@ -38,8 +41,9 @@ using System;
 class MainClass {
   public static void Main (string[] args) {
     Console.WriteLine(" () () ");
-    Console.WriteLine(" (. .) ");
+    Console.WriteLine(" (^ ^) ");
     Console.WriteLine(" (___) ");
+	Console.WriteLine();
   }
 }
 ```
@@ -85,7 +89,7 @@ A **method** is a block of code that runs when it is called. This allows develop
 ```cs
 public static void DrawBunny() {
     Console.WriteLine(" () () ");
-    Console.WriteLine(" (. .) ");
+    Console.WriteLine(" (^ ^) ");
     Console.WriteLine(" (___) ");
     Console.WriteLine();
 }
@@ -107,7 +111,7 @@ One of the best things about methods is that if a developer wants to update code
 1. Click the "run" button to run the code again and see each bunny appear with whiskers!
 
 ### Challenge: An Additional Bunny Method
-Define a _new_ method under the existing method to draw the same bunny, but using the caret character (`^`) for the eyes! The method definition should look almost exactly the same as the `DrawBunny` definition, but it should have a new name (`DrawBunny2`) and have `^` instead of `.` in the `Console.WriteLine` for the face.
+Define a _new_ method under the existing method to draw the same bunny, but using an `o` for the eyes! The method definition should look almost exactly the same as the `DrawBunny` definition, but it should have a new name (`DrawBunny2`) and have `o` instead of `^` in the `Console.WriteLine` for the face.
 
 ### Code
 ```cs
@@ -126,7 +130,7 @@ class MainClass {
 
 	public static void DrawBunny(string eye) {
 		Console.WriteLine(" () () ");
-		Console.WriteLine(">(. .)<");
+		Console.WriteLine(">(^ ^)<");
 		Console.WriteLine(" (___) ");
 		Console.WriteLine();
 	}
@@ -148,7 +152,7 @@ For this program, the **eye** is what will change with different method calls. T
 1. Add a _parameter_ within the parentheses in the method definition: `string eye`
 1. Update the code so that instead of using `.` for the eye, it uses whatever the user passed in (`eye`):  
     ```cs
-    Console.WriteLine(">(" + eye + " " + eye + ")<");
+    Console.WriteLine($">({eye} {eye})<");
     ```
 1. In the body of the `Main` method, _call_ the `DrawBunnyEye` method, but put `"^"` inside the parentheses
 1. Call the `DrawBunnyEye` method with a couple other `eye` values
@@ -172,7 +176,7 @@ class MainClass {
 
 	public static void DrawBunnyEye(string eye) {
 		Console.WriteLine(" () () ");
-		Console.WriteLine(">(" + eye + " " + eye + ")<");
+		Console.WriteLine($">({eye} {eye})<");
 		Console.WriteLine(" (___) ");
 		Console.WriteLine();
 	}
