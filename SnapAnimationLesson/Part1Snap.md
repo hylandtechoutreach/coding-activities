@@ -53,6 +53,17 @@ With the existing code, the sprite does not move very smoothly. Update the code 
 
 Update the movement scripts for _right_, _up_, and _down_ as well. Make sure to point in the proper direction when moving to the right!
 
+## Changing the Background
+In Snap!, it is possible to change the background to an image.
+
+1. Open a new tab in Google Chrome, and go to [Google images](https://images.google.com/)
+1. Find a suitable background image that is the proper size
+    - The default size for a Snap! stage is 480x360
+1. Right click the image, and save it to the desktop
+1. Go back to Snap!, and in the **Sprites** area, click on the Stage
+1. Click on the "Backgrounds" tab
+1. Drag the new background image into the Backgrounds area!
+
 ## Animation with Costumes
 In Snap!, it is possible to give **costumes** to sprites. Developers can create animations by switching a sprite's costumes quickly.
 
