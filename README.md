@@ -1,5 +1,5 @@
 # Coding Activities
-These activities are accessible via bit.ly link at [bit.ly/coding-activities](https://bit.ly/coding-activities/).
+These activities are accessible via bit.ly link at [bit.ly/coding-activities](https://bit.ly/coding-activities).
 
 - [HTML & CSS](HtmlCssLesson.md)
 - [JavaScript](JavaScriptLesson.md)
