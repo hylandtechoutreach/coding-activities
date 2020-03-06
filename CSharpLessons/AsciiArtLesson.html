@@ -331,15 +331,17 @@
 <p><img src="https://i.imgur.com/28xDLDY.jpg" alt=""></p>
 <p><img src="https://i.imgur.com/LY7fELk.png" alt=""></p>
 <h2 id="drawing-a-bunny-in-c">Drawing a Bunny in <span>C#</span></h2>
-<p>Using the C# console, it is possible to create interesting text-based art using <code>Console.WriteLine</code>. A developer simply needs to write out each line of ASCII text in the proper order! Try to recreate this bunny:</p>
+<p>Start by placing this bunny in a text file:</p>
 <pre><code> () ()
- (. .)
+ (^ ^)
  (___)
-</code></pre><ol>
+</code></pre><p>Using the C# console, it is possible to create interesting text-based art (like bunnies) using <code>Console.WriteLine</code>. Right now, it should show some text containing a message, but it can show any text at all! A developer simply needs to write out each line of ASCII text in the proper order. Try to recreate the bunny in the C# console!</p>
+<ol>
 <li>Remove the existing code from <strong>body</strong> of the <code>Main</code> method</li>
 <li>Add a <code>Console.WriteLine</code> statement to draw the bunny&apos;s ears</li>
 <li>Add another <code>Console.WriteLine</code> statement to draw the bunny&apos;s face</li>
 <li>Add a third <code>Console.WriteLine</code> statement to draw the bunny&apos;s body</li>
+<li>Add an empty <code>Console.WriteLine</code> statement to add some space under the bunny</li>
 <li>Make sure each piece of text starts with a space</li>
 <li>Click the &quot;run&quot; button to see the bunny appear in the console!</li>
 </ol>
@@ -348,8 +350,9 @@
 <span class="hljs-keyword">class</span> <span class="hljs-title">MainClass</span> {
   <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span> (<span class="hljs-params"><span class="hljs-keyword">string</span>[] args</span>) </span>{
     Console.WriteLine(<span class="hljs-string">&quot; () () &quot;</span>);
-    Console.WriteLine(<span class="hljs-string">&quot; (. .) &quot;</span>);
+    Console.WriteLine(<span class="hljs-string">&quot; (^ ^) &quot;</span>);
     Console.WriteLine(<span class="hljs-string">&quot; (___) &quot;</span>);
+    Console.WriteLine();
   }
 }
 </code></pre>
@@ -387,7 +390,7 @@ A: How about a method to draw a bunny!</p>
 </ol>
 <pre><code class="lang-cs"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">DrawBunny</span>(<span class="hljs-params"></span>) </span>{
     Console.WriteLine(<span class="hljs-string">&quot; () () &quot;</span>);
-    Console.WriteLine(<span class="hljs-string">&quot; (. .) &quot;</span>);
+    Console.WriteLine(<span class="hljs-string">&quot; (^ ^) &quot;</span>);
     Console.WriteLine(<span class="hljs-string">&quot; (___) &quot;</span>);
     Console.WriteLine();
 }
@@ -411,7 +414,7 @@ A: How about a method to draw a bunny!</p>
 <li>Click the &quot;run&quot; button to run the code again and see each bunny appear with whiskers!</li>
 </ol>
 <h3 id="challenge-an-additional-bunny-method">Challenge: An Additional Bunny Method</h3>
-<p>Define a <em>new</em> method under the existing method to draw the same bunny, but using the caret character (<code>^</code>) for the eyes! The method definition should look almost exactly the same as the <code>DrawBunny</code> definition, but it should have a new name (<code>DrawBunny2</code>) and have <code>^</code> instead of <code>.</code> in the <code>Console.WriteLine</code> for the face.</p>
+<p>Define a <em>new</em> method under the existing method to draw the same bunny, but using an <code>o</code> for the eyes! The method definition should look almost exactly the same as the <code>DrawBunny</code> definition, but it should have a new name (<code>DrawBunny2</code>) and have <code>o</code> instead of <code>^</code> in the <code>Console.WriteLine</code> for the face.</p>
 <h3 id="code">Code</h3>
 <pre><code class="lang-cs"><span class="hljs-keyword">using</span> System;
 
@@ -428,7 +431,7 @@ A: How about a method to draw a bunny!</p>
 
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">DrawBunny</span>(<span class="hljs-params"><span class="hljs-keyword">string</span> eye</span>) </span>{
         Console.WriteLine(<span class="hljs-string">&quot; () () &quot;</span>);
-        Console.WriteLine(<span class="hljs-string">&quot;&gt;(. .)&lt;&quot;</span>);
+        Console.WriteLine(<span class="hljs-string">&quot;&gt;(^ ^)&lt;&quot;</span>);
         Console.WriteLine(<span class="hljs-string">&quot; (___) &quot;</span>);
         Console.WriteLine();
     }
@@ -448,7 +451,7 @@ A: How about a method to draw a bunny!</p>
 </ul>
 </li>
 <li>Add a <em>parameter</em> within the parentheses in the method definition: <code>string eye</code></li>
-<li>Update the code so that instead of using <code>.</code> for the eye, it uses whatever the user passed in (<code>eye</code>):  <pre><code class="lang-cs"> Console.WriteLine(<span class="hljs-string">&quot;&gt;(&quot;</span> + eye + <span class="hljs-string">&quot; &quot;</span> + eye + <span class="hljs-string">&quot;)&lt;&quot;</span>);
+<li>Update the code so that instead of using <code>.</code> for the eye, it uses whatever the user passed in (<code>eye</code>):  <pre><code class="lang-cs"> Console.WriteLine($<span class="hljs-string">&quot;&gt;({eye} {eye})&lt;&quot;</span>);
 </code></pre>
 </li>
 <li>In the body of the <code>Main</code> method, <em>call</em> the <code>DrawBunnyEye</code> method, but put <code>&quot;^&quot;</code> inside the parentheses</li>
@@ -472,7 +475,7 @@ A: How about a method to draw a bunny!</p>
 
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">DrawBunnyEye</span>(<span class="hljs-params"><span class="hljs-keyword">string</span> eye</span>) </span>{
         Console.WriteLine(<span class="hljs-string">&quot; () () &quot;</span>);
-        Console.WriteLine(<span class="hljs-string">&quot;&gt;(&quot;</span> + eye + <span class="hljs-string">&quot; &quot;</span> + eye + <span class="hljs-string">&quot;)&lt;&quot;</span>);
+        Console.WriteLine($<span class="hljs-string">&quot;&gt;({eye} {eye})&lt;&quot;</span>);
         Console.WriteLine(<span class="hljs-string">&quot; (___) &quot;</span>);
         Console.WriteLine();
     }
@@ -526,7 +529,7 @@ A: How about a method to draw a bunny!</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"ASCII Art","level":"1.6.2","depth":2,"next":{"title":"Choose Your Own Adventure","level":"1.6.3","depth":2,"path":"CSharpLessons/CyaLesson.md","ref":"CSharpLessons/CyaLesson.md","articles":[]},"previous":{"title":"Setup","level":"1.6.1","depth":2,"path":"CSharpLessons/Setup.md","ref":"CSharpLessons/Setup.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"CSharpLessons/AsciiArtLesson.md","mtime":"2020-03-06T14:49:30.288Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-06T14:50:09.164Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"ASCII Art","level":"1.6.2","depth":2,"next":{"title":"Choose Your Own Adventure","level":"1.6.3","depth":2,"path":"CSharpLessons/CyaLesson.md","ref":"CSharpLessons/CyaLesson.md","articles":[]},"previous":{"title":"Setup","level":"1.6.1","depth":2,"path":"CSharpLessons/Setup.md","ref":"CSharpLessons/Setup.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"CSharpLessons/AsciiArtLesson.md","mtime":"2020-03-06T17:56:49.615Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-06T17:57:29.070Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
