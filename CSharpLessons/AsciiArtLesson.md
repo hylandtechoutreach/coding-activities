@@ -1,8 +1,8 @@
-# <span>C#</span> ASCII Art Lesson
+# <span>C#</span>: ASCII Art
 An activity to introduce C# in 45-60m. **C#** is an object-oriented programming language, often used to make desktop applications. This lesson covers console output and methods. The goal of the lesson is to build a simple piece of [ASCII art](https://en.wikipedia.org/wiki/ASCII_art) using the C# console.
 
 ## Setup
-Follow the [Setup](Setup.md) guide to get ready to go by building an introductory program with `repl.it`!
+Follow the [Setup](Setup.md) guide to get ready to build an introductory program with `repl.it`!
 
 ## Introduction to ASCII Art
 **ASCII Art** is a graphic design technique that uses text characters to create images.
