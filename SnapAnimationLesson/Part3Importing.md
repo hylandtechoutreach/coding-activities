@@ -3,6 +3,7 @@ In this activity, import an existing Piskel, edit it, and export it into Snap!
 
 ## Importing an Existing Piskel
 1. Right-click [this WalkBase.piskel link](WalkBase.piskel) and click "Save link as..." save it to the Desktop
+    - NOTE: This activity is accessible via [bit.ly/coding-activities](https://bit.ly/coding-activities/)
 1. Navigate to [Piskel](http://piskelapp.com)
 1. In Piskel, click the !["Create Sprite"](https://i.imgur.com/27JkCBy.png) button in the upper right to create a new sprite
 1. On the right side of the page, click the "Import" folder icon  
