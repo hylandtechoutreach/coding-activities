@@ -68,7 +68,7 @@ Choose one of the paths, and add another pair of branches to continue the story.
 ## Styling the Story with CSS
 [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) (**C**ascading **S**tyle **S**heets) is a styling language for the web. Almost every website uses CSS to change fonts, colors, layouts, and much more!
 
-### CSS in a Web Browser
+### OPTIONAL: CSS in a Web Browser
 It is possible to demonstrate the use of CSS in Google Chrome using [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools). This toolset allows developers to update CSS for a webpage right from the browser!
 
 1. Open a new tab in Google Chrome, and go to a Wikipedia page
@@ -110,7 +110,7 @@ Twine hosts stories on the web, so it is possible to use CSS to update the style
 	```
 1. Close out of the stylesheet, and click "Play" to see the styles in the story!
 
-### Choosing Custom Colors for CSS
+### OPTIONAL: Choosing Custom Colors for CSS
 Some color names like "lightpink" and "darkblue" are built into the web already, but it is also possible to choose custom colors using RGB values! The [RGB color model](https://en.wikipedia.org/wiki/RGB_color_model) is an additive color model in which red, green and blue light are added together in various ways to reproduce a broad array of colors. Basically, it is possible to create any digital color with a combination of red, green, and blue!
 
 Each color (R, G, and B) can take a number from 0 to 255. This represents the amount of the color in the mix. For example, a color with a Red value of 255, a Green value of 0, and a Blue value of 0 would be red.
@@ -126,7 +126,7 @@ To use that color in CSS, copy the number (including the `#`) and paste it into 
 ## Tracking Story Information with Variables
 Twine also allows developers to keep track of different details throughout the story using variables. For example, the story could track how much money the main character has, their health level, their age, the weather, the time of day, or anything else!
 
-### More on Variables
+### OPTIONAL: More on Variables
 In computer science, **variables** are containers for information that can _change_. Variables have a name (e.g., `money`, `health`, `age`) and a value (e.g., `$5`, `90hp`, `11`). The _value_ of a variable can change throughout the story, but the _name_ will always stay the same. For example, if the main character in a story bought a banana and ate it, the `money` variable might go down to `$4.69`, and the `health` variable might go up to `95hp`.
 
 ### Creating the `GPA` variable
@@ -166,7 +166,7 @@ Eventually, the day in the story will come to an end. When this happens, it woul
 	- `GPA: $GPA`
 1. Finally, click the "Play" button and play through the story in a few different ways! Try to make the final variable value change on different play-throughs.
 
-## Next Steps
+## OPTIONAL: Next Steps
 Try to continue the story with some new branches! Write it out on paper or in Notepad first to get an idea of where the story should go. Then, try to update the code to make it into a playable game! Feel free to elaborate on the existing story, or change it completely. Have fun!
 
 ### Challenge Ideas
