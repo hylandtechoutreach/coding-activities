@@ -32,7 +32,7 @@ Now that the story is setup up, it's time to start writing it! Double click on t
 1. In the lower right corner of the screen, click the "Play" button to see the story so far!
 
 ### Adding an Image
-In Twine, it is possible to add images to stories.
+Adding an image to a story can make it much more dynamic and engaging.
 
 1. Open a new tab in Google Chrome, and go to [Google Images](https://images.google.com/)
 1. Search and find a picture (e.g., "alarm clock 6:00am" - https://www.ohsu.edu/sites/default/files/2019-06/insomnia-sleep.png)
