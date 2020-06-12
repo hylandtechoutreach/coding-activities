@@ -19,12 +19,12 @@ An activity to introduce [Twine](http://twinery.org/2/#!/welcome) in 45-60m. Twi
     ![](https://i.imgur.com/0WfuXjl.png)
 1. In the lower left corner, click the story name menu and select "Change Story Format"  
     ![](https://i.imgur.com/B06p281.png)
-1. Select the "SugarCube 23.0.0" option, and then close out of the menu  
+1. Select the "SugarCube 2" option, and then close out of the menu  
     ![](https://i.imgur.com/LV50DLk.png)
 
 ### Starting the Story
 Now that the story is setup up, it's time to start writing it! Double click on the "Untitled Passage" node to begin editing it. Stories usually begin with the main character waking up. For example:
-> Your eyes slowly open. You check the clock, and see that it is 6:00am. Your bed is warm and cozy, but you know it's time to start your day.
+>Your eyes slowly open. You check the clock, and see that it is 6:00am. Your bed is warm and cozy, but you know it's time to start your day.
 
 1. Change the name from "Untitled Passage" to "The Beginning"
 1. In the text box, remove the text and start typing the story
