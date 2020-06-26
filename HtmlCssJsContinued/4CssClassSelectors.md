@@ -141,5 +141,5 @@ With remaining time after the activity, give the students some time to work indi
     - Add the `class` attribute in the HTML (`class="red"`)
     - Create a new `.red` ruleset in the CSS, and set the `color` to `red` within it
 
-As the students work on those, be available to answer any questions they may have.
+As the students work individually, be available to answer any questions they may have.
 
