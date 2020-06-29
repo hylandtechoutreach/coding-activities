@@ -131,8 +131,14 @@ img {
 }
 ```
 
+## Kahoot Quiz
+If there is a decent chunk of time left after the activity (15 minutes or so), there is a Kahoot that covers the content from the HTML & CSS lessons so far.
+
+- [View](https://create.kahoot.it/share/a199e4fd-56ab-4f5b-b94e-e3e8169e4956)
+- [Play](https://play.kahoot.it/v2/?quizId=a199e4fd-56ab-4f5b-b94e-e3e8169e4956)
+
 ## Individual Work
-With remaining time after the activity, give the students some time to work individually. Here are some ideas for challenges:
+With any remaining time, give the students some time to work individually. Here are some ideas for challenges:
 
 - Shrink the image by setting the `height` property in the `img` ruleset
 - Create a new `h1` ruleset and center the header with the `text-align` property
