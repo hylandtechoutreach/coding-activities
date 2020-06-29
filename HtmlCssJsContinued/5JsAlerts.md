@@ -100,6 +100,8 @@ function sayLife() {
 ## Creating Yet Another Button
 For the next button, allow the students to lead the way. The button should say `Ravioli`, and the quote should be `Ravioli, Ravioli, give me the formuoli`.
 
+>Note: If there is not enough time, skip the third button and let the students work individually instead
+
 1. Ask the students how to make a button in HTML that says "Ravioli"
     - In the HTML section after everything else
     - Opening tag
@@ -163,6 +165,7 @@ function ravioli() {
 With remaining time after the activity, give the students some time to work individually. Here are some ideas for challenges:
 
 - Add more Spongebob images to the HTML
+- Update the page styles in CSS
 - Add more buttons to the page with more quotes
 - Change Spongebob to another character, and add images and quote buttons from that character instead!
 
