@@ -6,7 +6,11 @@ Students should navigate to [bit.ly/selectorstart](https://codepen.io/jmaxwell/p
 
 Explain that so far, the HTML contains several elements that tell the story of The Tortoise and the Hare. The goal of the activity is to style this page in CSS using **class selectors**! **Class selectors** allow developers to style specific elements, instead of styling all elements of a given type.
 
-## Updating the `body` Styles
+Tell the students that if they complete the activity with time to spare, they can participate in a Kahoot quiz.
+
+## SKIP: Updating the `body` Styles
+>Note: In the interest of time, these styles will already exist in the CodePen. Take a moment to explain them, but do not walk through adding them.
+
 First, make some basic style updates to the whole page.
 
 1. Expand the CSS section and click into it to start typing
@@ -25,7 +29,9 @@ body {
 }
 ```
 
-## Updating the `img` Styles
+## SKIP: Updating the `img` Styles
+>Note: In the interest of time, these styles will already exist in the CodePen. Take a moment to explain them, but do not walk through adding them.
+
 Next, make a couple of updates to the image on the page.
 
 1. Under the `body` ruleset, make some new lines
@@ -46,42 +52,44 @@ img {
 }
 ```
 
-## Updating the First Paragraph
-Now it's time to start using some CSS classes! This way, it is possible to update the style of _only_ the first `p` element to make it stand out a little bit.
+## Updating the Final Paragraph
+Now it's time to start using some CSS classes! This way, it is possible to update the style of _only_ the final `p` element to make it stand out a little bit.
 
-1. Expand the HTML section and find the first `p` paragraph element
-1. Right after the `p`, before the greater-than sign, make a space and add `class`, then an equals sign, then quotes, then `first`
+1. Expand the HTML section and find the final `p` paragraph element
+1. Right after the `p`, before the greater-than sign, make a space and add `class`, then an equals sign, then quotes, then `final`
 1. Ask the students if this looks familiar - it's a lot like adding `src` to an image or `href` to a link!
 1. Expand the CSS section and go to the bottom of the text
-1. Make a new ruleset with a selector of `.first` - this is a class selector!
+1. Make a new ruleset with a selector of `.final` - this is a class selector!
 1. Explain that every style in that ruleset will _only_ apply to HTML elements that have a `class` of `first`
+1. In the `.first` ruleset, add a `coloe` declaration
+1. Set the value of the `color` property to be `purple`
+1. On the page, verify that the final paragraph is purple, but none of the other ones changed!
+1. In the `.first` ruleset, add another declaration for `font-weight`
+1. Set the value of the `font-weight` property to `bold`
+1. Verify that the final paragraph is bold and purple!
+
+```css
+.final {
+  color: purple;
+  font-weight: bold;
+}
+```
+
+## Updating the First Paragraph
+Next, use the same method to update the styles of _only_ the first `p` element of the page.
+
+1. Expand the HTML section and find the first `p` paragraph element
+1. Right after the `p`, before the greater-than sign, ask the students how to add the class
+1. Make a space and add `class="first"`
+1. Expand the CSS section and go to the bottom of the text
+1. Make a new ruleset with a selector of `.first` - this is another class selector!
 1. In the `.first` ruleset, add a `font-style` declaration
 1. Set the value of the `font-style` property to be `italic`
-1. On the page, verify that the first paragraph is italic, but none of the other ones changed!
+1. On the page, verify that the first paragraph is in italics!
 
 ```css
 .first {
   font-style: italic;
-}
-```
-
-## Updating the Final Paragraph
-Next, use the same method to update the styles of _only_ the last `p` element of the page.
-
-1. Expand the HTML section and find the final `p` paragraph element
-1. Right after the `p`, before the greater-than sign, ask the students how to add the class
-1. Make a space and add `class="final"`
-1. Expand the CSS section and go to the bottom of the text
-1. Make a new ruleset with a selector of `.final` - this is another class selector!
-1. In the `.final` ruleset, add a `font-weight` declaration
-1. Set the value of the `font-style` property to be `bold`
-1. Add another declaration, setting the `color` to `purple`
-1. On the page, verify that the final paragraph is bold and purple!
-
-```css
-.final {
-  font-weight: bold;
-  color: purple;
 }
 ```
 
