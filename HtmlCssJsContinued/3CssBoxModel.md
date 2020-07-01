@@ -14,12 +14,15 @@ Students should navigate to [bit.ly/boxmodelstart](https://codepen.io/jmaxwell/p
 
 Explain that so far, the HTML contains several `img` elements with pictures of cats. The goal of the activity will be to use CSS to frame the images so they display nicely on the page!
 
+>Note: This activity will _only_ involve changing the CSS; the HTML will stay the same.
+
 ## Selecting All `img` Elements
 The first thing to do is create a ruleset in CSS that will style all the images in the HTML.
 
 1. Expand the CSS section in the CodePen
     - Make sure students are typing in the correct area!
 1. Ask the students how to _select_ `img` elements
+    - Ask them what three letters compose the image element in HTML
     - Use `img`, the element selector
 1. Ask students what to use to create the ruleset
     - Use `{}` (curly brackets)
@@ -34,7 +37,7 @@ img {
 ```
 
 ## Setting the Height of All Images
-Next, to make the page a little neater, set each image to be the same height.
+Next, to make the page a little neater, set each image to be the same height. Ask the students if they remember how to set the height of an image.
 
 1. Within the `img` ruleset, add the _property_ to set the height
     - Students can guess what it is: `height`
@@ -53,9 +56,6 @@ img {
 }
 ```
 
-## Box Model Overview
-Show the students the box model diagram from [this page](https://www.w3schools.com/css/css_boxmodel.asp). Explain that each HTML element has space around it that can be updated with padding, borders, and margins.
-
 ## Adding a Border to All Images
 Frame each picture using the CSS `border` property.
 
@@ -65,15 +65,6 @@ Frame each picture using the CSS `border` property.
     - There are spaces between each of these values
 1. Add the value for `border` so that the border is three pixels thick, solid, and black
     - `border: 3px solid black`
-1. Tell the students they can experiment with other values for the border, including styles:
-    - `dotted`
-    - `dashed`
-    - `solid`
-    - `double`
-    - `groove`
-    - `ridge`
-    - `inset`
-    - `outset`
 1. Make sure to add the semi-colon at the end of the line
 1. Check the page to see the border!
 
