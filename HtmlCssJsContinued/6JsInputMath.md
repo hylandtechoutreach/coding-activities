@@ -33,9 +33,9 @@ Next, the function should say hello to the user, but not just a general hello. F
 
 1. On the line under the `alert`, _before_ the closing curly bracket, type in `var`
     - This will create a new variable
-1. After `var`, make a space and type in `name`
+1. After `var`, make a space and type in `answer`
     - This is the name of the variable
-1. After `name`, type in an equals sign
+1. After `answer`, type in an equals sign
     - This is how the variable value will be set
 1. After the equals sign, type in `prompt`, then parentheses and quotes
     - This is a lot like the `alert` command!
@@ -45,14 +45,14 @@ Next, the function should say hello to the user, but not just a general hello. F
     - All that's left is doing something with the user's answer!
 1. Make a new line, and type in `alert`, parentheses, and quotes
 1. In the quotes, type in "Hello", then a comma and a space
-1. After the closing quote, type in a plus and then `name`
+1. After the closing quote, type in a plus and then `answer`
     - This will add whatever the user answered to the end of the message!
 1. End the line with a semi-colon
 1. Test out the button again, and verify that it will say hello to whatever name is entered!
 
 ```js
-var name = prompt("What is your name?");
-alert("Hello, " + name);
+var answer = prompt("What is your name?");
+alert("Hello, " + answer);
 ```
 
 ## Getting the Item Counts
@@ -80,22 +80,22 @@ Now, the JavaScript will remember how many pizzas and how many hot dogs the user
 
 1. Ask the students how to calculate the total price based on the price of the pizza and hot dogs, and the number of each item
     - It should be something like this: `total price = (number of pizzas times 4) plus (number of hot dogs times 2)`
-1. Make a new variable using `var`, and name the variable `totalPrice`
+1. Make a new variable using `var`, and name the variable `totalBill`
 1. Use an equals sign to set the variable value to something
-1. To get the total price of the pizzas, use `pizzas*4`
+1. To get the total price of the pizzas, use `4*pizzas`
 1. To add something else, use `+`
-1. To get the total price of the hot dogs, use `hotDogs*2`
+1. To get the total price of the hot dogs, use `2*hotDogs`
 1. End the line with a semi-colon
 1. On the next line, make an `alert` with parentheses and quotes
 1. In the quotes, type the message: "Your total is: $"
 1. Ask the students how to add something to the end of the message
     - Using `+`
-1. After the ending quote, type in a `+` and `totalPrice` to append the total to the end of the message
+1. After the ending quote, type in a `+` and `totalBill` to append the total to the end of the message
 1. Click the button, and verify that the calculation works properly!
 
 ```js
-var totalPrice = pizzas*4 + hotDogs*2;
-alert("Your total is: $" + totalPrice);
+var totalBill = 4*pizzas + 2*hotDogs;
+alert("Your total is: $" + totalBill);
 ```
 
 ## Final Code
@@ -105,14 +105,14 @@ At the [end of the activity](https://codepen.io/jmaxwell/pen/yLeXJbB), the JavaS
 function calculateBill() {
   alert("Welcome!");
 
-  var name = prompt("What is your name?");
-  alert("Hello, " + name);
+  var answer = prompt("What is your name?");
+  alert("Hello, " + answer);
   
   var pizzas = prompt("How many pizzas?");
   var hotDogs = prompt("How many hot dogs?");
   
-  var totalPrice = pizzas*4 + hotDogs*2;
-  alert("Your total is: $" + totalPrice);
+  var totalBill = 4*pizzas + 2*hotDogs;
+  alert("Your total is: $" + totalBill);
 }
 ```
 
