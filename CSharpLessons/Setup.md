@@ -5,7 +5,7 @@ Start any C# activity by going to `repl.it` and setting up a new C# project.
 1. In the upper right corner, click the "+ new repl" button
 1. Scroll down and select "C#" from the Language list
 1. Click the "Create Repl" button
-1. Make a note of the name of the Repl; it will be automatically saved to that URL, and will be accesible from anywhere!
+1. Make a note of the name of the Repl; it will be automatically saved to that URL, and will be accessible from anywhere!
 
 ## Repl Overview
 **`repl.it`** is a website that allows developers to _write_ and _run_ code right from a web browser!
