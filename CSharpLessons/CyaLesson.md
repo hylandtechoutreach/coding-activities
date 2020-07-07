@@ -42,16 +42,15 @@ Now, the program should change the story based on the user's answer. This is pos
 
 ### Code
 ```cs
-if (answer == "Go back to sleep")
-{
+if (answer == "Go back to sleep") {
 	Console.WriteLine("You sleep happily.");
 }
 ```
 
-## Else...
-Now the program can respond to one answer, but what about another one? Use an `else if` to check if the user entered a different answer.
+## Another Answer
+Now the program can respond to one answer, but what about another one? Use another `if` statement to check if the user entered a different answer.
 
-1. Under the closing curly bracket (`}`) for the `if`, add an `else if` statement
+1. After the closing curly bracket (`}`) for the `if`, make a new line and add a new `if` statement
 1. In the parentheses, check if `answer` is equal to the text "Get up"
 1. Add opening and closing curly brackets after the parentheses
 1. Within the curly brackets, add a `Console.WriteLine` to say "You get out of bed."
@@ -59,14 +58,13 @@ Now the program can respond to one answer, but what about another one? Use an `e
 
 ### Code
 ```cs
-else if (answer == "Get up")
-{
+if (answer == "Get up") {
 	Console.WriteLine("You get out of bed.");
 }
 ```
 
 ## Continuing the Story
-After the user gets out of bed, the program can again ask how to proceed. Everything within the curly brackets of the `else if` will run only _if_ the user said to get up. So, it is possible to ask another question within that branch!
+After the user gets out of bed, the program can again ask how to proceed. Everything within the curly brackets of the second `if` will run only _if_ the user said to get up. So, it is possible to ask another question within that branch!
 
 1. Under the "You get out of bed" line, add another `Console.WriteLine` asking the user what they would like to do next
 1. Use `Console.ReadLine` again to take in the user's answer, and store it in a variable named `answer2`
@@ -78,32 +76,26 @@ After the user gets out of bed, the program can again ask how to proceed. Everyt
 ```cs
 using System;
 
-class MainClass
-{
-	public static void Main (string[] args)
-	{
-		Console.WriteLine("Welcome...");
+class MainClass {
+	public static void Main (string[] args) {
+		Console.WriteLine("Welcome to my game!");
 		Console.WriteLine("You wake up. What do you do?");
 		string answer = Console.ReadLine();
 
-		Console.WriteLine("You said " + answer);
-
-		if (answer == "Go back to sleep")
-		{
+		if (answer == "Go back to sleep") {
 			Console.WriteLine("You sleep happily.");
 		}
-		else if (answer == "Get up")
-		{
+		
+    	if (answer == "Get up") {
 			Console.WriteLine("You get out of bed.");
 			Console.WriteLine("What do you do next?");
 			string answer2 = Console.ReadLine();
 
-			if (answer2 == "Go to school")
-			{
+			if (answer2 == "Go to school") {
 				Console.WriteLine("You learn a lot at school!");
 			}
-			else if (answer2 == "Go to the movies")
-			{
+			
+      		if (answer2 == "Go to the movies") {
 				Console.WriteLine("You get in trouble :(");
 			}
 		}
