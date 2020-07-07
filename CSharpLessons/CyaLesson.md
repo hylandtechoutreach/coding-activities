@@ -77,29 +77,29 @@ After the user gets out of bed, the program can again ask how to proceed. Everyt
 using System;
 
 class MainClass {
-	public static void Main (string[] args) {
-		Console.WriteLine("Welcome to my game!");
-		Console.WriteLine("You wake up. What do you do?");
-		string answer = Console.ReadLine();
+    public static void Main (string[] args) {
+        Console.WriteLine("Welcome to my game!");
+        Console.WriteLine("You wake up. What do you do?");
+        string answer = Console.ReadLine();
 
-		if (answer == "Go back to sleep") {
-			Console.WriteLine("You sleep happily.");
-		}
-		
-    	if (answer == "Get up") {
-			Console.WriteLine("You get out of bed.");
-			Console.WriteLine("What do you do next?");
-			string answer2 = Console.ReadLine();
+        if (answer == "Go back to sleep") {
+            Console.WriteLine("You sleep happily.");
+        }
 
-			if (answer2 == "Go to school") {
-				Console.WriteLine("You learn a lot at school!");
-			}
-			
-      		if (answer2 == "Go to the movies") {
-				Console.WriteLine("You get in trouble :(");
-			}
-		}
-	}
+        if (answer == "Get up") {
+            Console.WriteLine("You get out of bed.");
+            Console.WriteLine("What do you do next?");
+            string answer2 = Console.ReadLine();
+
+            if (answer2 == "Go to school") {
+                Console.WriteLine("You learn a lot at school!");
+            }
+
+            if (answer2 == "Go to the movies") {
+                Console.WriteLine("You get in trouble :(");
+            }
+        }
+    }
 }
 ```
 
