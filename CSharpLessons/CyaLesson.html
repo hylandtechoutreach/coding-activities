@@ -361,28 +361,26 @@
 <li>Run the code, and check that the next line appears when entering &quot;Go back to sleep&quot;</li>
 </ol>
 <h3 id="code">Code</h3>
-<pre><code class="lang-cs"><span class="hljs-keyword">if</span> (answer == <span class="hljs-string">&quot;Go back to sleep&quot;</span>)
-{
+<pre><code class="lang-cs"><span class="hljs-keyword">if</span> (answer == <span class="hljs-string">&quot;Go back to sleep&quot;</span>) {
     Console.WriteLine(<span class="hljs-string">&quot;You sleep happily.&quot;</span>);
 }
 </code></pre>
-<h2 id="else">Else...</h2>
-<p>Now the program can respond to one answer, but what about another one? Use an <code>else if</code> to check if the user entered a different answer.</p>
+<h2 id="another-answer">Another Answer</h2>
+<p>Now the program can respond to one answer, but what about another one? Use another <code>if</code> statement to check if the user entered a different answer.</p>
 <ol>
-<li>Under the closing curly bracket (<code>}</code>) for the <code>if</code>, add an <code>else if</code> statement</li>
+<li>After the closing curly bracket (<code>}</code>) for the <code>if</code>, make a new line and add a new <code>if</code> statement</li>
 <li>In the parentheses, check if <code>answer</code> is equal to the text &quot;Get up&quot;</li>
 <li>Add opening and closing curly brackets after the parentheses</li>
 <li>Within the curly brackets, add a <code>Console.WriteLine</code> to say &quot;You get out of bed.&quot;</li>
 <li>Run the code, and check that the proper line appears when entering &quot;Get up&quot;</li>
 </ol>
 <h3 id="code">Code</h3>
-<pre><code class="lang-cs"><span class="hljs-function"><span class="hljs-keyword">else</span> <span class="hljs-title">if</span> (<span class="hljs-params">answer == <span class="hljs-string">&quot;Get up&quot;</span></span>)
-</span>{
+<pre><code class="lang-cs"><span class="hljs-keyword">if</span> (answer == <span class="hljs-string">&quot;Get up&quot;</span>) {
     Console.WriteLine(<span class="hljs-string">&quot;You get out of bed.&quot;</span>);
 }
 </code></pre>
 <h2 id="continuing-the-story">Continuing the Story</h2>
-<p>After the user gets out of bed, the program can again ask how to proceed. Everything within the curly brackets of the <code>else if</code> will run only <em>if</em> the user said to get up. So, it is possible to ask another question within that branch!</p>
+<p>After the user gets out of bed, the program can again ask how to proceed. Everything within the curly brackets of the second <code>if</code> will run only <em>if</em> the user said to get up. So, it is possible to ask another question within that branch!</p>
 <ol>
 <li>Under the &quot;You get out of bed&quot; line, add another <code>Console.WriteLine</code> asking the user what they would like to do next</li>
 <li>Use <code>Console.ReadLine</code> again to take in the user&apos;s answer, and store it in a variable named <code>answer2</code></li>
@@ -393,32 +391,26 @@
 <h2 id="final-code">Final Code</h2>
 <pre><code class="lang-cs"><span class="hljs-keyword">using</span> System;
 
-<span class="hljs-keyword">class</span> <span class="hljs-title">MainClass</span>
-{
-    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span> (<span class="hljs-params"><span class="hljs-keyword">string</span>[] args</span>)
-    </span>{
-        Console.WriteLine(<span class="hljs-string">&quot;Welcome...&quot;</span>);
+<span class="hljs-keyword">class</span> <span class="hljs-title">MainClass</span> {
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span> (<span class="hljs-params"><span class="hljs-keyword">string</span>[] args</span>) </span>{
+        Console.WriteLine(<span class="hljs-string">&quot;Welcome to my game!&quot;</span>);
         Console.WriteLine(<span class="hljs-string">&quot;You wake up. What do you do?&quot;</span>);
         <span class="hljs-keyword">string</span> answer = Console.ReadLine();
 
-        Console.WriteLine(<span class="hljs-string">&quot;You said &quot;</span> + answer);
-
-        <span class="hljs-keyword">if</span> (answer == <span class="hljs-string">&quot;Go back to sleep&quot;</span>)
-        {
+        <span class="hljs-keyword">if</span> (answer == <span class="hljs-string">&quot;Go back to sleep&quot;</span>) {
             Console.WriteLine(<span class="hljs-string">&quot;You sleep happily.&quot;</span>);
         }
-        <span class="hljs-function"><span class="hljs-keyword">else</span> <span class="hljs-title">if</span> (<span class="hljs-params">answer == <span class="hljs-string">&quot;Get up&quot;</span></span>)
-        </span>{
+
+        <span class="hljs-keyword">if</span> (answer == <span class="hljs-string">&quot;Get up&quot;</span>) {
             Console.WriteLine(<span class="hljs-string">&quot;You get out of bed.&quot;</span>);
             Console.WriteLine(<span class="hljs-string">&quot;What do you do next?&quot;</span>);
             <span class="hljs-keyword">string</span> answer2 = Console.ReadLine();
 
-            <span class="hljs-keyword">if</span> (answer2 == <span class="hljs-string">&quot;Go to school&quot;</span>)
-            {
+            <span class="hljs-keyword">if</span> (answer2 == <span class="hljs-string">&quot;Go to school&quot;</span>) {
                 Console.WriteLine(<span class="hljs-string">&quot;You learn a lot at school!&quot;</span>);
             }
-            <span class="hljs-function"><span class="hljs-keyword">else</span> <span class="hljs-title">if</span> (<span class="hljs-params">answer2 == <span class="hljs-string">&quot;Go to the movies&quot;</span></span>)
-            </span>{
+
+              <span class="hljs-keyword">if</span> (answer2 == <span class="hljs-string">&quot;Go to the movies&quot;</span>) {
                 Console.WriteLine(<span class="hljs-string">&quot;You get in trouble :(&quot;</span>);
             }
         }
@@ -470,7 +462,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Choose Your Own Adventure","level":"1.6.3","depth":2,"next":{"title":"Twine Lesson","level":"1.7","depth":1,"path":"TwineLesson/TwineLesson.md","ref":"TwineLesson/TwineLesson.md","articles":[]},"previous":{"title":"ASCII Art","level":"1.6.2","depth":2,"path":"CSharpLessons/AsciiArtLesson.md","ref":"CSharpLessons/AsciiArtLesson.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"CSharpLessons/CyaLesson.md","mtime":"2020-07-06T18:15:05.651Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-06T18:15:44.580Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Choose Your Own Adventure","level":"1.6.3","depth":2,"next":{"title":"Twine Lesson","level":"1.7","depth":1,"path":"TwineLesson/TwineLesson.md","ref":"TwineLesson/TwineLesson.md","articles":[]},"previous":{"title":"ASCII Art","level":"1.6.2","depth":2,"path":"CSharpLessons/AsciiArtLesson.md","ref":"CSharpLessons/AsciiArtLesson.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"CSharpLessons/CyaLesson.md","mtime":"2020-07-07T16:42:41.720Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-07T16:43:20.574Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
