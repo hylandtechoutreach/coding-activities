@@ -61,7 +61,7 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="JavaScriptLesson.html" />
+    <link rel="next" href="HtmlCssJsContinued/AdditionalTopicChallenges.html" />
     
     
     <link rel="prev" href="./" />
@@ -116,6 +116,25 @@
                 </a>
             
 
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="HtmlCssJsContinued/AdditionalTopicChallenges.html">
+            
+                <a href="HtmlCssJsContinued/AdditionalTopicChallenges.html">
+            
+                    
+                    Additional Topic Challenges
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
             
         </li>
     
@@ -430,84 +449,7 @@
 <h2 id="saving">Saving</h2>
 <p>If the students would like to save their webpages, they can click the &quot;Save&quot; button. They will have to create an account, but it is totally free. After they save their Pen, the can copy the URL from the address bar and revisit it to see their website! Make sure they have enough time to create accounts before the end of the session. After that, they can continue to save any changes they make by clicking the &quot;Save&quot; button.</p>
 <h2 id="additional-topics">Additional Topics</h2>
-<p>If there is time remaining, students can make updates to their website. If there is interest, show them some other things they can do with HTML and CSS.</p>
-<h3 id="embed-a-youtube-video">Embed a YouTube video</h3>
-<ol>
-<li>Open a new tab and go to <a href="https://youtube.com" target="_blank">YouTube</a></li>
-<li>Search for an appropriate video (e.g., <a href="https://www.youtube.com/watch?v=8YWl7tDGUPA" target="_blank">color red</a>)</li>
-<li>Click on &quot;SHARE&quot;</li>
-<li>Click on &quot;Embed&quot;</li>
-<li>Click &quot;COPY&quot; to copy the code</li>
-<li>In the CodePen, paste the code at the bottom of the HTML section</li>
-<li>Watch the video on your website!</li>
-</ol>
-<h3 id="add-text-shadow">Add Text-Shadow</h3>
-<ol>
-<li>In the CSS section, create a new ruleset for <code>h1</code><ul>
-<li>Explain that the styles in this ruleset will only affect <code>h1</code> elements</li>
-</ul>
-</li>
-<li>Add the <code>text-shadow</code> property with a value of <code>orange -2px 2px 1px</code></li>
-<li>Encourage the students to change the values and see how it changes the visual effect!</li>
-</ol>
-<pre><code class="lang-css"><span class="hljs-selector-tag">h1</span> {
-  <span class="hljs-attribute">text-shadow</span>: orange -<span class="hljs-number">2px</span> <span class="hljs-number">2px</span> <span class="hljs-number">1px</span>;
-}
-</code></pre>
-<h3 id="create-a-gradient-background-or-a-background-image">Create a Gradient Background or a Background Image</h3>
-<ol>
-<li>In the CSS section, within the <code>body</code> ruleset, remove the <code>background</code> value</li>
-<li>Replace the <code>background</code> value with a <code>linear-gradient</code> containing two colors</li>
-<li>Encourage the students to change the values to see how it changes the gradient!<blockquote>
-<p>Note: The students can also go to <a href="https://cssgradient.io/" target="_blank">cssgradient.io</a> to customize their gradients</p>
-</blockquote>
-</li>
-</ol>
-<pre><code class="lang-css"><span class="hljs-selector-tag">body</span> {
-    <span class="hljs-comment">/* ... */</span>
-    <span class="hljs-attribute">background</span>: <span class="hljs-built_in">linear-gradient</span>(#9198e5, #e66465);
-    <span class="hljs-comment">/* ... */</span>
-}
-</code></pre>
-<p>It is also possible to give the page a background image.</p>
-<ol>
-<li>Find an image online</li>
-<li>Copy the image address</li>
-<li>Update the <code>background</code> declaration in the CSS with a <code>url</code> containing the image address in quotes</li>
-</ol>
-<pre><code class="lang-css"><span class="hljs-selector-tag">body</span> {
-    <span class="hljs-comment">/* ... */</span>
-    <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">&quot;https://cdn141.picsart.com/301292961077211.png?r1024x1024&quot;</span>);
-    <span class="hljs-comment">/* ... */</span>
-}
-</code></pre>
-<p>It is also possible to have both a gradient <em>and</em> an image, using a comma (<code>,</code>) between them in the <code>background</code> declaration!</p>
-<pre><code class="lang-css"><span class="hljs-selector-tag">body</span> {
-    <span class="hljs-comment">/* ... */</span>
-    <span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">&quot;https://cdn141.picsart.com/301292961077211.png?r1024x1024&quot;</span>), <span class="hljs-built_in">linear-gradient</span>(#9198e5, #e66465);
-    <span class="hljs-comment">/* ... */</span>
-}
-</code></pre>
-<h3 id="change-text-color-on-hover">Change Text Color on Hover</h3>
-<ol>
-<li>In the CSS section, create a new ruleset for <code>li</code><ul>
-<li>Explain that the styles in this ruleset will only affect <code>li</code> elements</li>
-</ul>
-</li>
-<li>Add the <code>color</code> property with a value of <code>orange</code><ul>
-<li>Students should notice that the text color changed</li>
-</ul>
-</li>
-<li>Update the selector so that instead of <code>li</code>, it is <code>li:hover</code><ul>
-<li>Explain that this means the styles will only apply when the user hovers over the <code>li</code> elements</li>
-</ul>
-</li>
-<li>Encourage the students to update the values to change the effect! </li>
-</ol>
-<pre><code class="lang-css"><span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:hover</span> {
-  <span class="hljs-attribute">color</span>: orange;
-}
-</code></pre>
+<p>If there is time remaining, students can make updates to their website. If there is interest, show them some other things they can do with HTML and CSS. There are some challenges that can be completed as a class or by students individually: <a href="HtmlCssJsContinued/AdditionalTopicChallenges.html">Additional Topic Challenges</a></p>
 
                                 
                                 </section>
@@ -540,7 +482,7 @@
                 </a>
                 
                 
-                <a href="JavaScriptLesson.html" class="navigation navigation-next " aria-label="Next page: JavaScript Lesson">
+                <a href="HtmlCssJsContinued/AdditionalTopicChallenges.html" class="navigation navigation-next " aria-label="Next page: Additional Topic Challenges">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -551,7 +493,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"HTML & CSS Lesson","level":"1.2","depth":1,"next":{"title":"JavaScript Lesson","level":"1.3","depth":1,"path":"JavaScriptLesson.md","ref":"JavaScriptLesson.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"HtmlCssLesson.md","mtime":"2020-07-07T16:46:19.542Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-07T16:46:55.780Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"HTML & CSS Lesson","level":"1.2","depth":1,"next":{"title":"Additional Topic Challenges","level":"1.2.1","depth":2,"path":"HtmlCssJsContinued/AdditionalTopicChallenges.md","ref":"HtmlCssJsContinued/AdditionalTopicChallenges.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"HtmlCssLesson.md","mtime":"2020-07-13T15:56:01.428Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-13T15:56:38.751Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
