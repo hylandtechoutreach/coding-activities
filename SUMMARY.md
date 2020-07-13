@@ -1,4 +1,5 @@
 - [HTML & CSS Lesson](HtmlCssLesson.md)
+    - [Additional Topic Challenges](HtmlCssJsContinued/AdditionalTopicChallenges.md)
 - [JavaScript Lesson](JavaScriptLesson.md)
 - [Sandwich Algorithm Lesson](SandwichAlgorithmLesson/AlgorithmLessonOutline.md)
 - [Snap! Animation Lesson](SnapAnimationLesson/StudentDesc.md)
