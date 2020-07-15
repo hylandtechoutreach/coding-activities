@@ -105,3 +105,6 @@ class MainClass {
 
 ## Next Steps
 Try to continue the story with some new branches! Write it out on paper or in Notepad first to get an idea of where the story should go. Then, try to update the code to make it into a playable game! Feel free to elaborate on the existing story, or change it completely. Have fun!
+
+## Kahoot
+After the activity, there is a Kahoot covering the material: https://create.kahoot.it/details/choose-your-own-c-adventure/61875aea-36fd-4f7e-8847-f03615b1baaf
