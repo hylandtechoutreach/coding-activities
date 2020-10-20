@@ -162,4 +162,4 @@ To share your website, you can copy the URL from the address bar at the top of t
 Make sure you save it first!
 
 ## Additional Topics
-If there is time remaining, there are a lot of additional updates we could make on our website. Some of them can be found here: [Additional Topic Challenges](HtmlCssJsContinued/AdditionalTopicChallenges.md)
+If there is time remaining, there are a lot of additional updates we could make on our website. Some of them can be found here: [Additional Topic Challenges](../HtmlCssJsContinued/AdditionalTopicChallenges.md)
