@@ -35,7 +35,7 @@ To get started:
 
 At this point, it should look like this:
 
-![](https://i.imgur.com/9V1zmgH.png)
+![](https://i.imgur.com/QcFc2q1.png)
 
 ### Looking at the HTML
 Notice how the code in the HTML creates the text on the website. Everything in HTML goes between _tags_, which tell the website what type of element to display.
@@ -106,9 +106,9 @@ So far, we have updated the content of the website with HTML, but we haven't don
 1. On the left side of the CodePen, drag up the CSS section from under the HTML  
     ![](https://i.imgur.com/wTgXSj5.png)
 1. Take a look at the code in the CSS section, and try to figure out what it does
-1. Find the area where it sets the background color: `background: white`
+1. Find the area where it sets the background color - `background: white`
 1. Change the "white" to "pink" to change the background color
-1. Next, find the area where the CSS sets the text color: `color: black`
+1. Next, find the area where the CSS sets the text color - `color: black`
 1. Change the "black" to "red" to change the text color
 1. Verify that the colors have updated on the website!
 

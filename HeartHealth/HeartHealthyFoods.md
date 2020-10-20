@@ -5,9 +5,15 @@ It should look something like this, with `YOUR_ITEM`s replaced by the foods:
 
 ```html
 <ul>
-    <li>Beans</li>
-    <li>Spinach</li>
-    <li>Dark Chocolate</li>
+    <li>
+        YOUR_ITEM1
+    </li>
+    <li>
+        YOUR_ITEM2
+    </li>
+    <li>
+        YOUR_ITEM3
+    </li>
 </ul>
 ```
 
