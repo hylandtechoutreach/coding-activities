@@ -1,43 +1,27 @@
 # Heart Healthy Website
 In this activity, use HTML and CSS to update a heart healthy website and make it your own!
 
-## Overview of HTML, CSS, and CodePen
+## Overview of HTML, CSS, and repl.it
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) is a **language** that lets developers to create websites. A web browser takes the HTML code, and displays it as a nice-looking webpage.
 - [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS) is a **language** that lets developers add style to websites. This includes things like fonts, colors, and more.
-- [CodePen](https://codepen.io/trending) is a **website** that lets developers create websites.
-
-## Signing Up for CodePen
-In order to create and save a new website project, it will be necessary to make a CodePen account. This is completely free, and it does not require email verification.
-
-1. Go to the [CodePen Sign Up Page](https://codepen.io/accounts/signup/user/free)
-1. On the sign up page, lick on the "Sign Up with Email" button under "Or,"  
-    ![](https://i.imgur.com/HinQ4Ah.png)
-1. Enter a name, username, email, and password in the text boxes below the button  
-    ![](https://i.imgur.com/xXgOJ7u.png)
-1. Click the "Submit" button  
-    ![](https://i.imgur.com/dmSbsSV.png)
-1. You now have a CodePen account! On the next page, click the "X" in the upper right of the popup  
-    ![](https://i.imgur.com/UbyMYMi.png)
-
-That's all!
+- [repl.it](https://repl.it) is a **website** that lets developers create websites.
 
 ## Website Setup
 To get started:
 
-1. Go to the existing [Heart-Healthy Website](https://codepen.io/jmaxwell/pen/OJXXBrG?editors=1000)
-1. In the bottom right corner, find and click the "Fork" button to create a fork of this project  
-    ![](https://i.imgur.com/z0Tx0FM.png)
-1. In the upper right, click on the "Change View" button
-1. In the menu that appears, click on the "Editor Layout" option on the left:  
-    ![](https://i.imgur.com/j7UFrDT.png)
+1. Go to the existing [Heart-Healthy Website](https://repl.it/@JosephMaxwell/HeartHealthy#index.html)
+1. At the top of the page, find and click the "Fork" button to create a fork of this project  
+    ![](https://i.imgur.com/IfErZpJ.png)
+1. Next, click the "Run" button at the top of the page to build the website from the HTML  
+    ![](https://i.imgur.com/5KMRAQO.png)
 1. Verify that both the HTML code _and_ the website appear on the page!
     - _NOTE: Make sure to zoom in so everything is easy to read_
 
-At this point, it should look like this:
+At this point, it should look something like this:
 
-![](https://i.imgur.com/QcFc2q1.png)
+![](https://i.imgur.com/aM7Q9Rw.png)
 
-### Looking at the HTML
+## Looking at the HTML
 Notice how the code in the HTML creates the text on the website. Everything in HTML goes between _tags_, which tell the website what type of element to display.
 
 - The text between the `<h1>` and `</h1>` tags becomes a large header
@@ -52,16 +36,14 @@ Update the code in the HTML section, _between_ the `<h1>` and `</h1>` tags. It s
 <h1>Katara's Heart Healthy Website</h1>
 ```
 
-Make sure the text on the website updates with the new header! Click the "Save" button in the upper right to make sure all changes have been saved. Continue to save throughout the activity!
-
-![](https://i.imgur.com/mjKuMUU.png)
+Click the "Run" button again, and make sure the text on the website updates with the new header!
 
 ## Adding an Image
 Almost every website has at least one image, and we would like our website to have one too! In fact, the code already has the proper tag in place! All we need to do is find an image, and paste the URL into the HTML code.
 
 1. Go to the [Heart Images](HeartImages.md) page, and find a heart that you like
 1. Copy the URL listed above the heart by highlighting the text, right clicking, and selecting "Copy"
-1. Go back to the CodePen
+1. Go back to the Repl
 1. In the HTML section, find the `<img src="" />` tag
 1. Click right between the two quotes (`"` and `"`)
 1. Paste in the URL by right clicking and selecting "Paste"
@@ -78,7 +60,7 @@ Currently, the list of heart-healthy foods only has placeholder items. We want i
 
 1. Go to the [Heart-Healthy Foods](HeartHealthyFoods.md) page to find a list of some heart healthy foods
 1. Select three of your favorite foods from the list
-1. Go back to the CodePen
+1. Go back to the Repl
 1. In the HTML section, find the `<ul></ul>` tags
     - This is code for the list on the website!
 1. Update the text between each `<li>` and `</li>` with one of the heart-healthy foods from the list
@@ -103,14 +85,12 @@ The code for the list should look something like this:
 ## Updating the Colors
 So far, we have updated the content of the website with HTML, but we haven't done anything with the style. That's where CSS comes in! CSS can change the style of the page, without affecting the content.
 
-1. On the left side of the CodePen, drag up the CSS section from under the HTML  
-    ![](https://i.imgur.com/wTgXSj5.png)
-1. Take a look at the code in the CSS section, and try to figure out what it does
+1. Take a look at the code within the `<style></style>` tags, and try to figure out what it does
 1. Find the area where it sets the background color - `background: white`
 1. Change the "white" to "pink" to change the background color
 1. Next, find the area where the CSS sets the text color - `color: black`
 1. Change the "black" to "red" to change the text color
-1. Verify that the colors have updated on the website!
+1. Click the "Run" button again, and verify that the colors have updated on the website!
 
 The CSS code should look something like this:
 
@@ -131,7 +111,7 @@ Some basic colors are built into the web (like **pink** and **red**), but it is 
     ![](https://i.imgur.com/Q6lxVvu.png)
 1. Once a color is selected, highlight the "HEX" code text under the color picker, and copy it
     ![](https://i.imgur.com/ZnYw6fa.png)
-1. Go back to the CodePen
+1. Go back to the Repl
 1. Remove the "pink" from the CSS, and paste in the new hex code
 1. Verify that the new background color appears on the website!
 1. Repeat the steps above to change the color of the text to another custom color
@@ -155,11 +135,11 @@ Our website is looking pretty good now! Certainly a lot better than it started. 
 Congratulations, you've successfully built a heart healthy website!
 
 ## Sharing
-To share your website, you can copy the URL from the address bar at the top of the browser:
+To share your website, you can copy the URL from the bar at the top of the website:
 
-![](https://i.imgur.com/pKxx7mf.png)
+![](https://i.imgur.com/mShir0v.png)
 
-Make sure you save it first!
+Paste the link anywhere to share it.
 
 ## Additional Topics
 If there is time remaining, there are a lot of additional updates we could make on our website. Some of them can be found here: [Additional Topic Challenges](../HtmlCssJsContinued/AdditionalTopicChallenges.md)
