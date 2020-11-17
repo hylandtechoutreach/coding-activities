@@ -1,9 +1,9 @@
 # Pre-Activity Instructions: Heart-Healthy Website
 ## Recommendations
 - We recommend a desktop or laptop computer for this virtual activity.
-- If you have multiple devices available, it will be beneficial to join the Zoom meeting from one device, and write code using a separate device. For example, if you have two laptops, you could join the Zoom meeting from one of the laptops, and write code on the other laptop.
+- If you have multiple devices available, it will be beneficial to join the Bizzabo meeting from one device, and write code using a separate device. For example, if you have two laptops, you could join the Bizzabo meeting from one of the laptops, and write code on the other laptop.
 - A Chromebook could be used, but it may not give you the best experience. An ideal situation for a Chromebook user would be to also have access to a laptop or desktop to use as a second device. That said, if you do not have any other devices, we hope you still try to participate as best you can! 
-- We **do not** recommend using a phone or tablet as your main device for the virtual activity. This is because the size of those screens may make it difficult to participate in the activities. If you must use one, it may be easier to watch instead of following along.
+- We **do not** recommend using a phone or tablet as your only device for the virtual activity. This is because the size of those screens may make it difficult to participate in the activities. If you must use one, it may be easier to watch instead of following along.
 
 ## Before the Activity
 Make sure you can properly open **[Repl](https://repl.it/@JosephMaxwell/HeartHealthy#index.html)** on your device. It should look like this:
@@ -11,15 +11,23 @@ Make sure you can properly open **[Repl](https://repl.it/@JosephMaxwell/HeartHea
 ![](https://i.imgur.com/IFPs62R.png)
 
 ## During the Activity - Single Device
-1. In the Zoom meeting, move your cursor to the top of the screen and hold it there. A menu bar should appear. From there, click on “View Options” and then “Exit Full Screen” :  
-    ![](https://i.imgur.com/otPdqIp.png)
-1. Move the Zoom meeting to the left side of your screen, and adjust the size of the window so it only takes up the left half of the screen.
-1. Open the **[Repl](https://repl.it/@JosephMaxwell/HeartHealthy#index.html)** in a web browser.
-1. Move the web browser window to the right side of the screen, so both the Zoom meeting and the Repl window are visible:  
-    ![](https://i.imgur.com/SdDyzwe.png)
+1. Scroll down to the meeting area. It should look something like this:  
+    ![](https://i.imgur.com/7fctZAb.png)
+1. Find the chat on the right side of the meeting
+1. Once the **[Repl.it starter code link](https://repl.it/@JosephMaxwell/HeartHealthy)** is posted, right-click (or Cmd+Click) it and open it in a new window:  
+    ![](https://i.imgur.com/ZUAN6X3.png)
+1. If you need more space, hide the webcams by hovering over the webcam area in the bottom left, and clicking the “Hide webcams” button:  
+    ![](https://i.imgur.com/B2HFoGf.png)
+1. You can also close the chat by clicking the “X” in the upper right:  
+    ![](https://i.imgur.com/khuvcCu.png)
+1. To show the chat again, click the "Chat" option in the upper left menu:  
+    ![](https://i.imgur.com/THQS5RO.png)
+1. Move the Bizzabo meeting window to the left side of your screen, and adjust the size of the window so it only takes up the left half of the screen.
+1. Move the Repl window to the right side of the screen, so both the Bizzabo meeting and the Repl window are visible:  
+    ![](https://i.imgur.com/z8r0hJ2.png)
 1. Adjust as needed. You should be able to see the code from the instructor’s screen AND your own code.
 
-If desired, it is also possible to switch between the Zoom window and the Repl window throughout the code-along.
+If desired, it is also possible to switch between the Bizzabo window and the Repl window throughout the code-along. Whatever works best for you!
 
 ## During the Activity - Multiple Devices
-If you have multiple devices, use one device to view the Zoom meeting, and another device to write the code. In order to share your code at the end, we recommend joining the Zoom meeting from both devices.
+If you have multiple devices, use one device to view the Bizzabo meeting, and another device to write the code. In order to share your code at the end, we recommend joining the virtual meeting from both devices.
