@@ -10,6 +10,16 @@ Make sure you can properly open **[Repl](https://repl.it/@JosephMaxwell/HeartHea
 
 ![](https://i.imgur.com/IFPs62R.png)
 
+From there, click on the "Fork" button at the top of the page:  
+
+![](https://i.imgur.com/IfErZpJ.png)
+
+In the pop-up window, enter some new account information, and click the "Sign up" button:  
+
+![](https://i.imgur.com/1sFGHu9.png)
+
+Now you have a Repl account! Remember the username and password so you can log in during the activity.
+
 ## During the Activity - Single Device
 1. Scroll down to the meeting area. It should look something like this:  
     ![](https://i.imgur.com/7fctZAb.png)
