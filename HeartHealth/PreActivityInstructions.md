@@ -1,8 +1,8 @@
 # Pre-Activity Instructions: Heart-Healthy Website
 ## Recommendations
-- We recommend a desktop or laptop computer for this virtual activity.
+- We recommend a desktop, laptop, or Chromebook for this virtual activity.
 - If you have multiple devices available, it will be beneficial to join the Bizzabo meeting from one device, and write code using a separate device. For example, if you have two laptops, you could join the Bizzabo meeting from one of the laptops, and write code on the other laptop.
-- A Chromebook could be used, but it may not give you the best experience. An ideal situation for a Chromebook user would be to also have access to a laptop or desktop to use as a second device. That said, if you do not have any other devices, we hope you still try to participate as best you can! 
+- An ideal situation for a Chromebook user would be to also have access to a laptop or desktop to use as a second device. That said, if you do not have any other devices, we hope you still try to participate as best you can! 
 - We **do not** recommend using a phone or tablet as your only device for the virtual activity. This is because the size of those screens may make it difficult to participate in the activities. If you must use one, it may be easier to watch instead of following along.
 
 ## Before the Activity
@@ -21,6 +21,8 @@ In the pop-up window, enter some new account information, and click the "Sign up
 Now you have a Repl account! Remember the username and password so you can log in during the activity.
 
 ## During the Activity - Single Device
+You will not be able to take the steps listed below until the activity starts during the STEM Goes Red for Girls event. However, please review these steps ahead of time to get familiar with how you will use the Bizzabo platform during the coding activity.
+
 1. Scroll down to the meeting area. It should look something like this:  
     ![](https://i.imgur.com/7fctZAb.png)
 1. Find the chat on the right side of the meeting
