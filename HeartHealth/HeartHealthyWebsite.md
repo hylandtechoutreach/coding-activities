@@ -7,7 +7,10 @@ In this activity, use HTML and CSS to update a heart healthy website and make it
 - [repl.it](https://repl.it) is a **website** that lets developers create websites.
 
 ## Website Setup
-To get started:
+To get started, follow the steps below. In order to make the setup quicker, you can use the following credentials:
+
+- username: **hylandstudent**
+- password: **hyland**
 
 1. Go to the existing [Heart-Healthy Website](https://repl.it/@JosephMaxwell/HeartHealthy#index.html)
 1. At the top of the page, find and click the "Fork" button to create a fork of this project  
@@ -16,8 +19,6 @@ To get started:
     ![](https://i.imgur.com/oJ85Q3L.png)
 1. From there, enter your account information and click the "Log in" button  
     ![](https://i.imgur.com/z8bjCsB.png)
-1. If you do _not_ have an account, fill out the new account information (feel free to put in fake information if you'd like) and click the "Sign up" button  
-    ![](https://i.imgur.com/1sFGHu9.png)
 1. Next, click the "Run" button at the top of the page to build the website from the HTML  
     ![](https://i.imgur.com/5KMRAQO.png)
 1. Verify that both the HTML code _and_ the website appear on the page!
