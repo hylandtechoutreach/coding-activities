@@ -12,6 +12,8 @@ To get started, follow the steps below. In order to make the setup quicker, you 
 - username: **hylandstudent**
 - password: **hyland**
 
+Open up a Google Chrome browser, and follow these steps:
+
 1. Go to the existing [Heart-Healthy Website](https://repl.it/@JosephMaxwell/HeartHealthy#index.html)
 1. At the top of the page, find and click the "Fork" button to create a fork of this project  
     ![](https://i.imgur.com/IfErZpJ.png)
