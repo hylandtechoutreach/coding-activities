@@ -1,14 +1,16 @@
-# Repl Setup for <span>C#</span>
-Start any C# activity by going to `repl.it` and setting up a new C# project.
+# Replit Setup for <span>C#</span>
+Start any C# activity by going to Replit and setting up a new C# project.
 
-1. Go to [repl.it](https://repl.it)
-1. In the upper right corner, click the "+ new repl" button
+1. Go to [Replit](https://replit.com)
+1. In the upper right corner, click the "Log in" button
+1. Enter **hylandstudent** as the username and **hyland** as the password
+1. On the left side of the screen, click the "+ New repl" button
 1. Scroll down and select "C#" from the Language list
 1. Click the "Create Repl" button
 1. Make a note of the name of the Repl; it will be automatically saved to that URL, and will be accessible from anywhere!
 
-## Repl Overview
-**`repl.it`** is a website that allows developers to _write_ and _run_ code right from a web browser!
+## Replit Overview
+**Replit** is a website that allows developers to _write_ and _run_ code right from a web browser!
 
 ![](https://i.imgur.com/7jhKrt9.png)
 

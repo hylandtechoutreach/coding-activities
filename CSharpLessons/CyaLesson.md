@@ -2,7 +2,7 @@
 An activity to introduce C# in 45-60m. **C#** is an object-oriented programming language, often used to make desktop applications. This lesson covers input/output from the console, variables, and conditional statements. The goal of the lesson is to build a simple [Choose Your Own Adventure](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure) game using the C# console.
 
 ## Setup
-Follow the [Setup](Setup.md) guide to get ready to build an introductory program with `repl.it`!
+Follow the [Setup](Setup.md) guide to get ready to build an introductory program with Replit!
 
 ## User Input
 The Choose Your Own Adventure game should allow the user to decide how the story plays out. To do that, the program must ask a question, and remember the user's answer. 
