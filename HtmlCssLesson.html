@@ -396,55 +396,72 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="html-and-css-lesson">HTML and CSS Lesson</h1>
-<p>An activity to introduce HTML and CSS in 45-60m</p>
-<h2 id="explain-html">Explain HTML</h2>
-<p>Start by showing an example webpage (e.g., <a href="https://en.wikipedia.org/wiki/SpongeBob_SquarePants" target="_blank">https://en.wikipedia.org/wiki/SpongeBob_SquarePants</a>) in Google Chrome. Talk to the students about their experience with the web. Then, right click on the page and view the source to show the HTML that builds the page.</p>
-<h3 id="what-is-html">What is HTML</h3>
+                                <h1 id="building-a-website">Building a Website</h1>
+<p>In this activity, use HTML and CSS to create your own website!</p>
+<h2 id="overview-of-html-css-and-replit">Overview of HTML, CSS, and repl.it</h2>
 <ul>
-<li>HTML tells an internet browser what to show on a website<ul>
-<li>Ask students to name internet browsers (chrome, firefox, etc.)</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a> is a <strong>language</strong> that lets developers to create websites. A web browser takes the HTML code, and displays it as a nice-looking webpage. Every website has a <em>source</em>, which can be viewed by right clicking and selecting &quot;View Source&quot; in the menu!</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS" target="_blank">CSS</a> is a <strong>language</strong> that lets developers add style to websites. This includes things like fonts, colors, and more.</li>
+<li><a href="https://replit.com" target="_blank">Replit</a> is a <strong>website</strong> that lets developers create websites.</li>
 </ul>
-</li>
-<li>HTML elements are the building blocks of a webpage</li>
-<li>Browsers use HTML elements to display webpages</li>
+<h2 id="setup">Setup</h2>
+<p>To get started, follow the steps below. In order to make the setup quicker, you can use the following credentials:</p>
+<ul>
+<li>username: <strong>hylandstudent</strong></li>
+<li>password: <strong>Hyland1991!</strong></li>
 </ul>
-<h2 id="create-a-webpage">Create a Webpage</h2>
-<p>Students should follow along to create their own webpages!</p>
-<h3 id="basic-html">Basic HTML</h3>
+<p>Open up a Google Chrome browser, and follow these steps:</p>
 <ol>
-<li>Open a new CodePen: <a href="https://codepen.io/pen/" target="_blank">https://codepen.io/pen/</a> <ul>
-<li>This allows developers to write HTML code and see it <em>render</em> immediately</li>
-<li>Display the URL in a large font so the students can see it and navigate there</li>
+<li>Go to the <a href="https://replit.com/@HylandOutreach/Starter-Website" target="_blank">Starter Website Project</a><ul>
+<li>bit.ly/replitstart</li>
 </ul>
 </li>
-<li>Change the view so the code appears on the left and the webpage appears on the right</li>
-<li>Minimize the JS section</li>
-<li>In the HTML section, add an <code>h1</code> header element saying &quot;My Awesome Website&quot;<ul>
-<li>Explain that this is used for page titles, and there are also smaller header elements (<code>h2</code>-<code>h6</code>)</li>
-</ul>
-</li>
-<li>Add a <code>p</code> paragraph element with a greeting<ul>
-<li>Explain that this is used for regular text on the page</li>
-</ul>
-</li>
+<li>On the right, find and click the &quot;Fork&quot; button to create a fork of this project  </li>
+<li>On the pop-up that appears, click the &quot;log in&quot; link  </li>
+<li>From there, enter your account information and click the &quot;Log in&quot; button  </li>
+<li>Next, click the &quot;Run&quot; button at the top of the page to build the website from the HTML  </li>
 </ol>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>My Awesome Website<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Hi, I&apos;m me.  Welcome to my awesome website.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<p>Currently, it should look something like this:</p>
+<p><img src="https://i.imgur.com/3A62IpA.png" alt=""></p>
+<h2 id="looking-at-the-html">Looking at the HTML</h2>
+<p>Make sure the <strong>index.html</strong> file is selected on the left to view the HTML code. Notice how the code in the HTML creates the text on the website. Everything in HTML goes between <em>tags</em>, which tell the website what type of element to display. There are a lot of tags right now, but the important stuff goes between the <code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code> tags. For example, the text between the <code>&lt;h1&gt;</code> and <code>&lt;/h1&gt;</code> tags becomes a large header.</p>
+<p>The first thing to do is update the header text with your name! For example, if my name were <strong>Katara</strong>, I could change the header so that it said <strong>Katara&apos;s Website</strong>.</p>
+<p>Update the code in the HTML section, <em>between</em> the <code>&lt;h1&gt;</code> and <code>&lt;/h1&gt;</code> tags. It should look something like this:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Katara&apos;s Website<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 </code></pre>
-<h3 id="lists">Lists</h3>
+<p>Click the &quot;Run&quot; button again, and make sure the text on the website updates with the new header!</p>
+<h2 id="adding-a-welcome-paragraph">Adding a Welcome Paragraph</h2>
+<p>Now it&apos;s time to add a totally new element. The <strong>paragraph</strong> element is used to display normal text on a webpage. Its tags are <code>&lt;p&gt;</code> and <code>&lt;/p&gt;</code>, with text content between.</p>
 <ol>
-<li>Add an <code>h2</code> for &quot;My Hobbies&quot; beneath the <code>p</code></li>
-<li>Add a <code>ul</code> that will contain a list of hobbies beneath the <code>h2</code><ul>
-<li>Pause to ask students if they can guess what the <code>ul</code> will be</li>
-</ul>
-</li>
-<li>Add <code>li</code> elements as children of the <code>ul</code><ul>
-<li>Ask them if they can guess what <code>li</code> means</li>
-</ul>
-</li>
-<li>Show them that there are both unordered <em>and</em> ordered lists in HTML (<code>ol</code>)</li>
+<li>Make a new line underneath the <code>&lt;h1&gt;&lt;/h1&gt;</code></li>
+<li>Add a <code>&lt;p&gt;</code> opening tag on the new line</li>
+<li>Enter some text that will be displayed</li>
+<li>At the end of the line, add a <code>&lt;/p&gt;</code> to close the paragraph element</li>
+<li>Run the code, and verify that the message appears on the website!</li>
 </ol>
+<p>The code should look something like this:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Hi, I&apos;m Katara. Welcome to my website!<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</code></pre>
+<h2 id="adding-a-list-of-hobbies">Adding a List of Hobbies</h2>
+<p>Next, it&apos;s time to add some information about yourself. Think of some hobbies or activities you enjoy, and then follow the instructions to list them on your website!</p>
+<ol>
+<li>Add an <code>&lt;h2&gt;&lt;/h2&gt;</code> saying &quot;My Hobbies&quot; beneath the <code>&lt;p&gt;&lt;/p&gt;</code> element<ul>
+<li>This will display a slightly smaller header than <code>h1</code></li>
+</ul>
+</li>
+<li>On the next line, add a <code>&lt;ul&gt;</code> opening tag, and make a new <em>indented</em> line<ul>
+<li>Can you guess what the <code>ul</code> element will be? An unordered list!</li>
+</ul>
+</li>
+<li>Under the <code>&lt;ul&gt;</code>, add an <code>&lt;li&gt;&lt;/li&gt;</code> with one of your hobbies as the content<ul>
+<li>Can you guess what the <code>li</code> element will be? A list item!</li>
+</ul>
+</li>
+<li>Add at least one more <code>li</code> element on the next line</li>
+<li>At the end of the list, add a <code>&lt;/ul&gt;</code> to complete the element</li>
+<li>Run the code, and verify that the list appears on the website!</li>
+</ol>
+<p>The code should look something like this:</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>My Hobbies<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Reading<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
@@ -452,64 +469,118 @@
     <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Petting Cats<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
 </code></pre>
-<h2 id="styles-with-css">Styles with CSS</h2>
-<p>The current webpage looks fairly boring. Explain that developers use CSS to make their webpages look fun and exciting. HTML is like the skeleton, just the structure of the webpage, and CSS is like the clothes that it wears, giving it style.</p>
+<h2 id="adding-a-cool-image">Adding a Cool Image</h2>
+<p>Almost every website has at least one image, and yours can too!</p>
+<h3 id="finding-an-image">Finding an Image</h3>
+<p>The first thing to do is find an image. Images on websites have URLs which tell the browser where to look for them. Follow the instructions below to find the URL (or <em>address</em>) of an image, and copy it.</p>
 <ol>
-<li>In the CSS section, add a ruleset to select <code>body</code></li>
-<li>Add some declarations to update the text color, background color, and font of the page</li>
-</ol>
-<pre><code class="lang-css"><span class="hljs-selector-tag">body</span> {
-    <span class="hljs-attribute">color</span>: pink;
-    <span class="hljs-attribute">background</span>: black;
-    <span class="hljs-attribute">font-family</span>: Consolas;
-}
-</code></pre>
-<h3 id="color-picker">Color Picker</h3>
-<p>Some basic colors are built into the web, but it is also possible to use custom colors. Explain that each pixel on a computer screen has a color that comes from three values: Red, Blue, and Green (RGB). The final pixel color is the mix of each of those colors at different levels. For more information about the RGB color model, check out the <a href="https://en.wikipedia.org/wiki/RGB_color_model" target="_blank">Wikipedia page</a>. These RGB values can be represented in Hexidecimal, where two digits represent one number between 0 and 255. Combining those three numbers (one for red, one for blue, and one for green) into a six digit <em>hex code</em> allows developers to easily reference colors.</p>
-<ol>
-<li>Open a new tab in Google Chrome</li>
-<li>Search for &quot;color picker&quot; in the search bar</li>
-<li>Drag the pointer to select a desired color</li>
-<li>Copy the hex value (starting with <code>#</code>)</li>
-<li>Paste the hex value where a color name would go in the CSS!</li>
-</ol>
-<pre><code class="lang-css"><span class="hljs-selector-tag">body</span> {
-    <span class="hljs-attribute">color</span>: <span class="hljs-number">#f54594</span>;
-    <span class="hljs-attribute">background</span>: <span class="hljs-number">#4a0021</span>;
-    <span class="hljs-attribute">font-family</span>: Consolas;
-}
-</code></pre>
-<h2 id="adding-an-image">Adding an image</h2>
-<ol>
-<li>In the HTML section, add an <code>h2</code> saying &quot;A Cool Image&quot;</li>
-<li>Beneath the <code>h2</code>, add an <code>img</code> element to the page<ul>
-<li>This will not do anything</li>
-<li>Ask the students what is needed to create an image (the image)</li>
-</ul>
-</li>
-<li>Search for an image of a cat using Google Images in Chrome</li>
-<li>Right click and select &quot;Copy image address&quot;<ul>
+<li>Open a new browser tab and go to <a href="https://images.google.com/" target="_blank">Google Images</a></li>
+<li>Search for something appropriate (such as &quot;cats&quot;)</li>
+<li>Click on the image you would like to use</li>
+<li>When it appears, right click and select &quot;Copy image address&quot;<ul>
 <li>Do not copy the image itself, that will not work!</li>
 </ul>
 </li>
-<li>Add a <code>src</code> attribute to the <code>img</code> element, and paste in the URL for the image</li>
-<li>Finally, in the CSS section, select the <code>img</code> element and set the <code>height</code> so that it fits on the page</li>
 </ol>
+<p>Now, the image address is stored on the clipboard. It will be possible to paste it into your website after adding some HTML.</p>
+<h3 id="creating-the-image-element">Creating the Image Element</h3>
+<p>Now that you have the image, it&apos;s time to add it to your website.</p>
+<ol>
+<li>Make a new line under the <code>&lt;/ul&gt;</code></li>
+<li>Add another <code>&lt;h2&gt;</code> saying &quot;A Cool Image&quot;</li>
+<li>Make a new line under that</li>
+<li>Add a new element: <code>&lt;img &gt;</code></li>
+<li>After the <code>img</code>, before the <code>&gt;</code>, type in <code>src=&quot;&quot;</code></li>
+<li>Between the double quotes, <em>paste</em> in the image URL</li>
+<li>Run the code, and verify that your image appears on the website!</li>
+</ol>
+<p>The code should look something like this:</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>A Cool Image<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://images.unsplash.com/photo-1482066490729-6f26115b60dc?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80&quot;</span>&gt;</span>
 </code></pre>
+<h2 id="changing-the-background-color-with-css">Changing the Background Color with CSS</h2>
+<p>Now the content of the page is looking pretty good, but it&apos;s not very stylish. One way to make the website look more fun and exciting is to use CSS! HTML is like the skeleton of a webpage, just the structure, and CSS is like the clothes that it wears, giving it style.</p>
+<p>On the left side of the page, open the <strong>style.css</strong> file by clicking on it:</p>
+<p>Take a look at the code so far. Try to figure out how to change the background color from <code>mintcream</code> to another color, like <code>pink</code>!</p>
+<p>The code should look something like this:</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">body</span> {
+    <span class="hljs-attribute">background</span>: pink;
+}
+</code></pre>
+<h2 id="changing-more-with-css">Changing More with CSS</h2>
+<p>CSS can change almost anything on a website. For this activity, update the text color, size, and font! All changes should take place in the <strong>style.css</strong> file.</p>
+<h3 id="updating-the-text-color">Updating the Text Color</h3>
+<p>Follow these instructions to change the text color on your website.</p>
+<ol>
+<li>Find the line where the <code>background</code> color is set</li>
+<li>Make a new line underneath that line (above the <code>}</code>)</li>
+<li>Type in <code>color</code>, followed by a colon (<code>:</code>)</li>
+<li>Make a space, and type in a new color (like <code>red</code>) followed by a semi-colon (<code>;</code>)</li>
+</ol>
+<p>Run the code, and verify that the text color changes!</p>
+<p>Note that every CSS <em>property</em> follows the same structure: property name, colon, property value, semi-colon.</p>
+<h3 id="updating-font-and-size">Updating Font and Size</h3>
+<p>Next, update the font and size of the text by following the instructions below.</p>
+<ol>
+<li>Make a new line under the <code>color</code> line (still above <code>}</code>)</li>
+<li>Set a new property <code>font-family</code> to a value of <code>consolas</code><ul>
+<li>property name, colon, property value, semi-colon</li>
+</ul>
+</li>
+<li>Make another new line, still above <code>}</code></li>
+<li>Set another new property <code>font-size</code> to a value of <code>18px</code><ul>
+<li>property name, colon, property value, semi-colon</li>
+<li>Can you guess what <code>px</code> means? Pixels!</li>
+</ul>
+</li>
+</ol>
+<p>Run the code, and verify that the text changes font and size! Feel free to try changing the numbers or the font to see what works.</p>
+<p>The code should look something like this:</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">background</span>: pink;
+  <span class="hljs-attribute">color</span>: red;
+  <span class="hljs-attribute">font-family</span>: consolas;
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">18px</span>;
+}
+</code></pre>
+<h2 id="resizing-the-image">Resizing the Image</h2>
+<p>Sometimes, images from online are way too big. It is possible to resize them using CSS!</p>
+<p>Add this code to the <strong>style.css</strong> file (at the bottom):</p>
 <pre><code class="lang-css"><span class="hljs-selector-tag">img</span> {
     <span class="hljs-attribute">height</span>: <span class="hljs-number">200px</span>;
 }
 </code></pre>
-<h2 id="final">Final</h2>
-<p><a href="https://codepen.io/jmaxwell/pen/NVjrpQ?editors=1100" target="_blank">https://codepen.io/jmaxwell/pen/NVjrpQ?editors=1100</a></p>
+<p>That should resize the image to a more appropriate height. Feel free to try changing the number to see what works.</p>
+<h2 id="using-custom-colors">Using Custom Colors</h2>
+<p>Some basic colors are built into the web (like <strong>pink</strong> and <strong>red</strong>), but it is also possible to use custom colors! Each color can be represented as a <em>hexidecimal color code</em>, which is a hashtag (<code>#</code>) followed by six alphanumeric characters. The easiest way to find a specific color is to use a color picker. Luckily, Replit has a color picker built right into the code editor! Follow the steps below to update the colors on the website.</p>
+<ol>
+<li>Go to the <strong>style.css</strong> file</li>
+<li>Hover over the existing color name</li>
+<li>Drag the selectors around to find a new color</li>
+<li>Click the &quot;Run&quot; button, and verify that the new background color appears on the website!</li>
+<li>Repeat the steps above to change the color of the text to another custom color</li>
+</ol>
+<p><img src="replitcolorpicker.gif" alt=""></p>
+<p>The CSS code should look something like this:</p>
+<pre><code class="lang-css"><span class="hljs-selector-tag">body</span> {
+    <span class="hljs-attribute">background</span>: <span class="hljs-number">#ffbdbd</span>;
+    <span class="hljs-attribute">color</span>: <span class="hljs-number">#bf3636</span>;
+    <span class="hljs-attribute">font-family</span>: consolas;
+    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">18px</span>;
+}
+</code></pre>
+<h2 id="finishing-up">Finishing Up</h2>
+<p>Hopefully your website is looking good by now! It should look something like this:</p>
+<p><img src="https://i.imgur.com/SQlUNpN.png" alt=""></p>
+<p>Congratulations, you&apos;ve successfully built your own website!</p>
+<h2 id="sharing">Sharing</h2>
+<p>To share your website, you can copy the URL from the bar at the top of the website:</p>
+<p><img src="https://i.imgur.com/bk7r3vS.png" alt=""></p>
+<p>Paste the link anywhere to share it.</p>
+<h2 id="additional-topics">Additional Topics</h2>
+<p>If there is time remaining, there are a lot of additional updates to be made. Some of them can be found here: <a href="https://hylandtechoutreach.github.io/coding-activities/HtmlCssJsContinued/AdditionalTopicChallenges.html" target="_blank">Additional Topic Challenges</a></p>
 <h2 id="kahoot">Kahoot</h2>
 <p><a href="https://create.kahoot.it/share/duplicate-of-basic-html-css-activities-quiz/bacfd57b-72ff-4802-8cc7-caf098c9dd27" target="_blank">https://create.kahoot.it/share/duplicate-of-basic-html-css-activities-quiz/bacfd57b-72ff-4802-8cc7-caf098c9dd27</a></p>
-<h2 id="saving">Saving</h2>
-<p>If the students would like to save their webpages, they can click the &quot;Save&quot; button. They will have to create an account, but it is totally free. After they save their Pen, the can copy the URL from the address bar and revisit it to see their website! Make sure they have enough time to create accounts before the end of the session. After that, they can continue to save any changes they make by clicking the &quot;Save&quot; button.</p>
-<h2 id="additional-topics">Additional Topics</h2>
-<p>If there is time remaining, students can make updates to their website. If there is interest, show them some other things they can do with HTML and CSS. There are some challenges that can be completed as a class or by students individually: <a href="HtmlCssJsContinued/AdditionalTopicChallenges.html">Additional Topic Challenges</a></p>
 
                                 
                                 </section>
@@ -553,7 +624,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"HTML & CSS Lesson","level":"1.2","depth":1,"next":{"title":"Additional Topic Challenges","level":"1.2.1","depth":2,"path":"HtmlCssJsContinued/AdditionalTopicChallenges.md","ref":"HtmlCssJsContinued/AdditionalTopicChallenges.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"HtmlCssLesson.md","mtime":"2021-06-25T13:18:27.175Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-06-25T13:19:05.113Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"HTML & CSS Lesson","level":"1.2","depth":1,"next":{"title":"Additional Topic Challenges","level":"1.2.1","depth":2,"path":"HtmlCssJsContinued/AdditionalTopicChallenges.md","ref":"HtmlCssJsContinued/AdditionalTopicChallenges.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"HtmlCssLesson.md","mtime":"2021-12-01T17:05:15.793Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-01T17:05:53.659Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
