@@ -106,7 +106,7 @@ The code should look something like this:
 
 ```html
 <h2>A Cool Image</h2>
-<img src="https://images.unsplash.com/photo-1482066490729-6f26115b60dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+<img src="https://i.imgur.com/khphm9V.jpg">
 ```
 
 ## Changing the Background Color with CSS
