@@ -1,7 +1,7 @@
 # Building a Website
 In this activity, use HTML and CSS to create your own website!
 
-## Overview of HTML, CSS, and repl.it
+## Overview of HTML, CSS, and Replit
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) is a **language** that lets developers to create websites. A web browser takes the HTML code, and displays it as a nice-looking webpage. Every website has a _source_, which can be viewed by right clicking and selecting "View Source" in the menu!
 - [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS) is a **language** that lets developers add style to websites. This includes things like fonts, colors, and more.
 - [Replit](https://replit.com) is a **website** that lets developers create websites.
