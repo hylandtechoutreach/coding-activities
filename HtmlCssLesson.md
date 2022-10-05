@@ -9,21 +9,27 @@ In this activity, use HTML and CSS to create your own website!
 ## Setup
 To get started, follow the steps below. In order to make the setup quicker, you can use the following credentials:
 
-- username: **hylandstudent**
-- password: **Hyland1991!**
+- username: **hylandstudent**, **hylandstudent2**, **hylandstudent3**, or **hylandstudent4**
+- password: **Learn2Code!**
+
+Choose randomly between **hylandstudent**, **hylandstudent2**, **hylandstudent3**, and **hylandstudent4** as the username. The password will be **Learn2Code** for any of those usernames.
 
 Open up a Google Chrome browser, and follow these steps:
 
 1. Go to the [Starter Website Project](https://replit.com/@HylandOutreach/Starter-Website)
     - bit.ly/replitstart
-1. On the right, find and click the "Fork" button to create a fork of this project  
-1. On the pop-up that appears, click the "log in" link  
-1. From there, enter your account information and click the "Log in" button  
+1. In the upper right, click on the "Log in" button
+1. Enter the username and password from above  
+    - Make sure to _choose randomly_ between the four usernames
+    - The password should be the same for any username
+1. Click the "Log in ⟶" button
+1. On the right, find and click the blue "Fork Repl" button to create a fork of this project
+1. In the popup that appears, click the blue "Fork Repl" button at the bottom
 1. Next, click the "Run" button at the top of the page to build the website from the HTML  
     
 Currently, it should look something like this:
 
-![](https://i.imgur.com/3A62IpA.png)
+![](Assets/EditReplit.png)
 
 ## Looking at the HTML
 Make sure the **index.html** file is selected on the left to view the HTML code. Notice how the code in the HTML creates the text on the website. Everything in HTML goes between _tags_, which tell the website what type of element to display. There are a lot of tags right now, but the important stuff goes between the `<body>` and `</body>` tags. For example, the text between the `<h1>` and `</h1>` tags becomes a large header.
@@ -83,7 +89,7 @@ Almost every website has at least one image, and yours can too!
 ### Finding an Image
 The first thing to do is find an image. Images on websites have URLs which tell the browser where to look for them. Follow the instructions below to find the URL (or _address_) of an image, and copy it.
 
-1. Open a new browser tab and go to [Google Images](https://images.google.com/)
+1. Open a new browser tab and go to [Google Images](https://google.com/images)
 1. Search for something appropriate (such as "cats")
 1. Click on the image you would like to use
 1. When it appears, right click and select "Copy image address"
@@ -106,7 +112,7 @@ The code should look something like this:
 
 ```html
 <h2>A Cool Image</h2>
-<img src="https://i.imgur.com/khphm9V.jpg">
+<img src="https://i.pinimg.com/474x/15/10/4f/15104f78cb83e3cefaf63ecc718a2a43.jpg">
 ```
 
 ## Changing the Background Color with CSS
@@ -185,7 +191,7 @@ Some basic colors are built into the web (like **pink** and **red**), but it is 
 1. Click the "Run" button, and verify that the new background color appears on the website!
 1. Repeat the steps above to change the color of the text to another custom color
 
-![](replitcolorpicker.gif)
+![](Assets/ReplitColorPicker.gif)
 
 The CSS code should look something like this:
 
@@ -201,19 +207,19 @@ body {
 ## Finishing Up
 Hopefully your website is looking good by now! It should look something like this:
 
-![](https://i.imgur.com/SQlUNpN.png)
+![](Assets/WebsiteDone.png)
 
 Congratulations, you've successfully built your own website!
 
 ## Sharing
 To share your website, you can copy the URL from the bar at the top of the website:
 
-![](https://i.imgur.com/bk7r3vS.png)
+![](Assets/WebsiteShare.png)
 
 Paste the link anywhere to share it.
 
 ## Additional Topics
-If there is time remaining, there are a lot of additional updates to be made. Some of them can be found here: [Additional Topic Challenges](https://hylandtechoutreach.github.io/coding-activities/HtmlCssJsContinued/AdditionalTopicChallenges.html)
+If there is time remaining, there are a lot of additional updates to be made. Some of them can be found here: [Additional Topic Challenges](HtmlCssJsContinued/AdditionalTopicChallenges.md)
 
 ## Kahoot
-https://create.kahoot.it/share/duplicate-of-basic-html-css-activities-quiz/bacfd57b-72ff-4802-8cc7-caf098c9dd27
+[Click here for the Kahoot quiz.](https://create.kahoot.it/share/duplicate-of-basic-html-css-activities-quiz/bacfd57b-72ff-4802-8cc7-caf098c9dd27)
