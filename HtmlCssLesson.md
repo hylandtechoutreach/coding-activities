@@ -12,7 +12,7 @@ To get started, follow the steps below. In order to make the setup quicker, you 
 - username: **hylandstudent**, **hylandstudent2**, **hylandstudent3**, or **hylandstudent4**
 - password: **Learn2Code!**
 
-Choose randomly between **hylandstudent**, **hylandstudent2**, **hylandstudent3**, and **hylandstudent4** as the username. The password will be **Learn2Code** for any of those usernames.
+Choose randomly between **hylandstudent**, **hylandstudent2**, **hylandstudent3**, and **hylandstudent4** as the username. The password will be **Learn2Code!** for any of those usernames.
 
 Open up a Google Chrome browser, and follow these steps:
 
