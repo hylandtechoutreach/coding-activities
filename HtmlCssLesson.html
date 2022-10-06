@@ -398,45 +398,32 @@
                                 
                                 <h1 id="building-a-website">Building a Website</h1>
 <p>In this activity, use HTML and CSS to create your own website!</p>
-<h2 id="overview-of-html-css-and-replit">Overview of HTML, CSS, and Replit</h2>
+<h2 id="overview-of-html-css-and-stackblitz">Overview of HTML, CSS, and StackBlitz</h2>
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a> is a <strong>language</strong> that lets developers to create websites. A web browser takes the HTML code, and displays it as a nice-looking webpage. Every website has a <em>source</em>, which can be viewed by right clicking and selecting &quot;View Source&quot; in the menu!</li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS" target="_blank">CSS</a> is a <strong>language</strong> that lets developers add style to websites. This includes things like fonts, colors, and more.</li>
-<li><a href="https://replit.com" target="_blank">Replit</a> is a <strong>website</strong> that lets developers create websites.</li>
+<li><a href="https://stackblitz.com/" target="_blank">StackBlitz</a> is a <strong>website</strong> that lets developers create websites.</li>
 </ul>
 <h2 id="setup">Setup</h2>
-<p>To get started, follow the steps below. In order to make the setup quicker, you can use the following credentials:</p>
-<ul>
-<li>username: <strong>hylandstudent</strong>, <strong>hylandstudent2</strong>, <strong>hylandstudent3</strong>, or <strong>hylandstudent4</strong></li>
-<li>password: <strong>Learn2Code!</strong></li>
-</ul>
-<p>Choose randomly between <strong>hylandstudent</strong>, <strong>hylandstudent2</strong>, <strong>hylandstudent3</strong>, and <strong>hylandstudent4</strong> as the username. The password will be <strong>Learn2Code!</strong> for any of those usernames.</p>
-<p>Open up a Google Chrome browser, and follow these steps:</p>
+<p>To get started, follow the steps below.</p>
 <ol>
-<li>Go to the <a href="https://replit.com/@HylandOutreach/Starter-Website" target="_blank">Starter Website Project</a><ul>
-<li>bit.ly/replitstart</li>
+<li>Open up Google Chrome</li>
+<li>Go to the <a href="https://stackblitz.com/edit/web-platform-2wdyzk?file=index.html" target="_blank">Starter Website Project</a><ul>
+<li><strong>tinyurl.com/startweb2022</strong></li>
 </ul>
 </li>
-<li>In the upper right, click on the &quot;Log in&quot; button</li>
-<li>Enter the username and password from above  <ul>
-<li>Make sure to <em>choose randomly</em> between the four usernames</li>
-<li>The password should be the same for any username</li>
-</ul>
-</li>
-<li>Click the &quot;Log in &#x27F6;&quot; button</li>
-<li>On the right, find and click the blue &quot;Fork Repl&quot; button to create a fork of this project</li>
-<li>In the popup that appears, click the blue &quot;Fork Repl&quot; button at the bottom</li>
-<li>Next, click the &quot;Run&quot; button at the top of the page to build the website from the HTML  </li>
+<li>In the upper left, click on the &quot;Fork&quot; button<br> <img src="Assets/StackFork.png" alt=""></li>
 </ol>
-<p>Currently, it should look something like this:</p>
-<p><img src="Assets/EditReplit.png" alt=""></p>
+<p>Now you have your own copy of a website to start editing!</p>
 <h2 id="looking-at-the-html">Looking at the HTML</h2>
 <p>Make sure the <strong>index.html</strong> file is selected on the left to view the HTML code. Notice how the code in the HTML creates the text on the website. Everything in HTML goes between <em>tags</em>, which tell the website what type of element to display. There are a lot of tags right now, but the important stuff goes between the <code>&lt;body&gt;</code> and <code>&lt;/body&gt;</code> tags. For example, the text between the <code>&lt;h1&gt;</code> and <code>&lt;/h1&gt;</code> tags becomes a large header.</p>
 <p>The first thing to do is update the header text with your name! For example, if my name were <strong>Katara</strong>, I could change the header so that it said <strong>Katara&apos;s Website</strong>.</p>
 <p>Update the code in the HTML section, <em>between</em> the <code>&lt;h1&gt;</code> and <code>&lt;/h1&gt;</code> tags. It should look something like this:</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Katara&apos;s Website<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 </code></pre>
-<p>Click the &quot;Run&quot; button again, and make sure the text on the website updates with the new header!</p>
+<p>Save the website by pressing <strong>Ctrl</strong>+<strong>S</strong> or <strong>Cmd</strong>+<strong>S</strong> on the keyboard, or by clicking the &quot;Save&quot; button:</p>
+<p><img src="Assets/StackSave.png" alt=""></p>
+<p>Once you save the file, take a look at the web preview on the right - make sure your new header text shows up!</p>
 <h2 id="adding-a-welcome-paragraph">Adding a Welcome Paragraph</h2>
 <p>Now it&apos;s time to add a totally new element. The <strong>paragraph</strong> element is used to display normal text on a webpage. Its tags are <code>&lt;p&gt;</code> and <code>&lt;/p&gt;</code>, with text content between.</p>
 <ol>
@@ -444,7 +431,7 @@
 <li>Add a <code>&lt;p&gt;</code> opening tag on the new line</li>
 <li>Enter some text that will be displayed</li>
 <li>At the end of the line, add a <code>&lt;/p&gt;</code> to close the paragraph element</li>
-<li>Run the code, and verify that the message appears on the website!</li>
+<li>Save the code, and verify that the message appears on the website!</li>
 </ol>
 <p>The code should look something like this:</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Hi, I&apos;m Katara. Welcome to my website!<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
@@ -466,7 +453,7 @@
 </li>
 <li>Add at least one more <code>li</code> element on the next line</li>
 <li>At the end of the list, add a <code>&lt;/ul&gt;</code> to complete the element</li>
-<li>Run the code, and verify that the list appears on the website!</li>
+<li>Save the code, and verify that the list appears on the website!</li>
 </ol>
 <p>The code should look something like this:</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>My Hobbies<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
@@ -499,7 +486,7 @@
 <li>Add a new element: <code>&lt;img &gt;</code></li>
 <li>After the <code>img</code>, before the <code>&gt;</code>, type in <code>src=&quot;&quot;</code></li>
 <li>Between the double quotes, <em>paste</em> in the image URL</li>
-<li>Run the code, and verify that your image appears on the website!</li>
+<li>Save the code, and verify that your image appears on the website!</li>
 </ol>
 <p>The code should look something like this:</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>A Cool Image<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
@@ -508,6 +495,7 @@
 <h2 id="changing-the-background-color-with-css">Changing the Background Color with CSS</h2>
 <p>Now the content of the page is looking pretty good, but it&apos;s not very stylish. One way to make the website look more fun and exciting is to use CSS! HTML is like the skeleton of a webpage, just the structure, and CSS is like the clothes that it wears, giving it style.</p>
 <p>On the left side of the page, open the <strong>style.css</strong> file by clicking on it:</p>
+<p><img src="Assets/StackClickStyle.png" alt=""></p>
 <p>Take a look at the code so far. Try to figure out how to change the background color from <code>mintcream</code> to another color, like <code>pink</code>!</p>
 <p>The code should look something like this:</p>
 <pre><code class="lang-css"><span class="hljs-selector-tag">body</span> {
@@ -524,13 +512,13 @@
 <li>Type in <code>color</code>, followed by a colon (<code>:</code>)</li>
 <li>Make a space, and type in a new color (like <code>red</code>) followed by a semi-colon (<code>;</code>)</li>
 </ol>
-<p>Run the code, and verify that the text color changes!</p>
+<p>Save the code, and verify that the text color changes!</p>
 <p>Note that every CSS <em>property</em> follows the same structure: property name, colon, property value, semi-colon.</p>
 <h3 id="updating-font-and-size">Updating Font and Size</h3>
 <p>Next, update the font and size of the text by following the instructions below.</p>
 <ol>
 <li>Make a new line under the <code>color</code> line (still above <code>}</code>)</li>
-<li>Set a new property <code>font-family</code> to a value of <code>consolas</code><ul>
+<li>Set a new property <code>font-family</code> to a value of <code>monospace</code><ul>
 <li>property name, colon, property value, semi-colon</li>
 </ul>
 </li>
@@ -541,12 +529,12 @@
 </ul>
 </li>
 </ol>
-<p>Run the code, and verify that the text changes font and size! Feel free to try changing the numbers or the font to see what works.</p>
+<p>Save the code, and verify that the text changes font and size! Feel free to try changing the numbers or the font to see what works.</p>
 <p>The code should look something like this:</p>
 <pre><code class="lang-css"><span class="hljs-selector-tag">body</span> {
   <span class="hljs-attribute">background</span>: pink;
   <span class="hljs-attribute">color</span>: red;
-  <span class="hljs-attribute">font-family</span>: consolas;
+  <span class="hljs-attribute">font-family</span>: monospace;
   <span class="hljs-attribute">font-size</span>: <span class="hljs-number">18px</span>;
 }
 </code></pre>
@@ -559,15 +547,14 @@
 </code></pre>
 <p>That should resize the image to a more appropriate height. Feel free to try changing the number to see what works.</p>
 <h2 id="using-custom-colors">Using Custom Colors</h2>
-<p>Some basic colors are built into the web (like <strong>pink</strong> and <strong>red</strong>), but it is also possible to use custom colors! Each color can be represented as a <em>hexidecimal color code</em>, which is a hashtag (<code>#</code>) followed by six alphanumeric characters. The easiest way to find a specific color is to use a color picker. Luckily, Replit has a color picker built right into the code editor! Follow the steps below to update the colors on the website.</p>
+<p>Some basic colors are built into the web (like <strong>pink</strong> and <strong>red</strong>), but it is also possible to use custom colors! Each color can be represented as a <em>hexidecimal color code</em>, which is a hashtag (<code>#</code>) followed by six alphanumeric characters. The easiest way to find a specific color is to use a color picker. Luckily, StackBlitz has a color picker built right into the code editor! Follow the steps below to update the colors on the website.</p>
 <ol>
 <li>Go to the <strong>style.css</strong> file</li>
 <li>Hover over the existing color name</li>
 <li>Drag the selectors around to find a new color</li>
-<li>Click the &quot;Run&quot; button, and verify that the new background color appears on the website!</li>
+<li>Save the project, and verify that the new background color appears on the website!</li>
 <li>Repeat the steps above to change the color of the text to another custom color</li>
 </ol>
-<p><img src="Assets/ReplitColorPicker.gif" alt=""></p>
 <p>The CSS code should look something like this:</p>
 <pre><code class="lang-css"><span class="hljs-selector-tag">body</span> {
     <span class="hljs-attribute">background</span>: <span class="hljs-number">#ffbdbd</span>;
@@ -581,9 +568,7 @@
 <p><img src="Assets/WebsiteDone.png" alt=""></p>
 <p>Congratulations, you&apos;ve successfully built your own website!</p>
 <h2 id="sharing">Sharing</h2>
-<p>To share your website, you can copy the URL from the bar at the top of the website:</p>
-<p><img src="Assets/WebsiteShare.png" alt=""></p>
-<p>Paste the link anywhere to share it.</p>
+<p>To share your website, it will be necessary to log into StackBlitz with a GitHub account.</p>
 <h2 id="additional-topics">Additional Topics</h2>
 <p>If there is time remaining, there are a lot of additional updates to be made. Some of them can be found here: <a href="HtmlCssJsContinued/AdditionalTopicChallenges.html">Additional Topic Challenges</a></p>
 <h2 id="kahoot">Kahoot</h2>
@@ -631,7 +616,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"HTML & CSS Lesson","level":"1.2","depth":1,"next":{"title":"Additional Topic Challenges","level":"1.2.1","depth":2,"path":"HtmlCssJsContinued/AdditionalTopicChallenges.md","ref":"HtmlCssJsContinued/AdditionalTopicChallenges.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"HtmlCssLesson.md","mtime":"2022-10-05T16:51:55.811Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-10-05T16:52:33.254Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"HTML & CSS Lesson","level":"1.2","depth":1,"next":{"title":"Additional Topic Challenges","level":"1.2.1","depth":2,"path":"HtmlCssJsContinued/AdditionalTopicChallenges.md","ref":"HtmlCssJsContinued/AdditionalTopicChallenges.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"HtmlCssLesson.md","mtime":"2022-10-06T18:32:16.566Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-10-06T18:33:17.671Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
