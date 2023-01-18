@@ -15,3 +15,6 @@
     - [ASCII Art](CSharpLessons/AsciiArtLesson.md)
     - [Choose Your Own Adventure](CSharpLessons/CyaLesson.md)
 - [Twine Lesson](TwineLesson/TwineLesson.md)
+- [Python Lesson](PythonLesson/TurtleCodeAlong.md)
+    - [Examples](PythonLesson/TurtleExamples.md)
+    - [Challenges](PythonLesson/TurtleChallenges.md)
