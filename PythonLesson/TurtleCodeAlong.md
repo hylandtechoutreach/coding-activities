@@ -137,7 +137,7 @@ First, get to the proper location on the map (without drawing), and change the s
 
 1. At the bottom of the file, make a new line
 1. Add a command for Shelly to pick up the pen: `shelly.penup()`
-1. Under that, add a command for Shelly to go to a new location: `shelly.goto(-300, 50)`
+1. Under that, add a command for Shelly to go to a new location: `shelly.goto(-100, 50)`
 1. Under that, have Shelly put the pen back down: `shelly.pendown()`
 1. Next, add a command to change Shelly's speed: `shelly.speed(20)`
 1. Finally, change Shelly's color to make this shape special: `shelly.color("purple")`
@@ -146,7 +146,7 @@ The code for this part should look like this:
 
 ```python
 shelly.penup()
-shelly.goto(-300, 50)
+shelly.goto(-100, 50)
 shelly.pendown()
 shelly.speed(20)
 shelly.color("purple")
@@ -200,7 +200,7 @@ for x in range(4):
   shelly.right(90)
 
 shelly.penup()
-shelly.goto(-300, 50)
+shelly.goto(-100, 50)
 shelly.pendown()
 shelly.speed(20)
 shelly.color("purple")
