@@ -30,7 +30,7 @@ The students should have a chance to attempt the [challenges](TurtleChallenges.m
 - Give students the chance to learn on their own, but give direct help if they are stuck
 
 ## Blooket
-If the students are not actively playing with the code at the end, facilitate a [Blooket quiz activity](https://dashboard.blooket.com/set/63c854f51eeeb9c878da75b5).
+If the students are not actively playing with the code at the end, facilitate a [Blooket quiz activity](https://dashboard.blooket.com/set/6411d319d61ef3b555495ea5).
 
 ## Agenda
 
