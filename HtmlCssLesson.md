@@ -18,9 +18,30 @@ To get started, follow the steps below.
 Now you have your own copy of a website to start editing!
 
 ## Looking at the HTML
-Make sure the **index.html** file is selected on the left to view the HTML code. Notice how the code in the HTML creates the text on the website. Everything in HTML goes between _tags_, which tell the website what type of element to display. There are a lot of tags right now, but the important stuff goes between the `<body>` and `</body>` tags. For example, the text between the `<h1>` and `</h1>` tags becomes a large header.
+Make sure the **index.html** file is selected on the left to view the HTML code. Notice how the code in the HTML creates the text on the website.
 
-The first thing to do is update the header text with your name! For example, if my name were **Katara**, I could change the header so that it said **Katara's Website**.
+### Elements
+Every individual thing you see on a website is an _HTML element_. Elements in HTML can be headers, blocks of text, pictures, videos, or anything else! Elements are the building blocks of HTML websites.
+
+### Tags
+HTML elements are created with _tags_. Tags tell the website what type of element to display. Most HTML elements have an _opening tag_ and a _closing tag_, with some _content_ in between.
+
+For example, the header at the top of the website is created with these components:
+
+- Opening Tag: `<h1>`
+- Content: `My Website`
+- Closing Tag: `</h1>`
+
+Each tag is surrounded with these symbols: `<` and `>`. You may recognize these from math as greater-than and less-than signs - in HTML, we also call these _angle brackets_. To break down the example further, the `<h1>` opening tag is created with these components:
+
+- Left Angle Bracket: `<`
+- Element Name: `h1`
+- Right Angle Bracket: `>`
+
+For _closing tags_, there is also a slash (`/`) right before the element name, like this: `</h1>`.
+
+### Challenge: Update the Header
+Now that you have some background information, the first thing to do is update the header text with your name! For example, if my name were **Katara**, I could change the header so that it said **Katara's Website**.
 
 Update the code in the HTML section, _between_ the `<h1>` and `</h1>` tags. It should look something like this:
 
@@ -207,5 +228,5 @@ To share your website, it will be necessary to log into StackBlitz with a GitHub
 ## Additional Topics
 If there is time remaining, there are a lot of additional updates to be made. Some of them can be found here: [Additional Topic Challenges](HtmlCssJsContinued/AdditionalTopicChallenges.md)
 
-## Kahoot
-[Click here for the Kahoot quiz.](https://create.kahoot.it/share/duplicate-of-basic-html-css-activities-quiz/bacfd57b-72ff-4802-8cc7-caf098c9dd27)
+## Blooket
+[Click here for the Blooket quiz.](https://dashboard.blooket.com/set/6426f2b7270eb96cab922257)
