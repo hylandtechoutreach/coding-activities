@@ -1,6 +1,17 @@
 # Lesson Plan: Building a Website
 This hour-long activity is designed to introduce students to the world of web development. The goal is for them to have fun building websites with some basic HTML and CSS. They do not need to fully grasp the concepts; it's more about providing an engaging, memorable experience, and showing them a bit of what they can do with this technology.
 
+### Agenda
+Here is a rough outline of the activity as a whole:
+
+| Item | Time |
+|-|-|
+| Introduction | 10m |
+| Code-Along | 30m |
+| Additional Topics | 5m |
+| Formative Assessment | 10m |
+| Conclusion | 5m |
+
 ### Tips
 Here are some tips to ensure a successful run:
 
@@ -19,18 +30,7 @@ Here are some tips to ensure a successful run:
 ### Recording
 Take a look at a [live recording of the activity](https://app.sharebase.com/#/document/11292065/share/3-GVGTlJyQqCA6B8UG6il30xquJuw) for some insight into how it could go. This is just one example of how to facilitate everything - feel free to put your personal spin on it as an instructor.
 
->_Note: The recording does not include the setup or conclusion_
-
-### Agenda
-Try to follow this rough outline when conducting the activity:
-
-| Item | Time |
-|-|-|
-| Introduction | 10m |
-| Code-Along | 30m |
-| Additional Topics | 5m |
-| Formative Assessment | 10m |
-| Conclusion | 5m |
+>_Note: The recording does not include the setup or conclusion, and the slides have changed a bit_
 
 ## Introduction: Slides & Demo
 To kick things off, present the [Google Slides presentation](https://docs.google.com/presentation/d/1d4Fohg1qiYV1CmymTQCuwFcLzDlDUGURlk7KO7TWwlo/edit?usp=sharing).
