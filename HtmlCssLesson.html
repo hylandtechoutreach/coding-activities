@@ -443,18 +443,20 @@
                                 
                                 <h1 id="building-a-website">Building a Website</h1>
 <p>In this activity, use HTML and CSS to create your own website!</p>
-<h2 id="overview-of-html-css-and-stackblitz">Overview of HTML, CSS, and StackBlitz</h2>
+<h2 id="introduction">Introduction</h2>
+<p>A few different concepts will be used during this activity:</p>
 <ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a> is a <strong>language</strong> that lets developers to create websites. A web browser takes the HTML code, and displays it as a nice-looking webpage. Every website has a <em>source</em>, which can be viewed by right clicking and selecting &quot;View Source&quot; in the menu!</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a> is a <strong>language</strong> that lets developers to create websites. A web browser takes the HTML code, and displays it as a nice-looking webpage. Every website has a <em>source</em>, which can be viewed by right clicking and selecting <strong>View page source</strong> in the menu!</li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS" target="_blank">CSS</a> is a <strong>language</strong> that lets developers add style to websites. This includes things like fonts, colors, and more.</li>
 <li><a href="https://stackblitz.com/" target="_blank">StackBlitz</a> is a <strong>website</strong> that lets developers create websites.</li>
 </ul>
+<p><em><a href="https://docs.google.com/presentation/d/1d4Fohg1qiYV1CmymTQCuwFcLzDlDUGURlk7KO7TWwlo/edit?usp=sharing" target="_blank">Click here to view the Google Slides presentation that covers these concepts in more detail.</a></em></p>
 <h2 id="setup">Setup</h2>
 <p>To get started, follow the steps below.</p>
 <ol>
 <li>Open up Google Chrome</li>
 <li>Go to the <a href="https://stackblitz.com/edit/web-platform-2wdyzk?file=index.html" target="_blank">Starter Website Project</a><ul>
-<li><strong>tinyurl.com/startweb2022</strong></li>
+<li><strong>tinyurl.com/startweb2023</strong></li>
 </ul>
 </li>
 <li>In the upper left, click on the &quot;Fork&quot; button<br> <img src="Assets/StackFork.png" alt=""></li>
@@ -487,6 +489,9 @@
 <p>Save the website by pressing <strong>Ctrl</strong>+<strong>S</strong> or <strong>Cmd</strong>+<strong>S</strong> on the keyboard, or by clicking the &quot;Save&quot; button:</p>
 <p><img src="Assets/StackSave.png" alt=""></p>
 <p>Once you save the file, take a look at the web preview on the right - make sure your new header text shows up!</p>
+<blockquote>
+<p><em>Note: It may be necessary to make two changes and save twice; StackBlitz can be a little glitchy</em></p>
+</blockquote>
 <h2 id="adding-a-welcome-paragraph">Adding a Welcome Paragraph</h2>
 <p>Now it&apos;s time to add a totally new element. The <strong>paragraph</strong> element is used to display normal text on a webpage. Its tags are <code>&lt;p&gt;</code> and <code>&lt;/p&gt;</code>, with text content between.</p>
 <ol>
@@ -528,38 +533,44 @@
 </code></pre>
 <h2 id="adding-a-cool-image">Adding a Cool Image</h2>
 <p>Almost every website has at least one image, and yours can too!</p>
-<h3 id="finding-an-image">Finding an Image</h3>
-<p>The first thing to do is find an image. Images on websites have URLs which tell the browser where to look for them. Follow the instructions below to find the URL (or <em>address</em>) of an image, and copy it.</p>
-<ol>
-<li>Open a new browser tab and go to <a href="https://google.com/images" target="_blank">Google Images</a></li>
-<li>Search for something appropriate (such as &quot;cats&quot;)</li>
-<li>Click on the image you would like to use</li>
-<li>When it appears, right click and select &quot;Copy image address&quot;<ul>
-<li>Do not copy the image itself, that will not work!</li>
-</ul>
-</li>
-</ol>
-<p>Now, the image address is stored on the clipboard. It will be possible to paste it into your website after adding some HTML.</p>
 <h3 id="creating-the-image-element">Creating the Image Element</h3>
-<p>Now that you have the image, it&apos;s time to add it to your website.</p>
+<p>First, add the code for an image element in the HTML.</p>
 <ol>
 <li>Make a new line under the <code>&lt;/ul&gt;</code></li>
 <li>Add another <code>&lt;h2&gt;</code> saying &quot;A Cool Image&quot;</li>
 <li>Make a new line under that</li>
 <li>Add a new element: <code>&lt;img &gt;</code></li>
 <li>After the <code>img</code>, before the <code>&gt;</code>, type in <code>src=&quot;&quot;</code></li>
-<li>Between the double quotes, <em>paste</em> in the image URL</li>
-<li>Save the code, and verify that your image appears on the website!</li>
 </ol>
 <p>The code should look something like this:</p>
 <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>A Cool Image<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://i.pinimg.com/474x/15/10/4f/15104f78cb83e3cefaf63ecc718a2a43.jpg&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span>
 </code></pre>
+<p>Note that this element is a little different - there is no closing tag!</p>
+<h3 id="finding-an-image">Finding an Image</h3>
+<p>The next thing to do is find an image. Images on websites have URLs which tell the browser where to look for them. Follow the instructions below to find the URL (or <em>address</em>) of an image, and copy it.</p>
+<ol>
+<li>Open a new browser tab and go to <a href="https://google.com/images" target="_blank">Google Images</a></li>
+<li>Search for something appropriate (such as &quot;cats&quot;)</li>
+<li>Click on the image you would like to use</li>
+<li>When it appears, right click and select <strong>Copy image address</strong><ul>
+<li>Do not copy the image itself, that will not work!</li>
+</ul>
+</li>
+<li>Open the code again</li>
+<li>Click right between <code>&quot;</code> and <code>&quot;</code> in the <code>&lt;img&gt;</code> element</li>
+<li><em>Paste</em> the image URL by pressing <strong>Ctrl</strong>+<strong>V</strong></li>
+<li>Run the project, and make sure that the picture shows up!</li>
+</ol>
+<p>The code should end up looking something like this:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://i.pinimg.com/474x/15/10/4f/15104f78cb83e3cefaf63ecc718a2a43.jpg&quot;</span>&gt;</span>
+</code></pre>
+<p>Your picture might be really big, but don&apos;t worry! We can use CSS to change that.</p>
 <h2 id="changing-the-background-color-with-css">Changing the Background Color with CSS</h2>
-<p>Now the content of the page is looking pretty good, but it&apos;s not very stylish. One way to make the website look more fun and exciting is to use CSS! HTML is like the skeleton of a webpage, just the structure, and CSS is like the clothes that it wears, giving it style.</p>
+<p>Now the content of the page is looking pretty good, but it&apos;s not very stylish. One way to make the website look more fun and exciting is to use CSS! HTML is like the body of a webpage, just the structure, and CSS is like the clothes that it wears, giving it style.</p>
 <p>On the left side of the page, open the <strong>style.css</strong> file by clicking on it:</p>
 <p><img src="Assets/StackClickStyle.png" alt=""></p>
-<p>Take a look at the code so far. Try to figure out how to change the background color from <code>mintcream</code> to another color, like <code>pink</code>!</p>
+<p>Take a look at the code so far. Try to figure out how to change the background color from <code>white</code> to another color, like <code>pink</code>!</p>
 <p>The code should look something like this:</p>
 <pre><code class="lang-css"><span class="hljs-selector-tag">body</span> {
     <span class="hljs-attribute">background</span>: pink;
@@ -610,7 +621,7 @@
 </code></pre>
 <p>That should resize the image to a more appropriate height. Feel free to try changing the number to see what works.</p>
 <h2 id="using-custom-colors">Using Custom Colors</h2>
-<p>Some basic colors are built into the web (like <strong>pink</strong> and <strong>red</strong>), but it is also possible to use custom colors! Each color can be represented as a <em>hexidecimal color code</em>, which is a hashtag (<code>#</code>) followed by six alphanumeric characters. The easiest way to find a specific color is to use a color picker. Luckily, StackBlitz has a color picker built right into the code editor! Follow the steps below to update the colors on the website.</p>
+<p>Some basic colors are built into the web (like <strong>pink</strong> and <strong>red</strong>), but it is also possible to use custom colors! Each color can be represented as an <em>rgb value</em>. The easiest way to find a specific color is to use a color picker. Luckily, StackBlitz has a color picker built right into the code editor! Follow the steps below to update the colors on the website.</p>
 <ol>
 <li>Go to the <strong>style.css</strong> file</li>
 <li>Hover over the existing color name</li>
@@ -620,14 +631,14 @@
 </ol>
 <p>The CSS code should look something like this:</p>
 <pre><code class="lang-css"><span class="hljs-selector-tag">body</span> {
-    <span class="hljs-attribute">background</span>: <span class="hljs-number">#ffbdbd</span>;
-    <span class="hljs-attribute">color</span>: <span class="hljs-number">#bf3636</span>;
+    <span class="hljs-attribute">background</span>: <span class="hljs-built_in">rgb</span>(255, 80, 80);
+    <span class="hljs-attribute">color</span>: <span class="hljs-built_in">rgb</span>(0, 255, 255);
     <span class="hljs-attribute">font-family</span>: consolas;
     <span class="hljs-attribute">font-size</span>: <span class="hljs-number">18px</span>;
 }
 </code></pre>
 <h2 id="finishing-up">Finishing Up</h2>
-<p>Hopefully your website is looking good by now! It should look something like this:</p>
+<p>Hopefully your website is looking good by now! It might look something like this:</p>
 <p><img src="Assets/WebsiteDone.png" alt=""></p>
 <p>Congratulations, you&apos;ve successfully built your own website!</p>
 <h2 id="sharing">Sharing</h2>
@@ -679,7 +690,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"HTML & CSS Lesson","level":"1.2","depth":1,"next":{"title":"Additional Topic Challenges","level":"1.2.1","depth":2,"path":"HtmlCssJsContinued/AdditionalTopicChallenges.md","ref":"HtmlCssJsContinued/AdditionalTopicChallenges.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Coding Activities","gitbook":"*"},"file":{"path":"HtmlCssLesson.md","mtime":"2023-03-31T15:55:29.139Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-03-31T15:56:07.460Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"HTML & CSS Lesson","level":"1.2","depth":1,"next":{"title":"Additional Topic Challenges","level":"1.2.1","depth":2,"path":"HtmlCssJsContinued/AdditionalTopicChallenges.md","ref":"HtmlCssJsContinued/AdditionalTopicChallenges.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Coding Activities","gitbook":"*"},"file":{"path":"HtmlCssLesson.md","mtime":"2023-04-20T17:23:18.269Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-04-20T17:23:53.839Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

@@ -1,17 +1,21 @@
 # Building a Website
 In this activity, use HTML and CSS to create your own website!
 
-## Overview of HTML, CSS, and StackBlitz
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) is a **language** that lets developers to create websites. A web browser takes the HTML code, and displays it as a nice-looking webpage. Every website has a _source_, which can be viewed by right clicking and selecting "View Source" in the menu!
+## Introduction
+A few different concepts will be used during this activity:
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) is a **language** that lets developers to create websites. A web browser takes the HTML code, and displays it as a nice-looking webpage. Every website has a _source_, which can be viewed by right clicking and selecting **View page source** in the menu!
 - [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS) is a **language** that lets developers add style to websites. This includes things like fonts, colors, and more.
 - [StackBlitz](https://stackblitz.com/) is a **website** that lets developers create websites.
+
+_[Click here to view the Google Slides presentation that covers these concepts in more detail.](https://docs.google.com/presentation/d/1d4Fohg1qiYV1CmymTQCuwFcLzDlDUGURlk7KO7TWwlo/edit?usp=sharing)_
 
 ## Setup
 To get started, follow the steps below.
 
 1. Open up Google Chrome
 1. Go to the [Starter Website Project](https://stackblitz.com/edit/web-platform-2wdyzk?file=index.html)
-    - **tinyurl.com/startweb2022**
+    - **tinyurl.com/startweb2023**
 1. In the upper left, click on the "Fork" button  
     ![](Assets/StackFork.png)
 
@@ -55,6 +59,8 @@ Save the website by pressing **Ctrl**+**S** or **Cmd**+**S** on the keyboard, or
 
 Once you save the file, take a look at the web preview on the right - make sure your new header text shows up!
 
+>_Note: It may be necessary to make two changes and save twice; StackBlitz can be a little glitchy_
+
 ## Adding a Welcome Paragraph
 Now it's time to add a totally new element. The **paragraph** element is used to display normal text on a webpage. Its tags are `<p>` and `</p>`, with text content between.
 
@@ -97,43 +103,53 @@ The code should look something like this:
 ## Adding a Cool Image
 Almost every website has at least one image, and yours can too!
 
-### Finding an Image
-The first thing to do is find an image. Images on websites have URLs which tell the browser where to look for them. Follow the instructions below to find the URL (or _address_) of an image, and copy it.
-
-1. Open a new browser tab and go to [Google Images](https://google.com/images)
-1. Search for something appropriate (such as "cats")
-1. Click on the image you would like to use
-1. When it appears, right click and select "Copy image address"
-    - Do not copy the image itself, that will not work!
-
-Now, the image address is stored on the clipboard. It will be possible to paste it into your website after adding some HTML.
-
 ### Creating the Image Element
-Now that you have the image, it's time to add it to your website.
+First, add the code for an image element in the HTML.
 
 1. Make a new line under the `</ul>`
 1. Add another `<h2>` saying "A Cool Image"
 1. Make a new line under that
 1. Add a new element: `<img >`
 1. After the `img`, before the `>`, type in `src=""`
-1. Between the double quotes, _paste_ in the image URL
-1. Save the code, and verify that your image appears on the website!
 
 The code should look something like this:
 
 ```html
 <h2>A Cool Image</h2>
+<img src="">
+```
+
+Note that this element is a little different - there is no closing tag!
+
+### Finding an Image
+The next thing to do is find an image. Images on websites have URLs which tell the browser where to look for them. Follow the instructions below to find the URL (or _address_) of an image, and copy it.
+
+1. Open a new browser tab and go to [Google Images](https://google.com/images)
+1. Search for something appropriate (such as "cats")
+1. Click on the image you would like to use
+1. When it appears, right click and select **Copy image address**
+    - Do not copy the image itself, that will not work!
+1. Open the code again
+1. Click right between `"` and `"` in the `<img>` element
+1. _Paste_ the image URL by pressing **Ctrl**+**V**
+1. Run the project, and make sure that the picture shows up!
+
+The code should end up looking something like this:
+
+```html
 <img src="https://i.pinimg.com/474x/15/10/4f/15104f78cb83e3cefaf63ecc718a2a43.jpg">
 ```
 
+Your picture might be really big, but don't worry! We can use CSS to change that.
+
 ## Changing the Background Color with CSS
-Now the content of the page is looking pretty good, but it's not very stylish. One way to make the website look more fun and exciting is to use CSS! HTML is like the skeleton of a webpage, just the structure, and CSS is like the clothes that it wears, giving it style.
+Now the content of the page is looking pretty good, but it's not very stylish. One way to make the website look more fun and exciting is to use CSS! HTML is like the body of a webpage, just the structure, and CSS is like the clothes that it wears, giving it style.
 
 On the left side of the page, open the **style.css** file by clicking on it:
 
 ![](Assets/StackClickStyle.png)
 
-Take a look at the code so far. Try to figure out how to change the background color from `mintcream` to another color, like `pink`!
+Take a look at the code so far. Try to figure out how to change the background color from `white` to another color, like `pink`!
 
 The code should look something like this:
 
@@ -196,7 +212,7 @@ img {
 That should resize the image to a more appropriate height. Feel free to try changing the number to see what works.
 
 ## Using Custom Colors
-Some basic colors are built into the web (like **pink** and **red**), but it is also possible to use custom colors! Each color can be represented as a _hexidecimal color code_, which is a hashtag (`#`) followed by six alphanumeric characters. The easiest way to find a specific color is to use a color picker. Luckily, StackBlitz has a color picker built right into the code editor! Follow the steps below to update the colors on the website.
+Some basic colors are built into the web (like **pink** and **red**), but it is also possible to use custom colors! Each color can be represented as an _rgb value_. The easiest way to find a specific color is to use a color picker. Luckily, StackBlitz has a color picker built right into the code editor! Follow the steps below to update the colors on the website.
 
 1. Go to the **style.css** file
 1. Hover over the existing color name
@@ -208,15 +224,15 @@ The CSS code should look something like this:
 
 ```css
 body {
-    background: #ffbdbd;
-    color: #bf3636;
+    background: rgb(255, 80, 80);
+    color: rgb(0, 255, 255);
     font-family: consolas;
     font-size: 18px;
 }
 ```
 
 ## Finishing Up
-Hopefully your website is looking good by now! It should look something like this:
+Hopefully your website is looking good by now! It might look something like this:
 
 ![](Assets/WebsiteDone.png)
 
