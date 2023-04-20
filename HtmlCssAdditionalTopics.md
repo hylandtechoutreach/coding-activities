@@ -7,11 +7,11 @@ It is pretty simple to add a YouTube video to your website; YouTube does all the
 1. Open a new tab and go to [YouTube](https://youtube.com)
 1. Search for an appropriate video (e.g., [color red](https://www.youtube.com/watch?v=8YWl7tDGUPA))
 1. Under the video, click the "SHARE" button  
-    ![](../Assets/YouTubeShare.png) 
+    ![](Assets/YouTubeShare.png) 
 1. Click "Embed"  
-    ![](../Assets/YouTubeEmbed.png)  
+    ![](Assets/YouTubeEmbed.png)  
 1. Click "COPY"  
-    ![](../Assets/YouTubeCopy.png)
+    ![](Assets/YouTubeCopy.png)
 1. Back in StackBlitz, in the **index.html** file, paste the code at the bottom of the HTML section
     - Use **Ctrl**+**v**
 1. Watch the video on your website!
