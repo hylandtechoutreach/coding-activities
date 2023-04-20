@@ -30,7 +30,7 @@ Try to follow this rough outline when conducting the activity:
 | Code-Along | 30m |
 | Additional Topics | 5m |
 | Formative Assessment | 10m |
-| Conclusion 5m |
+| Conclusion | 5m |
 
 ## Introduction: Slides & Demo
 To kick things off, present the [Google Slides presentation](https://docs.google.com/presentation/d/1d4Fohg1qiYV1CmymTQCuwFcLzDlDUGURlk7KO7TWwlo/edit?usp=sharing).
