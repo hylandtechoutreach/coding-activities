@@ -64,6 +64,8 @@ Once you save the file, take a look at the web preview on the right - make sure 
 ## Adding a Welcome Paragraph
 Now it's time to add a totally new element. The **paragraph** element is used to display normal text on a webpage. Its tags are `<p>` and `</p>`, with text content between.
 
+>_Note: Even though this element is named **paragraph**, that doesn't mean you need multiple sentences! Anything can go in a paragraph element._
+
 1. Make a new line underneath the `<h1></h1>`
 1. Add a `<p>` opening tag on the new line
 1. Enter some text that will be displayed
@@ -226,10 +228,13 @@ The CSS code should look something like this:
 body {
     background: rgb(255, 80, 80);
     color: rgb(0, 255, 255);
-    font-family: consolas;
+    font-family: monospace;
     font-size: 18px;
 }
 ```
+
+#### 🍊 Tangential Topic: RGB
+[Click here to learn more about the RGB color model.](https://en.wikipedia.org/wiki/RGB_color_model)
 
 ## Finishing Up
 Hopefully your website is looking good by now! It might look something like this:
