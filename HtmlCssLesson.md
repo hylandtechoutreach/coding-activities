@@ -243,6 +243,48 @@ Hopefully your website is looking good by now! It might look something like this
 
 Congratulations, you've successfully built your own website!
 
+### Final Code
+The code in each file may look something like this at the end:
+
+#### index.html
+
+```html
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Katara's Website</h1>
+    <p>Hi, I'm Katara. Welcome to my website!</p>
+
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Reading</li>
+        <li>Writing</li>
+        <li>Petting Cats</li>
+    </ul>
+
+    <h2>A Cool Image</h2>
+    <img src="https://i.pinimg.com/474x/15/10/4f/15104f78cb83e3cefaf63ecc718a2a43.jpg">
+  </body>
+</html>
+```
+
+#### style.css
+
+```css
+body {
+  background: rgb(255, 80, 80);
+  color: rgb(0, 255, 255);
+  font-family: monospace;
+  font-size: 18px;
+}
+
+img {
+    height: 200px;
+}
+```
+
 ## Sharing
 To share your website, it will be necessary to log into StackBlitz with a GitHub account.
 
