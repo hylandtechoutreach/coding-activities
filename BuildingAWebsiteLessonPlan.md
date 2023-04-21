@@ -44,7 +44,7 @@ It may be helpful to have the notes up during the presentation. To do this, use 
 
 There is one slide that involves a demo - for this slide, follow the instructions to open any page on Wikipedia and view the page source. Ask the students for a movie, or TV show, or anything else.
 
-In general, the presentation should be as interactive as possible, and you should try to ask questions as often as you can.
+In general, the presentation should be as interactive as possible, and you should ask questions as often as you can.
 
 ### The Last Slide: Lead Into The Code-Along
 The instructions on the last slide show students how to prepare for the code-along. Log-in credentials will be different for each room, so be sure to write the username and password on the whiteboard.
@@ -64,7 +64,7 @@ The [code-along](HtmlCssLesson.md) is the heart of the activity. This is where t
 - **Web View**: On the right, this is where you can see the website you're building
 - **Save Button**: In the upper left, this button saves the project, and should automatically refresh the web view
 
-It may be desireable to make the editor font a little bigger. This is possible by updating the `editor.fontSize` property in the **.vscode/settings.json** file. Open the **settings.json** file, press **Ctrl**+**f** to search for the `editor.fontSize` property, remove the `//` in front of the line to uncomment it, and change the `12` to something like `18`.
+It may be desireable to make the editor font a little bigger. This is possible by updating the `editor.fontSize` property in the **.vscode/settings.json** file. Open the **settings.json** file, press **Ctrl**+**f** to search for the `editor.fontSize` property, remove the `//` in front of the line to uncomment it, and change the `12` to something like `18`:
 
 ![](Assets/StackBlitzFontSize.png)
 
@@ -76,7 +76,7 @@ One downside to StackBlitz is that it can be a little glitchy - it may be necess
 ### Process
 Follow the instructions to facilitate the activity. Tell the students to follow along by typing what you type - but they are welcome to change the content. There will also be several points where you can challenge the students; in fact, the first code change is meant to be a not-so-challenging challenge for them!
 
-There is also some more explanatory text in the instructions - feel free to skip past that, or review it as desired. Some of it should have been covered in the introduction.
+There is also some explanatory text in the instructions - feel free to skip past that, or review it as desired. Some of it should have been covered in the introduction.
 
 ## Additional Topics
 If there is any time remaining between the code-along and the formative assessment, feel free to walk through some of the [additional topics](HtmlCssAdditionalTopics.md).
