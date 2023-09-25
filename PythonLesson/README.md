@@ -3,6 +3,9 @@ This activity introduces students to the [Python](https://www.python.org/) progr
 
 Students can access the instructions through **bit.ly/coding-activities**.
 
+## Ohio Tech Day Lesson Plan
+[Click here for the 1.5hr lesson plan.](OhioTechDayLessonPlan.md)
+
 ## Code-Along
 For the [code-along activity](TurtleCodeAlong.md), get into Python and start building something with turtle graphics. It will be helpful to take a look at the Blooket questions and answers before leading the code-along; that way, you can make a point of emphasizing the information covered by the quiz.
 
