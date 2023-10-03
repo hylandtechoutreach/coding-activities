@@ -9,7 +9,7 @@ In this introductory activity, use [turtle graphics](https://en.wikipedia.org/wi
 ## Getting Started
 **Trinket** is a free online tool that lets you write and run Python code right from a web browser!
 
-1. [Click here to go to the Starter Trinket](https://trinket.io/python/f37d7358f7)
+1. [Click here to go to the Starter Trinket](https://trinket.io/python/02192e1695)
 1. Click the "Expand" button at the bottom to make it fit a little better if desired  
     ![](Assets/ExpandButton.png)
 1. In the **main.py** file on the left, add the following line to _import_ everything from the **turtle** library:
