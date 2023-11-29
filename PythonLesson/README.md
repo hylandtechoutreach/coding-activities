@@ -33,7 +33,16 @@ The students should have a chance to attempt the [challenges](TurtleChallenges.m
 - Give students the chance to learn on their own, but give direct help if they are stuck
 
 ## Blooket
-If the students are not actively playing with the code at the end, facilitate a [Blooket quiz activity](https://dashboard.blooket.com/set/6411d319d61ef3b555495ea5).
+If the students are not actively playing with the code at the end, facilitate a Blooket quiz activity:
+
+1. Create a Blooket account (should be quick and does not require email verification)
+1. Log into Blooket
+1. Open the question set here: [Python Quiz](https://dashboard.blooket.com/set/6411d319d61ef3b555495ea5)
+1. Host the game
+1. Select *Fishing Frenzy* as the game mode
+1. Set the time based on however long remains before the end of the activity
+1. Start the game
+1. Award the top three players candy
 
 ## Agenda
 
