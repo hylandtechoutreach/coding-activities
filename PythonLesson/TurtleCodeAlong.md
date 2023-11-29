@@ -3,13 +3,15 @@ In this introductory activity, use [turtle graphics](https://en.wikipedia.org/wi
 
 ![](Assets/TurtleCartoon.svg)
 
+>Access these instructions by visiting **bit.ly/coding-activities** and clicking on **Python**!
+
 ## What is Python?
 [Python](https://www.python.org/) is a popular multi-purpose programming language used by professional and hobbyist developers alike. You can use it to develop games, build websites, control robots, and more!
 
 ## Getting Started
 **Trinket** is a free online tool that lets you write and run Python code right from a web browser!
 
-1. [Click here to go to the Starter Trinket](https://trinket.io/python/02192e1695)
+1. [Click here to go to the Starter Trinket](https://trinket.io/python/e99ecd4ffb)
 1. Click the "Expand" button at the bottom to make it fit a little better if desired  
     ![](Assets/ExpandButton.png)
 1. In the **main.py** file on the left, add the following line to _import_ everything from the **turtle** library:
