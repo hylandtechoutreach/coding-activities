@@ -1,4 +1,4 @@
-# Ohio Tech Day Lesson Plan: Retro Games
+# Ohio Tech Day Lesson Plan: Python
 A workshop introducing [Python](https://www.python.org/) in ~1.5hrs. Python is a popular multi-purpose programming language used by professional and hobbyist developers alike. It can be used to develop games, build websites, control robots, and more.
 
 ## Learning Objectives
