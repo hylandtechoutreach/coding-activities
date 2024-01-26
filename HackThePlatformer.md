@@ -32,15 +32,15 @@ The window on the monitor should look something like this:
 ## Process
 If a participant wants to interact, follow these steps:
 
-1. Re-open and re-remix the original [starter project](https://glitch.com/edit/#!/platformer-hacker)
-  - This way, each participant has their own personal version of the game
-1. Let the participant play the game, and tell them to try to beat the high score
-  - Keep track of one main high score for the whole event
-  - Give a prize (candy/swag) to anyone who beats the high score
+1. Re-open and re-remix the original [starter project](https://glitch.com/edit/#!/platformer-hacker)  
+    - This way, each participant has their own personal version of the game
+1. Let the participant play the game, and tell them to try to beat the high score  
+    - Keep track of one main high score for the whole event
+    - Give a prize (candy/swag) to anyone who beats the high score
 1. Show the participant the **variables.js** file
-1. Explain that the _variables_ control the gameplay
-  - In computer science, variables are containers for data
+1. Explain that the _variables_ control the gameplay  
+    - In computer science, variables are containers for data
 1. Let the participant change around some variables, and replay the game
 1. See if they can beat their former score with new variable settings
-1. When they are done, tell them they can play their game at the auto-generated URL
-  - e.g., `rowan-nosy-laundry.glitch.me`
+1. When they are done, tell them they can play their game at the auto-generated URL  
+    - e.g., `rowan-nosy-laundry.glitch.me`
