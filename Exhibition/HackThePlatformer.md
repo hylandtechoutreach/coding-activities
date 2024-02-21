@@ -27,7 +27,7 @@ Before students start arriving, set things up so that the participants have acce
 
 The window on the monitor should look something like this:
 
-![](Assets/PlatformHackerScreenshot.png)
+![](../Assets/PlatformHackerScreenshot.png)
 
 ## Process
 If a participant wants to interact, follow these steps:
