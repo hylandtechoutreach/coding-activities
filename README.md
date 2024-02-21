@@ -1,6 +1,8 @@
 # Coding Activities
 These activities are accessible via bit.ly link at [bit.ly/coding-activities](https://bit.ly/coding-activities).
 
+[Hack the Platformer](Exhibition/ActivityInstructions.md)
+
 - [HTML & CSS](HtmlCssLesson.md)
 - [JavaScript](JavaScriptLesson.md)
 - **[Python](PythonLesson/TurtleCodeAlong.md)**
