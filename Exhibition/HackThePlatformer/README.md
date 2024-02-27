@@ -12,8 +12,3 @@ This activity is designed to introduce basic coding at events where Hyland has a
 
 ## Activity Guide
 [Click here for an activity guide.](FacilitatorActivityGuide.md)
-
-
-
-## Process
-
