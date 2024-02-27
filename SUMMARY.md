@@ -18,4 +18,4 @@
 - [Python Lesson](PythonLesson/TurtleCodeAlong.md)
     - [Examples](PythonLesson/TurtleExamples.md)
     - [Challenges](PythonLesson/TurtleChallenges.md)
-- [Hack the Platformer](Exhibition/ActivityInstructions.md)
+- [Hack the Platformer](Exhibition/HackThePlatformer/StudentDesc.md)
