@@ -11,4 +11,4 @@ Follow these steps to play the game, hack the game, and try to beat the high sco
 
 Here's where everything is in Glitch:
 
-![](../Assets/GlitchEndShot.png)
+![](../../Assets/GlitchEndShot.png)

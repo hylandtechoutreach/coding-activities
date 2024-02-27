@@ -1,11 +1,11 @@
 # Coding Activities
 These activities are accessible via bit.ly link at [bit.ly/coding-activities](https://bit.ly/coding-activities).
 
-[Hack the Platformer](Exhibition/ActivityInstructions.md)
+**[Hack the Platformer](Exhibition/HackThePlatformer/StudentDesc.md)**
 
 - [HTML & CSS](HtmlCssLesson.md)
 - [JavaScript](JavaScriptLesson.md)
-- **[Python](PythonLesson/TurtleCodeAlong.md)**
+- [Python](PythonLesson/TurtleCodeAlong.md)
 - [C#](CSharpLessons/StudentDesc.md)
 - [Snap Animation](SnapAnimationLesson/StudentDesc.md)
 - [Command Line](https://github.com/hytechclub/web-201/tree/master/CommandLine)
