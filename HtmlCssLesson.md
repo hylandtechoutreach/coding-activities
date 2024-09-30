@@ -14,68 +14,39 @@ _[Click here to view the Google Slides presentation that covers these concepts i
 To get started, follow the steps below.
 
 1. Open up Google Chrome
-1. Go to the [Starter Website Project](https://stackblitz.com/edit/web-platform-2wdyzk?file=index.html)
-    - **tinyurl.com/startweb2023**
-1. In the upper left, click on the "Fork" button  
-    ![](Assets/StackFork.png)
+2. Go to the [Starter Website Project](https://glitch.com/edit/#!/remix/building-websites-starter-project)
+    - **bit.ly/glitchstart**
+3. Open the **index.html** file
+4. Open the preview
 
 Now you have your own copy of a website to start editing!
 
-## Looking at the HTML
-Make sure the **index.html** file is selected on the left to view the HTML code. Notice how the code in the HTML creates the text on the website.
+## First Challenge: Looking at the HTML
+Make sure the **index.html** file is selected on the left to view the HTML code. Notice how the code in the HTML creates the text on the website. Everything in HTML goes between _tags_, which tell the website what type of element to display. 
 
-### Elements
-Every individual thing you see on a website is an _HTML element_. Elements in HTML can be headers, blocks of text, pictures, videos, or anything else! Elements are the building blocks of HTML websites.
-
-### Tags
-HTML elements are created with _tags_. Tags tell the website what type of element to display. Most HTML elements have an _opening tag_ and a _closing tag_, with some _content_ in between.
-
-For example, the header at the top of the website is created with these components:
-
-- Opening Tag: `<h1>`
-- Content: `My Website`
-- Closing Tag: `</h1>`
-
-Each tag is surrounded with these symbols: `<` and `>`. You may recognize these from math as greater-than and less-than signs - in HTML, we also call these _angle brackets_. To break down the example further, the `<h1>` opening tag is created with these components:
-
-- Left Angle Bracket: `<`
-- Element Name: `h1`
-- Right Angle Bracket: `>`
-
-For _closing tags_, there is also a slash (`/`) right before the element name, like this: `</h1>`.
-
-### Challenge: Update the Header
-Now that you have some background information, the first thing to do is update the header text with your name! For example, if my name were **Katara**, I could change the header so that it said **Katara's Website**.
+The first thing to do is update the header text with your name! For example, if my name were **Sokka**, I could change the header so that it said **Sokka's Website**.
 
 Update the code in the HTML section, _between_ the `<h1>` and `</h1>` tags. It should look something like this:
 
 ```html
-<h1>Katara's Website</h1>
+<h1>Sokka's Website</h1>
 ```
 
-Save the website by pressing **Ctrl**+**S** or **Cmd**+**S** on the keyboard, or by clicking the "Save" button:
-
-![](Assets/StackSave.png)
-
-Once you save the file, take a look at the web preview on the right - make sure your new header text shows up!
-
->_Note: It may be necessary to make two changes and save twice; StackBlitz can be a little glitchy_
+When you make a change, the preview should update automatically. If you see your name - that's it! You're officially a web developer!
 
 ## Adding a Welcome Paragraph
 Now it's time to add a totally new element. The **paragraph** element is used to display normal text on a webpage. Its tags are `<p>` and `</p>`, with text content between.
-
->_Note: Even though this element is named **paragraph**, that doesn't mean you need multiple sentences! Anything can go in a paragraph element._
 
 1. Make a new line underneath the `<h1></h1>`
 1. Add a `<p>` opening tag on the new line
 1. Enter some text that will be displayed
 1. At the end of the line, add a `</p>` to close the paragraph element
-1. Save the code, and verify that the message appears on the website!
+1. Run the code, and verify that the message appears on the website!
 
 The code should look something like this:
 
 ```html
-<p>Hi, I'm Katara. Welcome to my website!</p>
+<p>Hi, I'm me. Welcome to my website!</p>
 ```
 
 ## Adding a List of Hobbies
@@ -89,7 +60,7 @@ Next, it's time to add some information about yourself. Think of some hobbies or
     - Can you guess what the `li` element will be? A list item!
 1. Add at least one more `li` element on the next line
 1. At the end of the list, add a `</ul>` to complete the element
-1. Save the code, and verify that the list appears on the website!
+1. Run the code, and verify that the list appears on the website!
 
 The code should look something like this:
 
@@ -103,61 +74,49 @@ The code should look something like this:
 ```
 
 ## Adding a Cool Image
-Almost every website has at least one image, and yours can too!
+This is looking rad, but what's missing? Almost every website has at least one image, and yours can too!
+
+### Finding an Image
+The first thing to do is find an image. Images on websites have URLs which tell the browser where to look for them. Follow the instructions below to find the URL (or _address_) of an image, and copy it.
+
+1. Open a new browser tab and go to [Google Images](https://google.com/images/)
+1. Search for something appropriate (such as "cats")
+1. Click on the image you would like to use
+1. When it appears, right click and select "Copy image address"
+    - Do not copy the image itself, that will not work!
+
+Now, the image address is stored on the clipboard. It will be possible to paste it into your website after adding some HTML.
 
 ### Creating the Image Element
-First, add the code for an image element in the HTML.
+Now that you have the image, it's time to add it to your website.
 
 1. Make a new line under the `</ul>`
 1. Add another `<h2>` saying "A Cool Image"
 1. Make a new line under that
 1. Add a new element: `<img >`
 1. After the `img`, before the `>`, type in `src=""`
+1. Between the double quotes, _paste_ in the image URL
+1. Run the code, and verify that your image appears on the website!
 
 The code should look something like this:
 
 ```html
 <h2>A Cool Image</h2>
-<img src="">
+<img src="https://images.unsplash.com/photo-1482066490729-6f26115b60dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
 ```
-
-Note that this element is a little different - there is no closing tag!
-
-### Finding an Image
-The next thing to do is find an image. Images on websites have URLs which tell the browser where to look for them. Follow the instructions below to find the URL (or _address_) of an image, and copy it.
-
-1. Open a new browser tab and go to [Google Images](https://google.com/images)
-1. Search for something appropriate (such as "cats")
-1. Click on the image you would like to use
-1. When it appears, right click and select **Copy image address**
-    - Do not copy the image itself, that will not work!
-1. Open the code again
-1. Click right between `"` and `"` in the `<img>` element
-1. _Paste_ the image URL by pressing **Ctrl**+**V**
-1. Run the project, and make sure that the picture shows up!
-
-The code should end up looking something like this:
-
-```html
-<img src="https://i.pinimg.com/474x/15/10/4f/15104f78cb83e3cefaf63ecc718a2a43.jpg">
-```
-
-Your picture might be really big, but don't worry! We can use CSS to change that.
 
 ## Changing the Background Color with CSS
-Now the content of the page is looking pretty good, but it's not very stylish. One way to make the website look more fun and exciting is to use CSS! HTML is like the body of a webpage, just the structure, and CSS is like the clothes that it wears, giving it style.
+Now the content of the page is looking pretty good, but it's not very stylish. One way to make the website look more fun and exciting is to use CSS! HTML is like the skeleton of a webpage, just the structure, and CSS is like the clothes that it wears, giving it style.
 
-On the left side of the page, open the **style.css** file by clicking on it:
-
-![](Assets/StackClickStyle.png)
+On the left side of the page, open the **style.css** file by clicking on it.
 
 Take a look at the code so far. Try to figure out how to change the background color from `white` to another color, like `pink`!
 
 The code should look something like this:
 
 ```css
-body {
-    background: pink;
+* {
+  background: pink;
 }
 ```
 
@@ -172,7 +131,7 @@ Follow these instructions to change the text color on your website.
 1. Type in `color`, followed by a colon (`:`)
 1. Make a space, and type in a new color (like `red`) followed by a semi-colon (`;`)
 
-Save the code, and verify that the text color changes!
+Run the code, and verify that the text color changes!
 
 Note that every CSS _property_ follows the same structure: property name, colon, property value, semi-colon.
 
@@ -180,22 +139,22 @@ Note that every CSS _property_ follows the same structure: property name, colon,
 Next, update the font and size of the text by following the instructions below.
 
 1. Make a new line under the `color` line (still above `}`)
-1. Set a new property `font-family` to a value of `monospace`
+1. Set a new property `font-family` to a value of `consolas`
     - property name, colon, property value, semi-colon
 1. Make another new line, still above `}`
 1. Set another new property `font-size` to a value of `18px`
     - property name, colon, property value, semi-colon
     - Can you guess what `px` means? Pixels!
 
-Save the code, and verify that the text changes font and size! Feel free to try changing the numbers or the font to see what works.
+Run the code, and verify that the text changes font and size! Feel free to try changing the numbers or the font to see what works.
 
 The code should look something like this:
 
 ```css
-body {
+* {
   background: pink;
   color: red;
-  font-family: monospace;
+  font-family: consolas;
   font-size: 18px;
 }
 ```
@@ -207,86 +166,45 @@ Add this code to the **style.css** file (at the bottom):
 
 ```css
 img {
-    height: 200px;
+  height: 200px;
 }
 ```
 
 That should resize the image to a more appropriate height. Feel free to try changing the number to see what works.
 
 ## Using Custom Colors
-Some basic colors are built into the web (like **pink** and **red**), but it is also possible to use custom colors! Each color can be represented as an _rgb value_. The easiest way to find a specific color is to use a color picker. Luckily, StackBlitz has a color picker built right into the code editor! Follow the steps below to update the colors on the website.
+Some basic colors are built into the web (like **pink** and **red**), but it is also possible to use custom colors! Each color can be represented as a _hexidecimal color code_, which is a hashtag (`#`) followed by six alphanumeric characters. The easiest way to find a specific color is to use a color picker, like [Google's color picker](https://www.google.com/search?q=color+picker)! Follow the steps below to update the colors on the website.
 
+1. Open a new tab
+1. [Search for "color picker" on Google](https://www.google.com/search?q=color+picker)
+1. Select a color
+1. Copy the HEX code  
+  - ![](Assets/GoogleColorPickerHex.png)
 1. Go to the **style.css** file
-1. Hover over the existing color name
-1. Drag the selectors around to find a new color
-1. Save the project, and verify that the new background color appears on the website!
+1. Paste the hex code where a color was
+1. Refresh the preview, and verify that the new color appears on the website!
 1. Repeat the steps above to change the color of the text to another custom color
 
 The CSS code should look something like this:
 
 ```css
-body {
-    background: rgb(255, 80, 80);
-    color: rgb(0, 255, 255);
-    font-family: monospace;
-    font-size: 18px;
+* {
+  background: #ffbdbd;
+  color: #bf3636;
+  font-family: consolas;
+  font-size: 18px;
 }
 ```
 
-#### 🍊 Tangential Topic: RGB
-[Click here to learn more about the RGB color model.](https://en.wikipedia.org/wiki/RGB_color_model)
-
 ## Finishing Up
-Hopefully your website is looking good by now! It might look something like this:
+Hopefully your website is looking good by now! It should look something like this:
 
-![](Assets/WebsiteDone.png)
+![](Assets/KataraSite.png)
 
 Congratulations, you've successfully built your own website!
 
-### Final Code
-The code in each file may look something like this at the end:
-
-#### index.html
-
-```html
-<html>
-  <head>
-    <link href="style.css" rel="stylesheet" />
-  </head>
-  <body>
-    <h1>Katara's Website</h1>
-    <p>Hi, I'm Katara. Welcome to my website!</p>
-
-    <h2>My Hobbies</h2>
-    <ul>
-        <li>Reading</li>
-        <li>Writing</li>
-        <li>Petting Cats</li>
-    </ul>
-
-    <h2>A Cool Image</h2>
-    <img src="https://i.pinimg.com/474x/15/10/4f/15104f78cb83e3cefaf63ecc718a2a43.jpg">
-  </body>
-</html>
-```
-
-#### style.css
-
-```css
-body {
-  background: rgb(255, 80, 80);
-  color: rgb(0, 255, 255);
-  font-family: monospace;
-  font-size: 18px;
-}
-
-img {
-    height: 200px;
-}
-```
-
 ## Sharing
-To share your website, it will be necessary to log into StackBlitz with a GitHub account.
+To share your website, just copy the URL at the top of the preview! It is automatically published online, so anyone with a link can see it. Be careful though - if you don't have an account, the website will be deleted within five days.
 
 ## Additional Topics
 If there is time remaining, there are a lot of additional updates to be made. Some of them can be found here: [Additional Topic Challenges](HtmlCssJsContinued/AdditionalTopicChallenges.md)
