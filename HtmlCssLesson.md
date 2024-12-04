@@ -7,7 +7,7 @@ Here is a rough outline of the activity as a whole:
 | Item | Time |
 |-|-|
 | [Introduction Slides](https://docs.google.com/presentation/d/1d4Fohg1qiYV1CmymTQCuwFcLzDlDUGURlk7KO7TWwlo/edit?usp=sharing) | 10m |
-| [Code-Along](#setup) | 40m |
+| [Code-Along](#code-along-setup) | 40m |
 | [Additional Topics](HtmlCssAdditionalTopics.md) | 10m |
 | [Site Sharing](#sharing) | 10m |
 | [Blooket](BlooketSetup.md) | 15m |
