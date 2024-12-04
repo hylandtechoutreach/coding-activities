@@ -158,3 +158,21 @@ li:hover {
   color: orange;
 }
 ```
+
+## More Possibilities: JavaScript
+HTML and CSS are cool, but you can do even more with your websites if you start to use JavaScript. Here are some cool things that JavaScript can do:
+
+### Creative Coding with p5.js and OpenProcessing
+[p5.js](https://p5.js) is a friendly tool for learning to code and make art. It is a free and open-source JavaScript library built by an inclusive, nurturing community. p5.js welcomes artists, designers, beginners, educators, and anyone else!
+
+[Click here to check out some of the wild possibilities of p5.js on OpenProcessing.](https://openprocessing.org/discover/#/trending)
+
+## 3D Worlds with A-Frame
+It is surprisingly easy to start building a 3D world on the web. [A-Frame](https://aframe.io/) is a great tool for doing so, and you can create without ever leaving an **index.html** file.
+
+They even have a starter project on Glitch - [click here for the introduction](https://aframe.io/docs/1.6.0/introduction/)!
+
+## Games with Phaser
+[Phaser](https://phaser.io/) is a game development framework that works with JavaScript.
+
+[Click here to remix a platformer game on Glitch.](https://glitch.com/edit/#!/remix/platformer-hacker/)
