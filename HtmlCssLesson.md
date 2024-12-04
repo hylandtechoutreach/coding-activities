@@ -211,7 +211,7 @@ The CSS code should look something like this:
 ## Finishing Up
 Hopefully your website is looking good by now! It should look something like this:
 
-![](Assets/KataraSite.png)
+![](Assets/WebsiteDone.png)
 
 Congratulations, you've successfully built your own website!
 
