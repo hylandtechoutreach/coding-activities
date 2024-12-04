@@ -1,16 +1,28 @@
 # Building a Website
 In this activity, use HTML and CSS to create your own website!
 
+### Agenda: 90 Minutes
+Here is a rough outline of the activity as a whole:
+
+| Item | Time |
+|-|-|
+| [Introduction Slides](https://docs.google.com/presentation/d/1d4Fohg1qiYV1CmymTQCuwFcLzDlDUGURlk7KO7TWwlo/edit?usp=sharing) | 10m |
+| [Code-Along](#setup) | 40m |
+| [Additional Topics](HtmlCssAdditionalTopics.md) | 10m |
+| [Site Sharing](#sharing) | 10m |
+| [Blooket](BlooketSetup.md) | 15m |
+| [Conclusion](#conclusion) | 5m |
+
 ## Introduction
 A few different concepts will be used during this activity:
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) is a **language** that lets developers to create websites. A web browser takes the HTML code, and displays it as a nice-looking webpage. Every website has a _source_, which can be viewed by right clicking and selecting **View page source** in the menu!
 - [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS) is a **language** that lets developers add style to websites. This includes things like fonts, colors, and more.
-- [StackBlitz](https://stackblitz.com/) is a **website** that lets developers create websites.
+- [Glitch](https://glitch.com/) is a **website** that lets developers create websites.
 
 _[Click here to view the Google Slides presentation that covers these concepts in more detail.](https://docs.google.com/presentation/d/1d4Fohg1qiYV1CmymTQCuwFcLzDlDUGURlk7KO7TWwlo/edit?usp=sharing)_
 
-## Setup
+## Code-Along: Setup
 To get started, follow the steps below.
 
 1. Open up Google Chrome
@@ -206,8 +218,17 @@ Congratulations, you've successfully built your own website!
 ## Sharing
 To share your website, just copy the URL at the top of the preview! It is automatically published online, so anyone with a link can see it. Be careful though - if you don't have an account, the website will be deleted within five days.
 
+You can write your URL on one of the sheets that's passed around - that way you can retain access to it! You can also share your live URL with your instructor, and they can show it on the project for all to see.
+
 ## Additional Topics
 If there is time remaining, there are a lot of additional updates to be made. Some of them can be found here: [Additional Topic Challenges](HtmlCssJsContinued/AdditionalTopicChallenges.md)
 
 ## Blooket
 [Click here for the Blooket quiz.](https://dashboard.blooket.com/set/6426f2b7270eb96cab922257)
+
+## Conclusion
+Thank you so much for participating in this activity. In this short time, you've been able to accomplish a lot! If you'd like to continue your web development journey, there's a lot more you can do.
+
+- [Sign up for a Glitch account so your website stays around forever](https://glitch.com/signup)
+- [Check out W3 Schools for some beginner-friendly tutorials](https://w3schools.com)
+- [Reach out to the Hyland Tech Outreach team if you need any guidance](mailto:techoutreach@hyland.com)
