@@ -191,7 +191,7 @@ Some basic colors are built into the web (like **pink** and **red**), but it is 
 1. [Search for "color picker" on Google](https://www.google.com/search?q=color+picker)
 1. Select a color
 1. Copy the HEX code  
-  - ![](Assets/GoogleColorPickerHex.png)
+  ![](Assets/GoogleColorPickerHex.png)
 1. Go to the **style.css** file
 1. Paste the hex code where a color was
 1. Refresh the preview, and verify that the new color appears on the website!
