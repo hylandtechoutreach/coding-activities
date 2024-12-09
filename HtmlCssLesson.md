@@ -221,7 +221,7 @@ To share your website, just copy the URL at the top of the preview! It is automa
 You can write your URL on one of the sheets that's passed around - that way you can retain access to it! You can also share your live URL with your instructor, and they can show it on the project for all to see.
 
 ## Additional Topics
-If there is time remaining, there are a lot of additional updates to be made. Some of them can be found here: [Additional Topic Challenges](HtmlCssJsContinued/AdditionalTopicChallenges.md)
+If there is time remaining, there are a lot of additional updates to be made! If you go to [**bit.ly/coding-activities**](https://bit.ly/coding-activities), you can click the [**Building a Website: Additional Topics**](https://hylandtechoutreach.github.io/coding-activities/HtmlCssAdditionalTopics.html) link to discover more of the possibilities.
 
 ## Blooket
 [Click here for the Blooket quiz.](https://dashboard.blooket.com/set/6426f2b7270eb96cab922257)
