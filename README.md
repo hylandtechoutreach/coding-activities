@@ -1,7 +1,7 @@
 # Coding Activities
 These activities are accessible via bit.ly link at [bit.ly/coding-activities](https://bit.ly/coding-activities).
 
-**[Hack the Platformer](Exhibition/HackThePlatformer/StudentDesc.md)**
+**[Building a Website: Additional Topics](HtmlCssAdditionalTopics.md)**
 
 - [HTML & CSS](HtmlCssLesson.md)
 - [JavaScript](JavaScriptLesson.md)
