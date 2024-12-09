@@ -1,5 +1,5 @@
 - [HTML & CSS Lesson](HtmlCssLesson.md)
-    - [Additional Topic Challenges](HtmlCssJsContinued/AdditionalTopicChallenges.md)
+    - [Additional Topics](HtmlCssAdditionalTopics.md)
 - [Heart Healthy Website](HeartHealth/HeartHealthyWebsite.md)
     - [Pre-Activity Instructions](HeartHealth/PreActivityInstructions.md)
     - [Heart Images](HeartHealth/HeartImages.md)
