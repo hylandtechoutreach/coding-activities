@@ -7,6 +7,9 @@ This activity is designed to introduce basic coding at events where Hyland has a
 ## Description
 In this activity, students will play a simple platformer video game, and see if they can achieve a high score. There is one twist: they will be able "hack" the game by changing the code! This quick demonstration introduces computer science in a fun, interactive way. Students will explore programming and critical thinking skills, and see how these skills can translate into a software development career.
 
+## Quick Pitch
+Play a simple platformer video game, and then learn how to hack it! Get a high score and see how programming and critical thinking can lead to a lifelong passion and a lucrative career in software development.
+
 ## Resources
 [Click here for a full catalog of resources.](ResourceCatalog.md)
 
