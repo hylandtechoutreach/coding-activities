@@ -1,6 +1,17 @@
 # Building a Website
 In this activity, use HTML and CSS to create your own website!
 
+### Agenda: 60 Minutes
+Here is a rough outline of the activity as a whole:
+
+| Item | Time |
+|-|-|
+| [Introduction Slides](https://docs.google.com/presentation/d/1d4Fohg1qiYV1CmymTQCuwFcLzDlDUGURlk7KO7TWwlo/edit?usp=sharing) | 10m |
+| [Code-Along](#code-along-setup) | 30m |
+| [Site Sharing](#sharing) | 5m |
+| [Blooket](BlooketSetup.md) | 10m |
+| [Conclusion](#conclusion) | 5m |
+
 ### Agenda: 90 Minutes
 Here is a rough outline of the activity as a whole:
 
