@@ -1,5 +1,5 @@
 - [Home](BOOKREADME.md)
-- [Python Turtle](PythonTurtle/StudentDesc.md)
+- [Turtle Graphics with Python](PythonTurtle/StudentDesc.md)
   - [Code-Along](PythonTurtle/PythonTurtleCodingActivity.md)
   - [Examples](PythonTurtle/TurtleExamples.md)
   - [Challenges](PythonTurtle/TurtleChallenges.md)

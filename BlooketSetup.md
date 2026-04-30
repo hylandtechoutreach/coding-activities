@@ -10,7 +10,7 @@ When setting up the game, try to time it so that it ends just a couple minutes b
 
 1. Go to the [Blooket Login Page](https://id.blooket.com/login)
 1. Enter the credentials above
-1. Once logged into Blooket, go to the [question set](https://dashboard.blooket.com/set/6426f2b7270eb96cab922257)
+1. Once logged into Blooket, go to the question set in question
 1. Click the **Host** button  
     ![](Assets/BlooketHost.png)
 1. Select the **Fishing Frenzy** game mode, and click the **Host Game** button  
