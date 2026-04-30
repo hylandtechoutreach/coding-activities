@@ -1,20 +1,7 @@
-# Coding Activities
-These activities are accessible via bit.ly link at [bit.ly/coding-activities](https://bit.ly/coding-activities).
+# Coding Activity Library
+This page contains lesson plans for a variety of coding activities.
 
-**[Building a Website: Additional Topics](HtmlCssAdditionalTopics.md)**
-
-- [HTML & CSS](HtmlCssLesson.md)
-- [JavaScript](JavaScriptLesson.md)
-- [Python](PythonLesson/TurtleCodeAlong.md)
-- [C#](CSharpLessons/StudentDesc.md)
-- [Snap Animation](SnapAnimationLesson/StudentDesc.md)
-- [Command Line](https://github.com/hytechclub/web-201/tree/master/CommandLine)
-- [Twine](TwineLesson/TwineLesson.md)
-
-## External Activities
-
-- [Hour of Code](https://hourofcode.com/us/learn)
-- [W3 Schools Game](https://www.w3schools.com/codegame/index.html)
-- [Blackbird Code](https://app.blackbirdcode.com/hoc.php)
-- [Vidcode](https://www.vidcode.com/)
-- [Processing](https://hello.processing.org/)
+| Topic | Technology | Time |
+|-|-|
+| [Turtle Graphics](PythonTurtle/README.md) | Python | 60m |
+| [Building Websites](BuildingWebsites/README.md) | HTML & CSS | 60m |

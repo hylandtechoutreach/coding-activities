@@ -1,4 +1,4 @@
 # Coding Activities
-Here are some coding activities!!
+Here are some coding activities!
 
 - [Python Turtle](PythonTurtle/StudentDesc.md)
