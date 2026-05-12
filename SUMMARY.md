@@ -5,3 +5,7 @@
   - [Challenges](PythonTurtle/TurtleChallenges.md)
     - [Debugging Loops](PythonTurtle/DebuggingLoops.md)
   - [Resources](PythonTurtle/PythonResources.md)
+- [Quiz About Me with JavaScript](InteractiveWebsites/StudentDesc.md)
+  - [Presentation](InteractiveWebsites/JavaScriptPresentation.md)
+  - [Code-Along](InteractiveWebsites/QuizAboutMeCodeAlong.md)
+  - [Template Project](InteractiveWebsites/TemplateProject.md)
