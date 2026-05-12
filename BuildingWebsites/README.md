@@ -1,4 +1,4 @@
-# Lesson Plan: Building Websites
+# Building Websites: Lesson Plan
 This hour-long activity is designed to introduce students to the world of web development. The goal is for them to have fun building websites with some basic HTML and CSS. They do not need to fully grasp the concepts; it's more about providing an engaging, memorable experience, and showing them a bit of what they can do with this technology.
 
 ### Agenda

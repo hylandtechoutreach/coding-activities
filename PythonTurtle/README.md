@@ -1,4 +1,4 @@
-# Turtle Graphics with Python
+# Turtle Graphics with Python: Lesson Plan
 This lesson introduces the Python programming language using turtle graphics. By the end of the activity, students will have coded their own turtles that draw their own shapes with whatever colors they'd like!
 
 ### Agenda: 60 minutes
