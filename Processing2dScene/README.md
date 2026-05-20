@@ -19,9 +19,5 @@ Additionally, there is a [presentation page](ProcessingPresentation.md) with lin
 ## Code-Along: Building a 2D Scene
 Follow the [code-along instructions](CodeAlong2dScene.md) to help the students build up a two dimensional scene!
 
-They should start from the [starter code](https://hytop.onrender.com/e/start-p5-scene).
-
-## Formative Assessment: Blooket
-At the end of the lesson, play the [Blooket]().
-
-Hopefully the students will remember something.
+## Formative Assessment: Gimkit
+At the end of the lesson, play the [Gimkit](https://www.gimkit.com/view/65fc762f3ee6c3002c0db3c3).
