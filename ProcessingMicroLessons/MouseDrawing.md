@@ -25,7 +25,7 @@ It can be fun to draw, but it's easy for the space to get too busy. Let's add th
     // RIGHT HERE
   }
   ```
-1. There, dd another `if` statement, this time, checking for `mouseButton.right`  
+1. There, add another `if` statement, this time, checking for `mouseButton.right`  
   ```js
   if (mouseButton.right) {
 
@@ -33,7 +33,7 @@ It can be fun to draw, but it's easy for the space to get too busy. Let's add th
   ```
 1. Within the `{` and `}` for that statement, set the `fill` to be the same as the background  
   ```js
-  fill(255, 255, 0); // this may be different if you changed the background
+  fill(255, 255, 0);
   ```
 1. Under that, make sure there is no outline with `noStroke()`  
   ```js
@@ -41,7 +41,7 @@ It can be fun to draw, but it's easy for the space to get too busy. Let's add th
   ```
 1. Finally, under that, make an empty circle at the current mouse position!  
   ```js
-  ellipse(mouseX, mouseY, 100, 100) // change 100 to change the size
+  ellipse(mouseX, mouseY, 100, 100);
   ```
 
 Save the project, and it should be possible to erase! The code should look something like this:
