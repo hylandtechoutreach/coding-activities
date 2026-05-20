@@ -1,4 +1,4 @@
-# p5.js: Bug Catching
+# p5.js: Bug Catcher
 Explore these projects, and try to find and fix the bugs in each one!*
 
 - [Barcode 📊](https://hytop.onrender.com/e/p5bug-barcode)

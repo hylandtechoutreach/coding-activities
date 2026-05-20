@@ -1,8 +1,8 @@
 # Processing Micro Lessons
 Explore these lessons to practice Processing and programming! After each one, be sure to [share your work](https://forms.office.com/r/UyF9ezJJhe)!
 
-## Bug Catching
-[Click here for the Bug Catching instructions.](BugCatching.md)
+## Bug Catcher
+[Click here for the Bug Catcher instructions.](BugCatching.md)
 
 ## Cube Image
 **[Starter Code](https://hytop.onrender.com/e/p5-cube-image)** | [Instructions](CubeImage.md)
