@@ -20,9 +20,6 @@ The final slide of the presentation points the students to **[short.hyland.com/w
 Follow [the instructions](CodeAlong.md) to help students start building a website of their own.
 
 ## Additional Topics / Takeaways
-[Closing Slides](https://docs.google.com/presentation/d/1QM2AN-_6sOuJAWkD2K5TMSXsrmtjxO7cn7qmXkPEwPY/edit?usp=sharing)
-
-## Additional Topics
 If there is any time remaining between the code-along and the formative assessment, feel free to walk through some of the [additional topics](AdditionalWebsiteTopics.md). Students may express interest in one of the topics over another, but typically YouTube videos are a good bet. From there, it is up to the whim of the students and the discretion of the instructor.
 
 Additionally, present the [Closing Slides](https://docs.google.com/presentation/d/1QM2AN-_6sOuJAWkD2K5TMSXsrmtjxO7cn7qmXkPEwPY/edit?usp=sharing) and pass out the [Building Websites Quarter Sheets](BuildingWebsitesQuarterSheet.pdf) and pens. These handouts give the students a place to write down their project name so they can access them afterward. They also have resources to help the students learn more about Hyland / Tech Outreach / web development.
