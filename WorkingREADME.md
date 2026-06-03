@@ -3,51 +3,25 @@ Here you will find a library of coding activities.
 
 These are coding activities.
 
-- Building Websites with HTML & CSS
-- Turtle Graphics with Python
-- Game Design with Microsoft MakeCode Arcade
-- Interactive Storytelling with Twine
-- Interactive Websites with JavaScript
+- Building Websites with HTML & CSS (60m)
+- Turtle Graphics with Python (60m)
+- Game Design with Microsoft MakeCode Arcade (60m)
+- Platformer Hacker (high score challenge) (15m)
+- Interactive Storytelling with Twine (60m)
+- Interactive Websites with JavaScript (60m)
+- Filling In A Blank Game with Variables (30m)
+- Building Anything with Vibe Coding (30m)
+- Building a 2D Scene with p5.js (60m)
+- Building a 3D Scene with p5.js (60m)
+- Live Coding Music with Strudel (30m)
+- Old-School Computing with the Command Line (30m)
+- Quantum Computing (60m)
+- Machine Learning for Kids (60m)
+- Git & GitHub (30m)
+- Full-Stack Web Deployment (60m) (simple GitHub Project + MongoDB + Render)
+- Zine Machine
+- PB + J
 
-## Fatima Family Center
-
-### June 15: BUILDING WEBSITES
-Building Websites with HTML & CSS
-Interactive Programming with JavaScript
-
-### June 22: CREATIVE CODING WITH PROCESSING
-Micro-lessons!
-
-Drawing with p5.js
-
-https://github.com/hylandtechoutreach/mcccc/blob/main/Archive/ArtWithCode/CodeAlong2dScene.md
-  Basic lesson
-
-https://p5js.org/examples/animation-and-variables-drawing-lines/
-  Scratch Off Lottery Ticket - image reveal
-
-https://p5js.org/examples/animation-and-variables-conditions/
-  DVD Menu
-
-https://p5js.org/examples/shapes-and-color-color/
-  Building a Scene - functions (e.g., draw a cloud)
-
-
-### June 28: GAME DESIGN
-Micro-lessons!
-
-#### High Score Hacker
-Change variables to get higher scores
-
-Platformer Hacker
-https://editor.p5js.org/skgmmt/sketches/BkHuFzCpm
-https://editor.p5js.org/Cardenb/sketches/PatqtOUlk
-https://editor.p5js.org/2sman/sketches/rJ-5Xcn-G
-https://editor.p5js.org/mtrc/sketches/Zc9cjBS3R
-Something 3d
-
-#### Build a 2D Platformer
-JSON data -> level builder
 
 
 ## External Activities
