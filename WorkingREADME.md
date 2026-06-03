@@ -26,7 +26,6 @@ These are coding activities.
 
 ## External Activities
 
-- [Hour of Code](https://hourofcode.com/us/learn)
 - [W3 Schools Game](https://www.w3schools.com/codegame/index.html)
 - [Blackbird Code](https://app.blackbirdcode.com/hoc.php)
 - [Vidcode](https://www.vidcode.com/)
