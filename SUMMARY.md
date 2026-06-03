@@ -1,4 +1,7 @@
 - [Home](BOOKREADME.md)
+- [Building Websites](BuildingWebsites/StudentDesc.md)
+  - [Code-Along](BuildingWebsites/CodeAlong.md)
+  - [Additional Topics](BuildingWebsites/AdditionalWebsiteTopics.md)
 - [Turtle Graphics with Python](PythonTurtle/StudentDesc.md)
   - [Code-Along](PythonTurtle/PythonTurtleCodingActivity.md)
   - [Examples](PythonTurtle/TurtleExamples.md)
