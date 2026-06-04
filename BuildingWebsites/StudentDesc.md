@@ -1,4 +1,4 @@
-# Building Websites
+# HTML & CSS: Building Websites
 In this activity, learn how you can build your own website with HTML & CSS!
 
 ## Presentation

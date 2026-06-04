@@ -1,4 +1,4 @@
-# Processing Micro Lessons
+# p5.js: Micro Lessons
 Explore these lessons to practice Processing and programming! After each one, be sure to [share your work](https://forms.office.com/r/UyF9ezJJhe)!
 
 ## Bug Catcher

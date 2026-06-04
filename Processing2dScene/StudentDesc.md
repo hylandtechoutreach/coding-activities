@@ -1,4 +1,4 @@
-# 2D Scene in p5.js
+# p5.js: 2D Scene
 Welcome to Processing!
 
 ## Examples in OpenProcessing

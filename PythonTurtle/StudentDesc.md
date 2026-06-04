@@ -1,4 +1,4 @@
-# Python Programming: Turtle Graphics
+# Python: Turtle Graphics
 Welcome to the Python Turtle coding activity!
 
 ## Code-Along Start
