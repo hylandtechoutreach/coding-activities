@@ -1,4 +1,4 @@
-# Turtle Code-Along
+# Code-Along: Turtle Graphics
 In this introductory activity, use [turtle graphics](https://en.wikipedia.org/wiki/Turtle_graphics) to create a drawing in Python!
 
 <img src="Assets/turtle_cartoon.svg" class="borderless">

@@ -1,4 +1,4 @@
-# Quiz About Me: JavaScript Code-Along
+# Code-Along: Quiz About Me
 In this activity, start building a quiz about yourself! Other people will be able to go to your website, and test their knowledge of YOU!
 
 ## Getting Started

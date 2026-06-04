@@ -7,10 +7,12 @@ This page contains lesson plans for a variety of coding activities.
 | [Turtle Graphics](PythonTurtle/README.md) | Python | 60m |
 | [Quiz About Me](InteractiveWebsites/README.md) | JavaScript | 60m |
 | [2D Scene](Processing2dScene/README.md) | p5.js | 60m |
-| [Cube Image](ProcessingMicroLessons/CubeImage.md) | p5.js | 5m |
-| [Mouse Drawing](ProcessingMicroLessons/MouseDrawing.md) | p5.js | 10m |
-| [Mood Swing Boolean](ProcessingMicroLessons/MoodSwingBoolean.md) | p5.js | 10m |
-| [Scratch-to-Reveal Image](ProcessingMicroLessons/ScratchReveal.md) | p5.js | 5m |
+| [Processing Micro Lessons](ProcessingMicroLessons/README.md) | p5.js | 30m |
+| [Interactive Storytelling](InteractiveStorytelling/README.md) | Twine | 60m |
+| [Platformer Hacker (High Score Challenge)](PlatformerHacker/README.md) | Phaser | 15m |
+| [Fill-In-The-Blank 3D Game](ThreeJs3dGame/README.md) | Three.js | 30m |
+| [Happiness Testing](MachineLearningSentimentAnalysis/README.md) | Machine Learning | 60m |
+| [Retro Game Design](MakeCodeArcadeGameDesign/README.md) | MakeCode Arcade | 60m |
 
 ## General Tips
 Read through [these tips](GeneralTips.md) for some best practices around these lessons!

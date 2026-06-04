@@ -1,4 +1,4 @@
-# Building Websites: Code-Along
+# Code-Along: Building Websites
 In this activity, use HTML and CSS to create your own website!
 
 ## Getting Started
