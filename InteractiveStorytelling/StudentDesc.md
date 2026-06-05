@@ -5,7 +5,7 @@ Time to tell some interactive stories!
 [Click here to see the opening slides.](https://docs.google.com/presentation/d/1lFeoOZadvJEkXux9pJgDB_4iJeWdphyyJgPehN9uTQ8/edit?usp=sharing)
 
 ## Follow-Along Activity
-[Click here for the follow-along activity instructions.](FollowAlong)
+[Click here for the follow-along activity instructions.](FollowAlong.md)
 
 ## Story Sharing
 [Click here to see how you can share your story.](SharingStories.md)
