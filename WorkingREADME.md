@@ -1,6 +1,11 @@
 # Library of Coding Activities
 Here you will find a library of coding activities.
 
+| [Platformer Hacker (High Score Challenge)](PlatformerHacker/README.md) | Phaser | 15m |
+| [Fill-In-The-Blank 3D Game](ThreeJs3dGame/README.md) | Three.js | 30m |
+| [Happiness Testing](MachineLearningSentimentAnalysis/README.md) | Machine Learning | 60m |
+| [Retro Game Design](MakeCodeArcadeGameDesign/README.md) | MakeCode Arcade | 60m |
+
 These are coding activities.
 
 - Building Websites with HTML & CSS (60m)
