@@ -9,7 +9,7 @@ To facilitate the activity, follow these steps:
 1. Have the students visit the coding activity homepage at [short.hyland.com/coding](https://short.hyland.com/coding)
 1. Have them click the [link](https://hytop-backend.onrender.com/static/hackyformer/index.html?sessionName=ca1) to get started
 1. If needed, tell everybody to go to a specific session based on name  
-  - If there are already high scores loaded, change the session name
+    - If there are already high scores loaded, change the session name
 1. Try to see if students can figure out how to play on their own
 1. If students struggle, explain the controls and objectives to the group
 1. Help students individually
