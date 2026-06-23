@@ -1,10 +1,25 @@
 # Library of Coding Activities
 Here you will find a library of coding activities.
 
-| [Platformer Hacker (High Score Challenge)](PlatformerHacker/README.md) | Phaser | 15m |
-| [Fill-In-The-Blank 3D Game](ThreeJs3dGame/README.md) | Three.js | 30m |
+To Be Adapted:
+
 | [Happiness Testing](MachineLearningSentimentAnalysis/README.md) | Machine Learning | 60m |
 | [Retro Game Design](MakeCodeArcadeGameDesign/README.md) | MakeCode Arcade | 60m |
+
+
+To Be Created:
+
+- 3D Worlds with A-Frame (STEAM Event)
+- Quantum Computing (MCCCC)
+- Vibe Coding Anything (MCCCC)
+  - Website, Game, basic stuff, editing prompt
+- Git & GitHub (new one-off)
+- A.I. Agents in Python (MCCCC)
+
+External Bank:
+- [Markdown](https://www.markdowntutorial.com/)
+- [Command Line](https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html)
+
 
 These are coding activities.
 

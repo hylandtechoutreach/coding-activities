@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Template Project · Coding Activities</title>
+        <title>Code-Along: POWER-UP · Coding Activities</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -63,10 +63,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../Processing2dScene/StudentDesc.html" />
+    <link rel="next" href="Resources.html" />
     
     
-    <link rel="prev" href="QuizAboutMeCodeAlong.html" />
+    <link rel="prev" href="FillInTheVariablesCodeAlong.html" />
     
 
     </head>
@@ -243,9 +243,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="StudentDesc.html">
+        <li class="chapter " data-level="1.4" data-path="../InteractiveWebsites/StudentDesc.html">
             
-                <a href="StudentDesc.html">
+                <a href="../InteractiveWebsites/StudentDesc.html">
             
                     
                     JavaScript: Quiz About Me
@@ -257,9 +257,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="JavaScriptPresentation.html">
+        <li class="chapter " data-level="1.4.1" data-path="../InteractiveWebsites/JavaScriptPresentation.html">
             
-                <a href="JavaScriptPresentation.html">
+                <a href="../InteractiveWebsites/JavaScriptPresentation.html">
             
                     
                     Presentation
@@ -270,9 +270,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.2" data-path="QuizAboutMeCodeAlong.html">
+        <li class="chapter " data-level="1.4.2" data-path="../InteractiveWebsites/QuizAboutMeCodeAlong.html">
             
-                <a href="QuizAboutMeCodeAlong.html">
+                <a href="../InteractiveWebsites/QuizAboutMeCodeAlong.html">
             
                     
                     Code-Along
@@ -283,9 +283,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.4.3" data-path="TemplateProject.html">
+        <li class="chapter " data-level="1.4.3" data-path="../InteractiveWebsites/TemplateProject.html">
             
-                <a href="TemplateProject.html">
+                <a href="../InteractiveWebsites/TemplateProject.html">
             
                     
                     Template Project
@@ -501,9 +501,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="../ThreeJs3dGame/StudentDesc.html">
+        <li class="chapter " data-level="1.9" data-path="StudentDesc.html">
             
-                <a href="../ThreeJs3dGame/StudentDesc.html">
+                <a href="StudentDesc.html">
             
                     
                     Three.js: Fill-In-The-Blank 3D Game
@@ -515,9 +515,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.9.1" data-path="../ThreeJs3dGame/FillInTheVariablesCodeAlong.html">
+        <li class="chapter " data-level="1.9.1" data-path="FillInTheVariablesCodeAlong.html">
             
-                <a href="../ThreeJs3dGame/FillInTheVariablesCodeAlong.html">
+                <a href="FillInTheVariablesCodeAlong.html">
             
                     
                     Code-Along: Fill-In-The-Variables
@@ -528,9 +528,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9.2" data-path="../ThreeJs3dGame/AddPowerUpCodeAlong.html">
+        <li class="chapter active" data-level="1.9.2" data-path="AddPowerUpCodeAlong.html">
             
-                <a href="../ThreeJs3dGame/AddPowerUpCodeAlong.html">
+                <a href="AddPowerUpCodeAlong.html">
             
                     
                     Code-Along: POWER-UP
@@ -541,9 +541,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9.3" data-path="../ThreeJs3dGame/Resources.html">
+        <li class="chapter " data-level="1.9.3" data-path="Resources.html">
             
-                <a href="../ThreeJs3dGame/Resources.html">
+                <a href="Resources.html">
             
                     
                     Resources
@@ -589,7 +589,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Template Project</a>
+        <a href=".." >Code-Along: POWER-UP</a>
     </h1>
 </div>
 
@@ -604,17 +604,167 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="template-project-fancy-quiz">Template Project: Fancy Quiz</h1>
-<p>In this activity, all the code is already done - you just have to change the questions, answers, and some variable values!</p>
+                                <h1 id="add-power-up-code-along">Add POWER-UP Code-Along</h1>
+<p>Once you have <a href="FillInTheVariablesCodeAlong.html">customized the game</a>, it&apos;s time to add a new feature: a <strong>POWER-UP</strong>. For this example, we will make the player run faster when they eat the POWER-UP.</p>
+<h2 id="adding-a-consumable">Adding a &quot;Consumable&quot;</h2>
+<p>The game is pre-built to allow for &quot;Consumables&quot; to be added to the map. &quot;Consumables&quot; (as defined in the <strong>zobject.consumable.js</strong> file) are designed to disappear and cause some effect when the player touches them.</p>
 <ol>
-<li><a href="https://hytop.onrender.com/e/quiz-about-me" target="_blank">Click here to open the quiz project.</a></li>
-<li>Try out the quiz just to see how it works with the starter questions</li>
-<li>Open the <strong>question.js</strong> file to see where the questions are loaded</li>
-<li>Update all the text (between <code>&quot;</code> and <code>&quot;</code>) to make the quiz about YOU</li>
-<li>Change the variable values at the bottom to update the theme!</li>
+<li>Open the <strong>script.js</strong> file</li>
+<li>Put your cursor on line <code>8</code> (way down at the bottom)  <ul>
+<li><em>We will be adding more lines of code above this line</em></li>
+</ul>
+</li>
+<li>Add this line of code to create a new <code>Consumable</code> object:  <pre><code class="lang-js">game.addConsumable();
+</code></pre>
+</li>
+<li>Save the project</li>
+<li>Look at the game preview</li>
+<li>You should notice a small white ball!</li>
+<li>Eat the ball</li>
+<li>You should notice the ball disappears!</li>
 </ol>
-<h2 id="challenge-more-questions">Challenge: More Questions</h2>
-<p>See if you can figure out how to add more questions to the quiz, beyond the number that are already there.</p>
+<p>So we have a consumable! But we can change quite a few things to make sure it makes sense in the game.</p>
+<h2 id="changing-the-north-position">Changing the North Position</h2>
+<p>We can set the <code>north</code> position of our new consumable. We will do this using <em>variables</em> that are passed into <code>addConsumable</code>!</p>
+<p>First, make the new variable <code>north</code>:</p>
+<ol>
+<li>Put your cursor at the top of the <strong>script.js</strong> file (above the <code>game.addConsumable()</code> line)</li>
+<li>Start a new variable definition by typing <code>let</code></li>
+<li>Then, type a variable name: <code>north</code></li>
+<li>After that, add an equals sign <code>=</code></li>
+<li>Next, add a number for the <code>north</code> position: <code>2</code></li>
+<li>At the end of the line, add a semi-colon <code>;</code></li>
+</ol>
+<p>Next, pass the variable to <code>addConsumable</code>:</p>
+<ol>
+<li>Find the <code>game.addConsumable</code> line</li>
+<li>Put your cursor right between the parentheses (<code>(</code> and <code>)</code>)</li>
+<li>Type the variable name, <code>north</code></li>
+<li>Save the project</li>
+<li>Look at the preview</li>
+<li>Notice the little ball should have moved!</li>
+</ol>
+<p>The code in the <strong>script.js</strong> file should look something like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> north = <span class="hljs-number">2</span>;
+
+game.addConsumable(north);
+</code></pre>
+<h2 id="changing-the-east-and-vertical-position">Changing the East and Vertical Position</h2>
+<p>To change the <code>east</code> and <code>vertical</code> positions of the POWER-UP, follow very similar steps:</p>
+<ol>
+<li>Create the new variables (<code>east</code> and <code>vertical</code>)</li>
+<li>Set their values to things that make sense (like <code>10</code> and <code>4</code>)</li>
+<li>In the <code>game.addConsumable</code> line, add <code>east</code> and <code>vertical</code>, all separated by commas</li>
+<li>Save the project</li>
+<li>Look at the preview</li>
+<li>Notice the little ball should have moved!</li>
+</ol>
+<p>At this point, the code in the <strong>script.js</strong> file should look something like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> north = <span class="hljs-number">2</span>;
+<span class="hljs-keyword">let</span> east = <span class="hljs-number">10</span>;
+<span class="hljs-keyword">let</span> vertical = <span class="hljs-number">4</span>;
+
+game.addConsumable(north, east, vertical);
+</code></pre>
+<h2 id="making-the-power-up-actually-power-up">Making the POWER-UP Actually Power Up</h2>
+<p>Now for the fun and difficult part - making the POWER-UP actually functional! To do this, we will actually be defining a <strong>function</strong> in JavaScript. A <strong>function</strong> is a piece of code that does something on command. Just like with the previous variables, we will be making a new variable to store this command, and then we will pass it to the <code>game.addConsumable</code> line.</p>
+<h3 id="variable-setup">VARIABLE SETUP</h3>
+<p>First, get the variable setup:</p>
+<ol>
+<li>Make a new line in the <strong>script.js</strong> file, still above the <code>game.addConsumable</code> line</li>
+<li>Create a new variable named <code>eatPowerUp</code>  <ol>
+<li><code>let</code> keyword</li>
+<li>Variable name (<code>eatPowerUp</code>)</li>
+<li>Equals sign (<code>=</code>)</li>
+<li>Value (?????????)</li>
+</ol>
+</li>
+</ol>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> eatPowerUp =
+</code></pre>
+<h3 id="function-skeleton">FUNCTION SKELETON</h3>
+<p>Now, it&apos;s time to define the function skeleton:</p>
+<ol>
+<li>After the equals sign, instead of a number, type the word <code>function</code></li>
+<li>After the word <code>function</code>, add left and right parentheses: <code>()</code></li>
+<li>In between the parentheses, add left and right curly brackets: <code>{}</code></li>
+<li>Put your cursor between the curly brackets and press <strong>Enter</strong> to make a new line</li>
+</ol>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> eatPowerUp = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+
+}
+</code></pre>
+<p>Whatever code is between those curly brackets will run whenever the player consumes the POWER-UP!</p>
+<h3 id="function-functionality">FUNCTION FUNCTIONALITY</h3>
+<p>We can <strong>set</strong> one of our variables in there to change the gameplay. Setting a variable is a lot like defining one, but we don&apos;t need the <code>let</code> keyword.</p>
+<p>Let&apos;s set our <code>PLAYER_SPEED</code> to <code>20</code>:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> eatPowerUp = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+  PLAYER_SPEED = <span class="hljs-number">20</span>;
+}
+</code></pre>
+<h3 id="function-passing">FUNCTION PASSING</h3>
+<p>Finally, we need to pass the new <code>eatPowerUp</code> function to our <code>game.addConsumable</code>.</p>
+<ol>
+<li>Find the <code>game.addConsumable</code> line</li>
+<li>Put your cursor in between the parentheses, right at the end (after <code>vertical</code>, before <code>)</code>)</li>
+<li>Add a comma <code>,</code> and the function name <code>eatPowerUp</code></li>
+</ol>
+<pre><code class="lang-js">game.addConsumable(north, east, vertical, eatPowerUp);
+</code></pre>
+<p>Save the project, eat the POWER-UP, and see what happens!</p>
+<h3 id="code-now">CODE NOW</h3>
+<p>The code in the <strong>script.js</strong> file should now look something like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> north = <span class="hljs-number">2</span>;
+<span class="hljs-keyword">let</span> east = <span class="hljs-number">10</span>;
+<span class="hljs-keyword">let</span> vertical = <span class="hljs-number">4</span>;
+
+<span class="hljs-keyword">let</span> eatPowerUp = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    PLAYER_SPEED = <span class="hljs-number">20</span>;
+}
+
+game.addConsumable(north, east, vertical, eatPowerUp);
+</code></pre>
+<h2 id="changing-size-color-and-shape">Changing Size, Color, and Shape</h2>
+<p>The last thing to do is customize our POWER-UP with its own size, color, and shape. Setting these POWER-UP properties will be very similar to setting <code>north</code>, <code>east</code>, and <code>vertical</code>. It is very important that they are added in the proper order, AND have the proper formatting (watch commas <code>,</code> and quotation marks <code>&quot;&quot;</code>).</p>
+<ol>
+<li>Above the <code>game.addConsumable</code> line, define the <code>size</code> variable, and set it to <code>10</code></li>
+<li>Under that, define the <code>color</code> variable and set it to <code>&quot;cyan&quot;</code>  <ul>
+<li>Note the <code>&quot;&quot;</code> quotation marks!</li>
+</ul>
+</li>
+<li>Under that, define the <code>shape</code> variable and set it to <code>&quot;box&quot;</code>  <ul>
+<li>The only options now are <code>&quot;sphere&quot;</code>, <code>&quot;box&quot;</code>, and <code>&quot;torus&quot;</code></li>
+</ul>
+</li>
+<li>Add <code>size</code>, <code>color</code>, and <code>shape</code> between the parentheses on the <code>game.addConsumable</code> line</li>
+<li>Save the project</li>
+<li>Look at the preview</li>
+<li>See the new size, shape, and color!</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>At the end of this code-along, the code in the <strong>script.js</strong> file should look something like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> north = <span class="hljs-number">2</span>;
+<span class="hljs-keyword">let</span> east = <span class="hljs-number">10</span>;
+<span class="hljs-keyword">let</span> vertical = <span class="hljs-number">4</span>;
+
+<span class="hljs-keyword">let</span> eatPowerUp = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    PLAYER_SPEED = <span class="hljs-number">20</span>;
+}
+
+<span class="hljs-keyword">let</span> size = <span class="hljs-number">10</span>;
+<span class="hljs-keyword">let</span> color = <span class="hljs-string">&quot;cyan&quot;</span>;
+<span class="hljs-keyword">let</span> shape = <span class="hljs-string">&quot;box&quot;</span>;
+
+game.addConsumable(north, east, vertical, eatPowerUp, size, color, shape);
+</code></pre>
+<h2 id="next-steps">Next Steps</h2>
+<p>There are so many additional things you can try to make your game even better!</p>
+<ol>
+<li>Add a new power-up, or change the current one to do something interesting</li>
+<li>Add more platforms, coins, or enemies</li>
+<li>Continue changing the variables</li>
+</ol>
+<p>The possibilities are endless!</p>
 
                                 
                                 </section>
@@ -642,12 +792,12 @@
 
             
                 
-                <a href="QuizAboutMeCodeAlong.html" class="navigation navigation-prev " aria-label="Previous page: Code-Along">
+                <a href="FillInTheVariablesCodeAlong.html" class="navigation navigation-prev " aria-label="Previous page: Code-Along: Fill-In-The-Variables">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../Processing2dScene/StudentDesc.html" class="navigation navigation-next " aria-label="Next page: p5.js: 2D Scene">
+                <a href="Resources.html" class="navigation navigation-next " aria-label="Next page: Resources">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -658,7 +808,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Template Project","level":"1.4.3","depth":2,"next":{"title":"p5.js: 2D Scene","level":"1.5","depth":1,"path":"Processing2dScene/StudentDesc.md","ref":"Processing2dScene/StudentDesc.md","articles":[{"title":"Presentation","level":"1.5.1","depth":2,"path":"Processing2dScene/ProcessingPresentation.md","ref":"Processing2dScene/ProcessingPresentation.md","articles":[]},{"title":"Code-Along","level":"1.5.2","depth":2,"path":"Processing2dScene/CodeAlong2dScene.md","ref":"Processing2dScene/CodeAlong2dScene.md","articles":[]},{"title":"Challenges","level":"1.5.3","depth":2,"path":"Processing2dScene/Challenges.md","ref":"Processing2dScene/Challenges.md","articles":[]}]},"previous":{"title":"Code-Along","level":"1.4.2","depth":2,"path":"InteractiveWebsites/QuizAboutMeCodeAlong.md","ref":"InteractiveWebsites/QuizAboutMeCodeAlong.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Coding Activities","gitbook":"*"},"file":{"path":"InteractiveWebsites/TemplateProject.md","mtime":"2026-06-23T20:01:04.306Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2026-06-23T20:01:35.305Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Code-Along: POWER-UP","level":"1.9.2","depth":2,"next":{"title":"Resources","level":"1.9.3","depth":2,"path":"ThreeJs3dGame/Resources.md","ref":"ThreeJs3dGame/Resources.md","articles":[]},"previous":{"title":"Code-Along: Fill-In-The-Variables","level":"1.9.1","depth":2,"path":"ThreeJs3dGame/FillInTheVariablesCodeAlong.md","ref":"ThreeJs3dGame/FillInTheVariablesCodeAlong.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters"],"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css","website":"styles/website.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"BOOKREADME.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Coding Activities","gitbook":"*"},"file":{"path":"ThreeJs3dGame/AddPowerUpCodeAlong.md","mtime":"2026-06-23T20:01:04.318Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2026-06-23T20:01:35.305Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
