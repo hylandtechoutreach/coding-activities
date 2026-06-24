@@ -32,4 +32,5 @@ Here are some coding activities! Access this content at **[short.hyland.com/codi
 ## Three.js: [Fill-In-The-Blank Game](ThreeJs3dGame/StudentDesc.md)
 [Click here to begin](https://hytop.onrender.com/pf/three-js-blank-game-1/)
 
-_**NOTE:** all shared work may be used in future programs :)_
+## MakeCode Arcade: [Retro Platformer](MakeCodeArcadeGameDesign/StudentDesc.md)
+[Click here to begin](https://arcade.makecode.com/#editor)

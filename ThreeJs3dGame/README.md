@@ -2,6 +2,7 @@
 In this activity, students can play a game, then fill in their own blank version of the game with [Three.js](https://threejs.org).
 
 ### Agenda
+Here is a rough outline of the activity as a whole:
 
 | Item | Time |
 |-|-|
