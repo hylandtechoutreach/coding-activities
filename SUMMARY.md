@@ -30,3 +30,5 @@
   - [Code-Along: Fill-In-The-Variables](ThreeJs3dGame/FillInTheVariablesCodeAlong.md)
   - [Code-Along: POWER-UP](ThreeJs3dGame/AddPowerUpCodeAlong.md)
   - [Resources](ThreeJs3dGame/Resources.md)
+- [MakeCode Arcade: Retro Platformer](MakeCodeArcadeGameDesign/StudentDesc.md)
+  - [Follow-Along](MakeCodeArcadeGameDesign/FollowAlong.md)

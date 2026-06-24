@@ -11,6 +11,7 @@ This page contains lesson plans for a variety of coding activities.
 | [Interactive Storytelling](InteractiveStorytelling/README.md) | Twine | 60m |
 | [Platformer Hacker](PlatformerHacker/README.md) | JS/Phaser | 15m |
 | [Fill-In-The-Blank 3D Game](ThreeJs3dGame/README.md) | Three.js | 45m |
+| [Retro Platformer Game](MakeCodeArcadeGameDesign/README.md) | MakeCode Arcade | 60m |
 
 ## General Tips
 Read through [these tips](GeneralTips.md) for some best practices around these lessons!
