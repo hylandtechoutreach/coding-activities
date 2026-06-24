@@ -2,7 +2,7 @@
 In this activity, modify an existing Three.js game by changing some variables and adding a POWER-UP.
 
 ## Part Zero: Getting Started
-[Click here to open the blank game.](https://hytop.onrender.com/e/three-js-blank-game)
+[Click here to open the blank game.](https://hytop.onrender.com/pf/three-js-blank-game-1)
 
 ## Part One: Customization with Variables
 [Click here for the Variable Customization instructions.](FillInTheVariablesCodeAlong.md)
