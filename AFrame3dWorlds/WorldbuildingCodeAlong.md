@@ -9,7 +9,9 @@ Click the "Fork" button in the upper left to create your own copy of the project
 ## Magic HTML
 A-Frame makes it possible to create three-dimensional structures using [HTML](https://en.wikipedia.org/wiki/HTML) code! HTML is the language of the web, and consists of elements that create everything you see on a website. Elements generally looks like this:
 
-`<element-name>CONTENT</element-name>`
+```html
+<element-name>CONTENT</element-name>
+```
 
 Breaking down that example, the _opening tag_ is this part: `<element-name>`. It starts with `<`, then has the name of the element, then `>`. The _content_ is immediately after the opening tag. The _closing tag_ looks like the opening tag, but with a slash before the element name: `</element-name>`
 
