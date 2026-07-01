@@ -4,8 +4,6 @@ Here you will find a library of coding activities.
 To Be Adapted:
 
 | [Happiness Testing](MachineLearningSentimentAnalysis/README.md) | Machine Learning | 60m |
-| [Retro Game Design](MakeCodeArcadeGameDesign/README.md) | MakeCode Arcade | 60m |
-
 
 To Be Created:
 
