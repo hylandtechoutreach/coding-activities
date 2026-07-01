@@ -32,5 +32,5 @@
   - [Resources](ThreeJs3dGame/Resources.md)
 - [MakeCode Arcade: Retro Platformer](MakeCodeArcadeGameDesign/StudentDesc.md)
   - [Follow-Along](MakeCodeArcadeGameDesign/FollowAlong.md)
-- [A-Frame: 3D Worlds](Aframe3dWorlds/StudentDesc.md)
-  - [Code-Along](Aframe3dWorlds/WorldbuildingCodeAlong.md)
+- [A-Frame: 3D Worlds](AFrame3dWorlds/StudentDesc.md)
+  - [Code-Along](AFrame3dWorlds/WorldbuildingCodeAlong.md)
