@@ -12,6 +12,7 @@ This page contains lesson plans for a variety of coding activities.
 | [Platformer Hacker](PlatformerHacker/README.md) | JS/Phaser | 15m |
 | [Fill-In-The-Blank 3D Game](ThreeJs3dGame/README.md) | Three.js | 45m |
 | [Retro Platformer Game](MakeCodeArcadeGameDesign/README.md) | MakeCode Arcade | 60m |
+| [3D Worlds with A-Frame](AFrame3dWorlds/README.md) | A-Frame | 40m |
 
 ## General Tips
 Read through [these tips](GeneralTips.md) for some best practices around these lessons!

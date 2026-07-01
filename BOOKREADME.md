@@ -34,3 +34,6 @@ Here are some coding activities! Access this content at **[short.hyland.com/codi
 
 ## MakeCode Arcade: [Retro Platformer](MakeCodeArcadeGameDesign/StudentDesc.md)
 [Click here to begin](https://arcade.makecode.com/#editor)
+
+## A-Frame: [3D Worlds](AFrame3dWorlds/StudentDesc.md)
+[Click here to begin](https://hytop.onrender.com/e/aframe-steam)
