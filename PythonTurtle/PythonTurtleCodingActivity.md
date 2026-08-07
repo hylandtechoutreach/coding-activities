@@ -4,13 +4,16 @@ In this introductory activity, use [turtle graphics](https://en.wikipedia.org/wi
 <img src="Assets/turtle_cartoon.svg" class="borderless">
 
 ## Getting Started
-Setup using **Trinket** is fairly simple: [click here to get started](https://trinket.io/embed/python/b3a93390450d)!
+Setup using **HyTOP** is fairly simple: [click here to get started](https://hytop.onrender.com/e/py).
 
-1. In the code section on th eleft, add the following line to _import_ everything from the **turtle** library:
+From there, be sure to click the "Fork" button to create your own copy of the project:
+
+![](../Assets/HyTopFork.png)
+
+1. In the code section on the left, add the following line to _import_ everything from the **turtle** library:
     ```py
     from turtle import *
     ```
-1. Click the Run button in the top left, and notice that nothing happens yet
 1. Make a new line under the `import`, and add the following code:
     ```py
     shelly = Turtle()
@@ -19,7 +22,8 @@ Setup using **Trinket** is fairly simple: [click here to get started](https://tr
     ```py
     shelly.shape("arrow")
     ```
-1. Run the code again to see Shelly appear on the screen!
+1. Click the "Save" button in the top left to see Shelly appear!  
+    ![](../Assets/HyTopSave.png)
 1. **BONUS:** Update the code so that instead of an "arrow" shape, the turtle looks like a turtle
 
 The code should look something like this:
@@ -51,6 +55,8 @@ paper = shelly.getscreen()
 paper.bgcolor("gold")
 ```
 
+TIP: Make sure to continuously save your work to see your changes reflected! You can click the Save button, or use **Ctrl**+**S**.
+
 ## Moving the Turtle
 One of the most useful turtle abilities is the ability to move across the screen and draw like a pen! Create a blank line, and then add the following command on the next line:
 
@@ -58,7 +64,7 @@ One of the most useful turtle abilities is the ability to move across the screen
 shelly.forward(100)
 ```
 
-Click the Run button to see the turtle move across the screen! Specifically, it moves **forward** `100` pixels in the direction it is currently facing (90 degrees).
+Save the project to see the turtle move across the screen! Specifically, it moves **forward** `100` pixels in the direction it is currently facing (90 degrees).
 
 It is also possible to turn the turtle. Add the following command on the next line:
 ```python
@@ -67,7 +73,7 @@ shelly.right(90)
 
 This command turns the turtle `90` degrees to the **right**. Previously the direction of the turtle was 90 degrees (pointing to the right), so after turning 90 degrees to the right, the turtle should face down (180 degrees).
 
-Run the program again to see the turtle move to the right, then turn to face down!
+Save the program again to see the turtle move to the right, then turn to face down!
 
 ## Drawing a Square
 Add the following commands to the file, under the existing commands:
@@ -79,7 +85,7 @@ shelly.forward(100)
 shelly.right(90)
 ```
 
-Run the program to see what this code does. It should draw part of a square! How does that work? On a piece of paper, or on a whiteboard, try to draw the same square as the turtle:
+Save the program to see what this code does. It should draw part of a square! How does that work? On a piece of paper, or on a whiteboard, try to draw the same square as the turtle:
 
 1. Draw the top side from left to right
 1. Turn the writing utensil and draw the right side from top to bottom
@@ -205,3 +211,5 @@ shelly.hideturtle()
 ```
 
 Congratulations! You've completed a Python Turtle program 🐢🐢🐢
+
+From here, feel free to continue editing the code, or explore some of the [examples](TurtleExamples.md) or [challenges](TurtleChallenges.md).

@@ -8,7 +8,7 @@ Here are some coding activities! Access this content at **[short.hyland.com/codi
 [Click here to begin](https://hytop.onrender.com/e/www)
 
 ## Python: [Turtle Graphics](PythonTurtle/StudentDesc.md)
-[Click here to begin](https://trinket.io/embed/python/b3a93390450d)
+[Click here to begin](https://hytop.onrender.com/e/py)
 
 ## JavaScript: [Quiz About Me](InteractiveWebsites/StudentDesc.md)
 [Click here to begin](https://hytop.onrender.com/e/www-js)
@@ -27,7 +27,7 @@ Here are some coding activities! Access this content at **[short.hyland.com/codi
 [Click here to begin](https://twinery.org/2/#/)
 
 ## JS/Phaser: [Platformer Hacker](PlatformerHacker/StudentDesc.md)
-[Click here to begin](https://hytop-backend.onrender.com/static/hackyformer/index.html?sessionName=ca1)
+[Click here to begin](https://hytop-backend.onrender.com/static/hackyformer/index.html?sessionName=ca2)
 
 ## Three.js: [Fill-In-The-Blank Game](ThreeJs3dGame/StudentDesc.md)
 [Click here to begin](https://hytop.onrender.com/pf/three-js-blank-game-1/)
