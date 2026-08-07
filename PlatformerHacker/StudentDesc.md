@@ -1,5 +1,5 @@
 # JavaScript: Platformer Hacker
-[Click here to play the game!](https://hytop-backend.onrender.com/static/hackyformer/index.html?sessionName=ca1)
+[Click here to play the game!](https://hytop-backend.onrender.com/static/hackyformer/index.html?sessionName=ca2)
 
 _**NOTE:** make sure your session name lines up with everyone else's to get accurate high scores! Need a different session? [click here](https://hytop-backend.onrender.com/static/hackyformer/index.html)_
 

@@ -23,7 +23,11 @@ Update the code in the HTML section, _between_ the `<h1>` and `</h1>` tags. It s
 <h1>Sokka's Website</h1>
 ```
 
-When you make a change, the preview should update automatically. If you see your name - that's it! You're officially a web developer!
+When you make a change, you will have to save your project. Click the "Save" button in the upper left, or you can do the **Ctrl**+**S** command!
+
+![](../Assets/HyTopSave.png)
+
+If you see your name - that's it! You're officially a web developer!
 
 ## Adding a Welcome Paragraph
 Now it's time to add a totally new element. The **paragraph** element is used to display normal text on a webpage. Its tags are `<p>` and `</p>`, with text content between.
