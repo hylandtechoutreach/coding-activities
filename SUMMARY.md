@@ -24,6 +24,7 @@
   - [Scratch Reveal](ProcessingMicroLessons/ScratchReveal.md)
 - [Twine: Interactive Storytelling](InteractiveStorytelling/StudentDesc.md)
   - [Follow-Along](InteractiveStorytelling/FollowAlong.md)
+  - [Self-Paced Work](InteractiveStoryTelling/SelfPacedWork.md)
   - [Sharing Stories](InteractiveStorytelling/SharingStories.md)
 - [JS/Phaser: Platformer Hacker](PlatformerHacker/StudentDesc.md)
 - [Three.js: Fill-In-The-Blank 3D Game](ThreeJs3dGame/StudentDesc.md)
