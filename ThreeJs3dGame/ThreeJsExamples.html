@@ -1,31 +1,147 @@
 <html>
   <head>
+    <style>
+      body {
+        background: #223;
+        text-align: center;
+      }
+
+      body > p {
+        font-family: monospace;
+        color: white;
+        margin: 0;
+      }
+
+      #container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+
+      .example {
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        display: flex;
+        border: 2px solid #aaf;
+        background: #eef;
+        border-radius: 5px;
+        margin: 2px;
+        flex-direction: column;
+        text-align: center;
+        text-decoration: none;
+        transition: 200ms;
+      }
+
+      .example:hover {
+        transform: translate(2px, -2px);
+        box-shadow: #aaf -2px 2px;
+      }
+
+      .example img {
+        max-height: 80%;
+      }
+
+      .example p {
+        font-family: monospace;
+        color: black;
+        font-size: 1.2em;
+      }
+    </style>
     <script>
       const examples = [
         {
           link: "https://screen.toys/firewood/",
           name: "Firewood",
-          picture: "Firewood.png"
+          picture: "Firewood.png",
         },
         {
           link: "https://putt.day/play",
           name: "putt.day",
-          picture: "PuttDay.png"
+          picture: "PuttDay.png",
         },
         {
           link: "https://www.cartier.com/en-us/thefabulouscartierjourney.html",
-          name: "The Fabulous Cartier Journey",
-          picture: "Cartier.png"
+          name: "Cartier Journey",
+          picture: "Cartier.png",
         },
         {
           link: "https://mrdoob.github.io/Starter-Kit-Racing/",
           name: "Starter Kit Racing",
-          picture: "StarterKitRacing.png"
-        }
-      ]
+          picture: "StarterKitRacing.png",
+        },
+        {
+          link: "https://rainyworlds.com/",
+          name: "Rainy Worlds",
+          picture: "RainyWorlds.png",
+        },
+        {
+          link: "https://www.shader.se/",
+          name: "Shader Software",
+          picture: "ShaderSoftware.png",
+        },
+        {
+          link: "https://holtsetio.com/lab/tetris/",
+          name: "Gummy Tetris",
+          picture: "GummyTetris.png",
+        },
+        {
+          link: "https://www.anumberfromtheghost.com/",
+          name: "A Number From The Ghost",
+          picture: "NumberFromGhost.png",
+        },
+        {
+          link: "https://summer-afternoon.vlucendo.com/",
+          name: "Summer Afternoon",
+          picture: "SummerAfternoon.png",
+        },
+        {
+          link: "https://exp-my-little-storybook.lusion.co/",
+          name: "My Little Storybook",
+          picture: "MyLittleStorybook.png",
+        },
+        {
+          link: "https://choochooworld.com/",
+          name: "Choo Choo World",
+          picture: "ChooChooWorld.png",
+        },
+        {
+          link: "https://bottled.me/lobby",
+          name: "Bottled",
+          picture: "Bottled.png",
+        },
+        {
+          link: "https://bruno-simon.com/",
+          name: "Bruno Simon",
+          picture: "BrunoSimon.png",
+        },
+        { link: "https://oryzo.ai/", name: "ORYZO.AI", picture: "Oryzo.png" },
+        {
+          link: "https://www.kodub.com/apps/polytrack",
+          name: "PolyTrack",
+          picture: "PolyTrack.png",
+        },
+        {
+          link: "https://messenger.abeto.co/",
+          name: "MESSENGER",
+          picture: "Messenger.png",
+        },
+      ];
+
+      let innerHtmlString = "";
+      for (let i = 0; i < examples.length; i++) {
+        const e = examples[i];
+        innerHtmlString += `<a class="example" href="${e.link}"><img src="ExampleImgs/${e.picture}"><p>${e.name}</p></a>`;
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        document.querySelector("#container").innerHTML = innerHtmlString;
+      });
     </script>
   </head>
   <body>
-
+    <p>THREE JS EXAMPLES</p>
+    <div id="container"></div>
   </body>
 </html>
