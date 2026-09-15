@@ -1,5 +1,7 @@
 # Fill-In-The-Variables Code-Along
-Once you have an idea of how the [game](FillInTheBlankGameCodeAlong.md) is played, it's time to make it your own! We will update the _variables_ in the code to create a unique gameplay experience.
+Once you have an idea of how the [game](https://hytop.onrender.com/pf/three-js-blank-game-1) is played, it's time to make your own! We will update the _variables_ in the code to create a unique gameplay experience.
+
+[Click here for a blank version of the game.](https://hytop.onrender.com/e/three-js-blank-game)
 
 ## More on Variables
 In computer science, **variables** are containers for data. They have **names** (like `myCar`) and **values** (like `"Toyota Camry"`). In JavaScript, they are defined like this:
