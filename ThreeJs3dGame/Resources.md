@@ -7,7 +7,10 @@ Check out some of these additional resources.
 - [Three.js Fundamentals](https://threejs.org/manual/#en/fundamentals)
 - [Three.js Resources](https://threejsresources.com/)
 
-## More Three.js Examples
+## Three.js Features
+[Click here to explore some of the things Three.js can do.](https://stemkoski.github.io/Three.js/)
+
+## More Full Three.js Examples
 In addition to [these examples](./ThreeJsExamples.html), here are some cool things people have built using Three.js:
 
 - [Solar System](https://3d-solar-system-three-js.vercel.app/)
