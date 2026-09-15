@@ -12,11 +12,11 @@ Here is a rough outline of the activity as a whole:
 | Variable Swapping | 10m |
 | POWER-UP | 20m |
 
-## Three.js Exploration
-Present the [opening slides](https://docs.google.com/presentation/d/14S-AeuCqeMR8qwhM6ifoMUt3xadahoy0gUEw6gweU9Y/edit?usp=sharing) to start things. Students should open Microsoft Edge and look at the [Three JS Examples page](./ThreeJsExamples.html). From there, they can explore the various sites to see what is possible with the platform.
-
 ## Opening Slides
-After students have spent some time exploring, go through the other small slides to introduce the core coding concept: variables. The remaining slides also provide starting points for the next two agenda items.
+Present the [opening slides](https://docs.google.com/presentation/d/14S-AeuCqeMR8qwhM6ifoMUt3xadahoy0gUEw6gweU9Y/edit?usp=sharing) to start things. Students should open Microsoft Edge and look at the [Three JS Examples page](./ThreeJsExamples.html). From there, they can explore the various sites to see what is possible with the platform. After students have spent some time exploring, go through the other small slides to introduce the core coding concept: variables. The remaining slides also provide starting points for the next two agenda items.
+
+### Alternative Presentation
+For a more in-depth introduction, including fun facts and more code explanation, there is the [Game Design PowerPoint](GameDesign.pptx). This one will take a little longer, but it can be worthwhile to present it depending on the context. There is also a [Blooket Quiz](https://dashboard.blooket.com/set/69f12af13faa7ad75e9dcbf8) to go along with this more robust presentation.
 
 ## Gameplay
 Students should play [the game](https://hytop.onrender.com/pf/three-js-blank-game-1) for a little while. They can try to win, then try to beat their high score. After a while, they should all click the link to open the [code](https://hytop.onrender.com/e/three-js-blank-game).
