@@ -13,7 +13,7 @@ Here is a rough outline of the activity as a whole:
 | POWER-UP | 20m |
 
 ## Three.js Exploration
-Present the [opening slides](https://docs.google.com/presentation/d/14S-AeuCqeMR8qwhM6ifoMUt3xadahoy0gUEw6gweU9Y/edit?usp=sharing) to start things. Students should open Microsoft Edge and go to [**threejs.org**](https://threejs.org/). From there, they can explore the various sites to see what is possible with the platform.
+Present the [opening slides](https://docs.google.com/presentation/d/14S-AeuCqeMR8qwhM6ifoMUt3xadahoy0gUEw6gweU9Y/edit?usp=sharing) to start things. Students should open Microsoft Edge and look at the [Three JS Examples page](./ThreeJsExamples.html). From there, they can explore the various sites to see what is possible with the platform.
 
 ## Opening Slides
 After students have spent some time exploring, go through the other small slides to introduce the core coding concept: variables. The remaining slides also provide starting points for the next two agenda items.
