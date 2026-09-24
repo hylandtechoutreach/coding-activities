@@ -2,6 +2,7 @@
 - [HTML & CSS: Building Websites](BuildingWebsites/StudentDesc.md)
   - [Code-Along](BuildingWebsites/CodeAlong.md)
   - [Additional Topics](BuildingWebsites/AdditionalWebsiteTopics.md)
+  - [90 Min Activity](./BuildingWebsites/StudentDesc90Min.md)
 - [Python: Turtle Graphics](PythonTurtle/StudentDesc.md)
   - [Code-Along](PythonTurtle/PythonTurtleCodingActivity.md)
   - [Examples](PythonTurtle/TurtleExamples.md)
