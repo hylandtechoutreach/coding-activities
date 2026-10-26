@@ -22,6 +22,11 @@ Follow the [code-along instructions](QuizAboutMeCodeAlong.md) to help the studen
 
 They are expected to start from [this template](https://hytop.onrender.com/e/www-js), but as long as the students have the **script.js** file properly linked from **index.html**, and a stub `startQuiz` function definition, they will be good to go.
 
+### Simpler Version
+There is also a [simpler version of the code-along](./SimpleQuizCodeAlong.md) that starts from [this template](https://hytop.onrender.com/e/www-jss).
+
+It is almost exactly the same, but it's designed to be more of a one-off, and involves a little bit less code / programming concepts.
+
 ## Template Project: Fancy Quiz
 Follow the [template project](TemplateProject.md) instructions to show students a different approach to quiz building. Starting from the [example template](https://hytop.onrender.com/e/quiz-about-me), all they have to do is change the questions, answers, and variables in the **questions.js** file to make the quiz their own.
 
