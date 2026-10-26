@@ -144,7 +144,7 @@ We can do this with an `if` statement!
 The added code should look something like this:
 
 ```js
-if (answer1 === "Joseph") {
+if (answer1 == "Joseph") {
   alert("CORRECT");
 }
 ```
@@ -163,7 +163,7 @@ The added question might look something like this:
 
 ```js
 let answer2 = prompt("Where was I born?");
-if (answer2 === "Cleveland") {
+if (answer2 == "Cleveland") {
   alert("CORRECT")
 }
 ```
@@ -180,12 +180,12 @@ function startQuiz() {
 
   let answer1 = prompt("What is my name?");
 
-  if (answer1 === "Joseph") {
+  if (answer1 == "Joseph") {
     alert("CORRECT")
   }
 
   let answer2 = prompt("Where was I born?");
-  if (answer2 === "Cleveland") {
+  if (answer2 == "Cleveland") {
     alert("CORRECT")
   }
 }
