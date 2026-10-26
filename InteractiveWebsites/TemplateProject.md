@@ -3,7 +3,7 @@ In this activity, all the code is already done - you just have to change the que
 
 1. [Click here to open the quiz project.](https://hytop.onrender.com/e/quiz-about-me)
 1. Try out the quiz just to see how it works with the starter questions
-2. Open the **question.js** file to see where the questions are loaded
+2. Open the **questions.js** file to see where the questions are loaded
 3. Update all the text (between `"` and `"`) to make the quiz about YOU
 4. Change the variable values at the bottom to update the theme!
 
