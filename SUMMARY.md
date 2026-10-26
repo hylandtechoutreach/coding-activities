@@ -12,6 +12,7 @@
 - [JavaScript: Quiz About Me](InteractiveWebsites/StudentDesc.md)
   - [Presentation](InteractiveWebsites/JavaScriptPresentation.md)
   - [Code-Along](InteractiveWebsites/QuizAboutMeCodeAlong.md)
+  - [Simpler Code-ALong](./InteractiveWebsites/SimpleQuizCodeAlong.md)
   - [Template Project](InteractiveWebsites/TemplateProject.md)
 - [p5.js: 2D Scene](Processing2dScene/StudentDesc.md)
   - [Presentation](Processing2dScene/ProcessingPresentation.md)
