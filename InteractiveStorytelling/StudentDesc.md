@@ -18,6 +18,7 @@ It's up to you to choose which text-based interactive experience you'd like to c
 - [Dead Space](http://chooseyourstory.com/story/viewer/default.aspx?StoryId=23287)
 - [Nothing](https://philome.la/jarxg/lecture-on-nothing/play/index.html)
 - [Type Help](https://william-rous.itch.io/type-help)
+  - [Mirror](https://html-classic.itch.zone/html/18831707/index.html?v=1786900908)
 - [Zork](https://www.pcjs.org/software/pcx86/game/infocom/zork1/)
 
 ## Guides
