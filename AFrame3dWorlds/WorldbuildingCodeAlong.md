@@ -1,10 +1,16 @@
 # 3D Worlds Code-Along
 In this activity, use the [aframe-envrionment-component](https://github.com/supermedium/aframe-environment-component) with A-Frame to create a 3D World!
 
+![](./Assets/aframeenvironment.gif)
+
 ## Getting Started
 [Click here to open the starter project.](https://hytop.onrender.com/e/aframe-steam)
 
-Click the "Fork" button in the upper left to create your own copy of the project. From there, you're ready to start editing!
+Click the "Fork" button in the upper left to create your own copy of the project:
+
+![](../Assets/HyTopFork.png)
+
+From there, you're ready to start editing!
 
 ## Magic HTML
 A-Frame makes it possible to create three-dimensional structures using [HTML](https://en.wikipedia.org/wiki/HTML) code! HTML is the language of the web, and consists of elements that create everything you see on a website. Elements generally looks like this:
@@ -77,7 +83,7 @@ That's all for the HTML. Next up, we can start customizing features of the envir
 ## JavaScript Variables: Existing
 In computer science, variables are containers for data. Variables can hold numbers, text, or true/false values called booleans. Variable names are used in other parts of the code to change how things run dynamically.
 
-Open the **variables.js** file to take a look at some of the existing variables:
+Click on **variables.js** file on the left to open the variables file. Take a look at what's there:
 
 ```js
 let cameraAcceleration = 10;
@@ -86,7 +92,10 @@ let cameraFly = false;
 let skyType = "color";
 ```
 
-All of these control how the A-Frame world works. Try changing them around to see what happens! Each value will update some part of the world. Don't worry about the `skyType` variable for now, just keep it as `"color"`. Try setting everything like so:
+All of these control how the A-Frame world works. Click into your world, and try to move around using the `W`, `A`, `S`, and `D` keys. You should be able to move - but only very slowly, and without any mouse control.
+
+### Changing the Variables
+Try changing the number and the `false`s to see what happens! Each value will update some part of the world. Don't worry about the `skyType` variable for now, just keep it as `"color"`. Try setting everything like so:
 
 ```js
 let cameraAcceleration = 100;
@@ -95,7 +104,7 @@ let cameraFly = true;
 let skyType = "color";
 ```
 
-Now, it should be possible to zoom around the world in any direction!
+Now, it should be possible to zoom around the world in any direction, and look around with the mouse!
 
 ## JavaScript Variables: New
 With some of the basic variables set, it is time to start adding some new variables. Declaring a variable in JavaScript looks like this:
@@ -227,7 +236,7 @@ let dressingColor = "orange";
 let seed = 2;
 ```
 
-All of the values can change to create different things. 
+All of the values can change to create different things.
 
 ## Final Code
 By the end of the activity, the code should look something like [this](https://hytop.onrender.com/e/aframe-steam0/):
@@ -269,3 +278,6 @@ let dressingAmount = 100;
 let dressingColor = "orange";
 let seed = 2;
 ```
+
+## Next Steps
+This activity only scratches the surface of what's possible with A-Frame. [Click here to check out some additional resources.](Resources.md)
