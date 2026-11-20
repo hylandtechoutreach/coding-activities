@@ -37,3 +37,5 @@
   - [Follow-Along](MakeCodeArcadeGameDesign/FollowAlong.md)
 - [A-Frame: 3D Worlds](AFrame3dWorlds/StudentDesc.md)
   - [Code-Along](AFrame3dWorlds/WorldbuildingCodeAlong.md)
+  - [Resources](./AFrame3dWorlds/Resources.md)
+  - [Adding a Model](./AFrame3dWorlds/AddingModels.md)
